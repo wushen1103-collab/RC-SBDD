@@ -1,6 +1,7 @@
 Evidence block,Scope,Primary claim,Key number,Reviewer value
 Main official full-atom conditional set,100 targets,RC improves target-level dock_fast over QED/PB-QED selection,"delta=16.9%, CI=[0.1320, 0.2090], FDR q=0.0000, Cliff=0.5652",main statistically tested result
 PocketFlow CrossDock direct SOTA output,100 targets / 400 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 84.2% -> 95.5% (11.2%); risk>0.5=20.8%,positive selection gain
+SYNC-Guide CrossDock direct SOTA output,50 targets / 193 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 93.3% -> 96.4% (3.1%); risk>0.5 14.5% -> 4.1%,additional positive recent SOTA-output comparator
 SGEDiff T50 generator-shift stress,41 targets / 91 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 0.0% -> 0.0% (0.0%); risk>0.5=100.0%,shift/failure stress case
 MolPilot CrossDock T50 direct output,50 targets / 200 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 2.5% -> 2.5% (0.0%); risk>0.5=100.0%,shift/failure stress case
 BindingMOAD PocketFlow v100 de novo holdout,100 targets / 400 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 26.2% -> 36.0% (9.7%); risk>0.5=90.8%,positive selection gain

@@ -24,8 +24,9 @@ This reads the CSV files in `paper_source_data/` and checks:
 
 The smoke test asserts the headline values used in the manuscript: official
 100-target dock-fast gain of `0.169`, PocketFlow direct-output dock-fast gain
-of `0.1125`, BindingMOAD v100 dock-fast gain of `0.0975`, and DiffSBDD
-target-heldout CRC violation rate of `0.0`. The manifest verifier checks the
+of `0.1125`, BindingMOAD v100 dock-fast gain of `0.0975`, SYNC-Guide
+direct-output dock-fast gain of `0.030`, and DiffSBDD target-heldout CRC
+violation rate of `0.0`. The manifest verifier checks the
 byte count and SHA256 hash of each lightweight CSV snapshot before these values
 are recomputed.
 
@@ -70,7 +71,7 @@ separate Zenodo record or regenerated from upstream tools.
 
 1. Confirm that `python scripts/verify_source_data_manifest.py` passes.
 2. Confirm that `python scripts/run_snapshot_smoke.py` passes.
-3. Push the repository and tag `v1.0.0` to GitHub.
-4. Create a GitHub release from `v1.0.0`.
+3. Push the repository and tag `v1.0.1` to GitHub.
+4. Create a GitHub release from `v1.0.1`.
 5. Connect the GitHub release to Zenodo and mint a DOI.
 6. Add the DOI to the manuscript data-availability statement and to the README.

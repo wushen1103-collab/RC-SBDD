@@ -1,0 +1,6 @@
+name,paper,repo,type,api,status,asset_probe,file_count,error
+MolPilot,Piloting Structure-Based Drug Design via Modality-Specific Optimal Schedule,GenSI/MolPilot,huggingface_model,https://huggingface.co/api/models/GenSI/MolPilot,unreachable,,0,<urlopen error [Errno 101] Network is unreachable>
+MolCRAFT,Structure-based molecular generation / MolCRAFT family,GenSI/MolCRAFT,huggingface_model,https://huggingface.co/api/models/GenSI/MolCRAFT,unreachable,,0,<urlopen error [Errno 101] Network is unreachable>
+SGEDiff,Subgraph-enriched diffusion for structure-based 3D molecular generation,searched_public_web,paper_code_search,,paper_identified_no_local_outputs,,0,No local generated outputs or checkpoint found in current repository.
+SBDD-benchmarking,Benchmarking 3D structure-based molecule generators,external/SBDD-benchmarking,local_repo,,present,sdf_count=0; checkpoint_count=2; task1_csv=True,2,
+SYNC-Guide,SYNC: Measuring and Advancing Synthesizability in Structure-Based Drug Design,local SYNC-Guide outputs,local_generated_output,,completed_positive,50 targets; 741 generated molecules; dock_fast/risk/QED/Vina/GNINA present,50,

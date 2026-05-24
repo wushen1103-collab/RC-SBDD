@@ -36,6 +36,9 @@ def main() -> None:
     calibration = _load("risk_to_dockfast_calibration_summary.csv")
     selective = _load("target_heldout_selective_guarantee_summary.csv")
     runtime = _load("runtime_memory_throughput.csv")
+    sync = _load("syncguide_t1000_n16_dockfast_selection_summary.csv")
+    sync_vina = _load("vina_score_syncguide_t1000_n16_top1_summary.csv")
+    sync_gnina = _load("gnina_score_syncguide_t1000_n16_top1_summary.csv")
 
     official = target[target["metric"].astype(str).str.contains("dock", case=False, na=False)].head(1)
     if official.empty:
@@ -54,6 +57,26 @@ def main() -> None:
     if bindingmoad.empty:
         raise AssertionError("BindingMOAD v100 dock-fast row not found")
     _assert_close("bindingmoad_delta", bindingmoad.iloc[0]["delta_method_minus_baseline"], 0.0975)
+
+    syncguide = sota[(sota["block"] == "syncguide_t1000_n16") & (sota["metric"] == "dock_fast")]
+    if syncguide.empty:
+        raise AssertionError("SYNC-Guide dock-fast row not found")
+    _assert_close("syncguide_delta", syncguide.iloc[0]["delta_method_minus_baseline"], 0.03)
+
+    sync_pb = sync[sync["policy"] == "pb_rc_select"]
+    if sync_pb.empty:
+        raise AssertionError("SYNC-Guide PB-RC summary row not found")
+    _assert_close("syncguide_pb_rc_high_risk", sync_pb.iloc[0]["risk_gt_0_5"], 0.04145077720207254)
+
+    sync_vina_pb = sync_vina[sync_vina["policy"] == "pb_rc_select"]
+    if sync_vina_pb.empty:
+        raise AssertionError("SYNC-Guide Vina PB-RC row not found")
+    _assert_close("syncguide_vina_pb_rc_dockfast", sync_vina_pb.iloc[0]["dock_pose_pass"], 1.0)
+
+    sync_gnina_pb = sync_gnina[sync_gnina["policy"] == "pb_rc_select"]
+    if sync_gnina_pb.empty:
+        raise AssertionError("SYNC-Guide GNINA PB-RC row not found")
+    _assert_close("syncguide_gnina_pb_rc_dockfast", sync_gnina_pb.iloc[0]["dock_pose_pass"], 1.0)
 
     diffsbdd_crc = selective[
         (selective["generator"] == "DiffSBDD") & (selective["method"] == "tc_crc_stratified")
@@ -81,6 +104,9 @@ def main() -> None:
         "n_files": len(list(DATA.glob("*.csv"))),
         "official_dockfast_row": official.to_dict(orient="records"),
         "sota_rows": int(len(sota)),
+        "syncguide_summary_rows": int(len(sync)),
+        "syncguide_vina_rows": int(len(sync_vina)),
+        "syncguide_gnina_rows": int(len(sync_gnina)),
         "multiobjective_top5": best_multi[["source", "policy", "dock_pose_pass", "risk_mean", "qed_mean"]].to_dict(
             orient="records"
         ),

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T23:08:17",
+  "generated_at": "2026-05-25T00:00:00",
   "remote_host": "test@192.168.96.52",
   "remote_root": "/home/test/wsk/19RC-SBDD",
   "files": {
@@ -9,7 +9,11 @@
     "fusion": "results/fusion_strong_baselines_metrics_agg.csv",
     "calibration": "results/risk_to_dockfast_calibration_summary.csv",
     "selective": "results/target_heldout_selective_guarantee_summary.csv",
-    "runtime": "results/runtime_memory_throughput.csv"
+    "runtime": "results/runtime_memory_throughput.csv",
+    "public_sota_audit": "results/public_sota_output_audit.csv",
+    "syncguide_selection": "results/syncguide_t1000_n16_dockfast_selection_summary.csv",
+    "syncguide_vina": "results/vina_score_syncguide_t1000_n16_top1_summary.csv",
+    "syncguide_gnina": "results/gnina_score_syncguide_t1000_n16_top1_summary.csv"
   },
   "source_data_hashes": {
     "aizynthfinder_molpilot_summary.csv": {
@@ -25,16 +29,24 @@
       "sha256": "01dde9e5bc269285181d9ae70cc1e6ab02b190602aa13b5c0c73d34a2af03bf2"
     },
     "final_sota_target_level_statistics.csv": {
-      "bytes": 6124,
-      "sha256": "ea2fe3282879f6c02ddfc374bd27e7a12267d9d8a102501cbb9a24adb0793dc2"
+      "bytes": 7417,
+      "sha256": "d80f4fa903871981ebf5811ba9b7978a15afa99d2c8537c45a53ff76c2b51f4a"
     },
     "fusion_strong_baselines_metrics_agg.csv": {
       "bytes": 16039,
       "sha256": "72b73a818e310f9237232ccab851a0c2e2e96d08281a251588b001ff81d0461e"
     },
+    "gnina_score_syncguide_t1000_n16_top1_summary.csv": {
+      "bytes": 768,
+      "sha256": "05ecccac3ad756043ee0fcf2cbb7f6c1dbfcbbda0c6ec7d3865dc9842114dd98"
+    },
     "multiobjective_selection_summary.csv": {
       "bytes": 4432,
       "sha256": "21dc07fdc0eb18f755f142fe4318bd08ade4872feb6877099c2ebee4137beb14"
+    },
+    "public_sota_output_audit.csv": {
+      "bytes": 1142,
+      "sha256": "ae08db8293ddc39708b4031348ed186c356ca3d9f85d8d29713afb88757fd450"
     },
     "risk_model_ablation.csv": {
       "bytes": 8252,
@@ -47,6 +59,10 @@
     "runtime_memory_throughput.csv": {
       "bytes": 874,
       "sha256": "e6f2b5887240f003aadc9c788862d6cd09e963aa643605b840abe5ca5456c336"
+    },
+    "syncguide_t1000_n16_dockfast_selection_summary.csv": {
+      "bytes": 1137,
+      "sha256": "f9abffd8630b9797bf5eba153e8fa2371739826f00eb80389f6e48e233a7b403"
     },
     "synthesis_oracle_selection_ext2_summary.csv": {
       "bytes": 1188,
@@ -61,8 +77,12 @@
       "sha256": "f3b5b89b6ee046b385b66111b4f31aca42f7fe21058c16824e645bb47c0ad2ea"
     },
     "trans_journal_master_evidence.csv": {
-      "bytes": 3116,
-      "sha256": "05199b2bd22774ec3ef089e0015183efcfb58457f4020b56cec1770d41f2d996"
+      "bytes": 3336,
+      "sha256": "84ea23ebd8c62156ff38baf531a9e543cd085256e3ffe57a49c982a9ee5a0cdf"
+    },
+    "vina_score_syncguide_t1000_n16_top1_summary.csv": {
+      "bytes": 352,
+      "sha256": "9bcdadcb0288bb5ed98d2113eec07998dc4df05c5524d4295f5bbf52e2b0da2f"
     }
   },
   "note": "CSV files were pulled through ssh and embedded into the generated TeX tables."
