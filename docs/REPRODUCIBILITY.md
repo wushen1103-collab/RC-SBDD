@@ -58,7 +58,11 @@ redistributed here.
    scripts in `scripts/`.
 5. **Build benchmark release files.** Use
    `scripts/build_rcsbdd_bench_v1_release.py`.
-6. **Rebuild summaries.** Use `scripts/build_paper_tables.py` and the analysis
+6. **Integrate direct SOTA snapshots.** When the SYNC-Guide selection, Vina,
+   and GNINA CSVs are available under `results/`, use
+   `scripts/add_syncguide_positive_sota.py` to rebuild its target-level rows and
+   audit entry.
+7. **Rebuild summaries.** Use `scripts/build_paper_tables.py` and the analysis
    scripts for calibration, selective risk, missing modalities, and runtime.
 
 ## Artifact Boundary

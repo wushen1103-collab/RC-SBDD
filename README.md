@@ -57,7 +57,10 @@ the upstream datasets and external tools listed in `docs/REPRODUCIBILITY.md`.
 3. Compute oracle labels with PoseBusters, GNINA/Vina, RDKit, and AiZynthFinder.
 4. Build RC-SBDD-Bench-v1 manifests with
    `scripts/build_rcsbdd_bench_v1_release.py`.
-5. Recompute paper summaries with `scripts/build_paper_tables.py`.
+5. Integrate the SYNC-Guide direct-output snapshot with
+   `scripts/add_syncguide_positive_sota.py` when the full `results/` files are
+   available.
+6. Recompute paper summaries with `scripts/build_paper_tables.py`.
 
 The paper source-data snapshots allow reviewers to verify the reported
 selection, calibration, statistical-test, and runtime summaries without
