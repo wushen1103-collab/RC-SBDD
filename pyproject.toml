@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rcsbdd"
-version = "0.1.0"
+version = "1.0.0"
 description = "Lightweight reproducibility code for RC-SBDD reliability-control experiments."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -20,4 +20,3 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
-

@@ -1,6 +1,7 @@
 {
   "title": "RC-SBDD: Calibrated Multi-Oracle Reliability Control for Structure-Based Molecular Generation",
   "upload_type": "software",
+  "version": "1.0.0",
   "description": "Lightweight code, benchmark protocol, and paper source-data snapshots for RC-SBDD. Large upstream molecular structures and generated SDF files are excluded and rebuilt or downloaded through documented scripts.",
   "creators": [
     {
@@ -25,4 +26,3 @@
     }
   ]
 }
-

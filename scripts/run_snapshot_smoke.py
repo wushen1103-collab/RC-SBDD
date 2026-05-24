@@ -16,6 +16,11 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "paper_source_data"
 
 
+def _assert_close(name: str, actual: float, expected: float, tol: float = 1e-9) -> None:
+    if abs(float(actual) - expected) > tol:
+        raise AssertionError(f"{name}: {actual} != {expected}")
+
+
 def _load(name: str) -> pd.DataFrame:
     path = DATA / name
     if not path.exists():
@@ -33,6 +38,30 @@ def main() -> None:
     runtime = _load("runtime_memory_throughput.csv")
 
     official = target[target["metric"].astype(str).str.contains("dock", case=False, na=False)].head(1)
+    if official.empty:
+        raise AssertionError("official dock-fast row not found")
+    official_row = official.iloc[0]
+    _assert_close("official_delta", official_row["delta_method_minus_baseline"], 0.169)
+    _assert_close("official_baseline_mean", official_row["baseline_mean"], 0.798)
+    _assert_close("official_method_mean", official_row["method_mean"], 0.967)
+
+    pocketflow = sota[(sota["block"] == "pocketflow_crossdock100") & (sota["metric"] == "dock_fast")]
+    if pocketflow.empty:
+        raise AssertionError("PocketFlow dock-fast row not found")
+    _assert_close("pocketflow_delta", pocketflow.iloc[0]["delta_method_minus_baseline"], 0.1125)
+
+    bindingmoad = sota[(sota["block"] == "bindingmoad_v100_holdout") & (sota["metric"] == "dock_fast")]
+    if bindingmoad.empty:
+        raise AssertionError("BindingMOAD v100 dock-fast row not found")
+    _assert_close("bindingmoad_delta", bindingmoad.iloc[0]["delta_method_minus_baseline"], 0.0975)
+
+    diffsbdd_crc = selective[
+        (selective["generator"] == "DiffSBDD") & (selective["method"] == "tc_crc_stratified")
+    ]
+    if diffsbdd_crc.empty:
+        raise AssertionError("DiffSBDD target-heldout CRC row not found")
+    _assert_close("diffsbdd_crc_violation", diffsbdd_crc.iloc[0]["heldout_violation_rate"], 0.0)
+
     best_multi = multi.sort_values("dock_pose_pass", ascending=False).head(5)
     best_fusion = fusion.sort_values("brier").groupby(["direction", "scenario"], as_index=False).first()
     full = best_fusion[best_fusion["scenario"] == "full"][["direction", "brier", "ece"]].rename(
@@ -69,4 +98,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

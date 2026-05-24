@@ -11,5 +11,59 @@
     "selective": "results/target_heldout_selective_guarantee_summary.csv",
     "runtime": "results/runtime_memory_throughput.csv"
   },
+  "source_data_hashes": {
+    "aizynthfinder_molpilot_summary.csv": {
+      "bytes": 747,
+      "sha256": "10ff70bfd050e19d8851c5c5e5b00112a31538a69359bc51cac9a40a289c8cea"
+    },
+    "aizynthfinder_pocketflow_summary.csv": {
+      "bytes": 1090,
+      "sha256": "c1e43ca08e13cba24f37b22ff3db8873837b673b36524e6d9475431f5d43db63"
+    },
+    "aizynthfinder_sgediff_summary.csv": {
+      "bytes": 691,
+      "sha256": "01dde9e5bc269285181d9ae70cc1e6ab02b190602aa13b5c0c73d34a2af03bf2"
+    },
+    "final_sota_target_level_statistics.csv": {
+      "bytes": 6124,
+      "sha256": "ea2fe3282879f6c02ddfc374bd27e7a12267d9d8a102501cbb9a24adb0793dc2"
+    },
+    "fusion_strong_baselines_metrics_agg.csv": {
+      "bytes": 16039,
+      "sha256": "72b73a818e310f9237232ccab851a0c2e2e96d08281a251588b001ff81d0461e"
+    },
+    "multiobjective_selection_summary.csv": {
+      "bytes": 4432,
+      "sha256": "21dc07fdc0eb18f755f142fe4318bd08ade4872feb6877099c2ebee4137beb14"
+    },
+    "risk_model_ablation.csv": {
+      "bytes": 8252,
+      "sha256": "141fc1c741eda423d812c45fe27cf59d281ef5284ac2116133e710d907222442"
+    },
+    "risk_to_dockfast_calibration_summary.csv": {
+      "bytes": 1858,
+      "sha256": "09615e97f206bbbf033ff81dc0ccf1133a396b02e145ab3acf91927075f03963"
+    },
+    "runtime_memory_throughput.csv": {
+      "bytes": 874,
+      "sha256": "e6f2b5887240f003aadc9c788862d6cd09e963aa643605b840abe5ca5456c336"
+    },
+    "synthesis_oracle_selection_ext2_summary.csv": {
+      "bytes": 1188,
+      "sha256": "5097143145e622a9c7499ed0bee870dee5cec8b4f77d415117581fe841ade452"
+    },
+    "target_heldout_selective_guarantee_summary.csv": {
+      "bytes": 1470,
+      "sha256": "b0c3a74c316eaaeb46e22e4b8384d705d74d4da0eb0a6eea7c70f77cefdb1dad"
+    },
+    "target_level_statistical_tests.csv": {
+      "bytes": 11415,
+      "sha256": "f3b5b89b6ee046b385b66111b4f31aca42f7fe21058c16824e645bb47c0ad2ea"
+    },
+    "trans_journal_master_evidence.csv": {
+      "bytes": 3116,
+      "sha256": "05199b2bd22774ec3ef089e0015183efcfb58457f4020b56cec1770d41f2d996"
+    }
+  },
   "note": "CSV files were pulled through ssh and embedded into the generated TeX tables."
 }

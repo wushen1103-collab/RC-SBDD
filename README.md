@@ -1,5 +1,7 @@
 # RC-SBDD
 
+Lightweight reproducibility release: `v1.0.0`.
+
 This repository contains the lightweight reproducibility package for **RC-SBDD:
 Calibrated Multi-Oracle Reliability Control for Structure-Based Molecular
 Generation**.
@@ -30,6 +32,7 @@ pip install -e .
 pip install -r requirements.txt
 
 python scripts/run_snapshot_smoke.py
+python scripts/verify_source_data_manifest.py
 python benchmarks/RC-SBDD-Bench-v1/evaluation/score_submission.py \
   --labels paper_source_data/trans_journal_master_evidence.csv \
   --submission examples/toy/toy_submission.csv \
@@ -37,9 +40,12 @@ python benchmarks/RC-SBDD-Bench-v1/evaluation/score_submission.py \
 ```
 
 The first command checks that the source-data snapshots reproduce the headline
-values used in the manuscript. Full de novo generation, redocking, and route
-planning require the upstream datasets and external tools listed in
-`docs/REPRODUCIBILITY.md`.
+values used in the manuscript, including the official 100-target dock-fast
+gain (`0.169`), PocketFlow direct-output gain (`0.1125`), BindingMOAD v100
+gain (`0.0975`), and DiffSBDD target-heldout CRC violation rate (`0.0`). The
+manifest verifier checks byte counts and SHA256 hashes for every lightweight
+CSV snapshot. Full de novo generation, redocking, and route planning require
+the upstream datasets and external tools listed in `docs/REPRODUCIBILITY.md`.
 
 ## Full Reproduction Overview
 
@@ -62,9 +68,19 @@ Large artifacts should be stored outside GitHub and referenced by DOI or
 download instructions. The `.gitignore` excludes common molecular structure,
 checkpoint, result, and figure formats.
 
+## Artifact Review Notes
+
+- The GitHub Actions workflow runs the source-data hash check, paper snapshot
+  smoke test, and toy leaderboard checker.
+- The repository is DOI-ready through `.zenodo.json`. After creating a GitHub
+  release from tag `v1.0.0`, connect the repository to Zenodo and mint the DOI;
+  then add the DOI badge and DOI string to this README and the manuscript data
+  availability statement.
+- Figures, compiled tables, PDFs, molecular files, checkpoints, GNINA binaries,
+  and AiZynthFinder stock files are intentionally excluded.
+
 ## Citation
 
 Please cite the RC-SBDD manuscript and this repository. A Zenodo-ready metadata
 file is provided in `.zenodo.json`; a DOI can be minted from the GitHub release
 through Zenodo.
-
