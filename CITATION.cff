@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "RC-SBDD: Calibrated Multi-Oracle Reliability Control for Structure-Based Molecular Generation"
+message: "If you use this code or benchmark protocol, please cite the RC-SBDD manuscript and this repository."
+type: software
+authors:
+  - family-names: Wu
+    given-names: Shen
+repository-code: "https://github.com/wushen1103-collab/RC-SBDD"
+license: MIT
+version: 0.1.0
+date-released: 2026-05-24
+

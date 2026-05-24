@@ -1,0 +1,25 @@
+{
+  "name": "RC-SBDD-Bench-v1",
+  "version": "1.0.0",
+  "repository": "https://github.com/wushen1103-collab/RC-SBDD",
+  "tracked_in_git": [
+    "documentation",
+    "evaluation scripts",
+    "paper source-data snapshots",
+    "split/label schema templates"
+  ],
+  "not_tracked_in_git": [
+    "large upstream structures",
+    "generated SDF files",
+    "model checkpoints",
+    "paper figures",
+    "compiled tables"
+  ],
+  "paper_snapshot": {
+    "targets": 100,
+    "generator_families": 4,
+    "candidate_rows": 13189,
+    "dock_fast_labels": 12013
+  }
+}
+

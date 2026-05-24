@@ -1,0 +1,44 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+.conda/
+env/
+
+# Large upstream data and generated artifacts
+data/raw/
+data/processed/
+data/generated/
+data/checkpoints/
+external/
+tools/
+logs/
+results/
+*.lmdb
+*.pt
+*.pth
+*.ckpt
+*.sdf
+*.pdb
+*.mol2
+*.pkl
+
+# Paper build products and figures are intentionally not tracked here.
+figures/
+tables/
+*.pdf
+*.png
+*.tif
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+

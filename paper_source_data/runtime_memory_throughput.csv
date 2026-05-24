@@ -1,0 +1,7 @@
+stage,items,molecules,wall_sec,median_target_sec,throughput_mol_per_sec,max_rss_mb,gpu_mem_mb,source
+Pocket2Mol n128 generation/current targets,17,2010,2253.165,247.022,0.8920784762767041,,4695.0,results/prospective20_pocket2mol_n128_success20_run_summary.csv
+Fusion missing/noisy robustness,504,504,36.44,,13.830954994511528,194.5078125,,logs/runtime/fusion_oracle_robustness_time.txt
+Prospective20 risk scoring,2299,2299,4.31,,533.4106728538284,214.6796875,,logs/runtime/prospective20_risk_time.txt
+Prospective20 mol_fast,2299,2299,7.33,,313.6425648021828,176.71875,,logs/runtime/prospective20_molfast_time.txt
+Prospective20 dock_fast selection,480,480,4.56,,105.26315789473684,164.67578125,,logs/runtime/prospective20_dockfast_time.txt
+Contact counterfactual faithfulness,240,240,1.82,,131.86813186813183,216.91796875,,logs/runtime/contact_counterfactual_time.txt

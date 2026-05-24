@@ -1,0 +1,28 @@
+{
+  "title": "RC-SBDD: Calibrated Multi-Oracle Reliability Control for Structure-Based Molecular Generation",
+  "upload_type": "software",
+  "description": "Lightweight code, benchmark protocol, and paper source-data snapshots for RC-SBDD. Large upstream molecular structures and generated SDF files are excluded and rebuilt or downloaded through documented scripts.",
+  "creators": [
+    {
+      "name": "Wu, Shen",
+      "affiliation": "Department of Computer Science"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "structure-based drug design",
+    "molecular generation",
+    "multi-oracle fusion",
+    "calibration",
+    "selective risk control",
+    "benchmark"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/wushen1103-collab/RC-SBDD",
+      "scheme": "url"
+    }
+  ]
+}
+

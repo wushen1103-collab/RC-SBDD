@@ -1,0 +1,5 @@
+target_key,score
+Main official full-atom conditional set,0.95
+PocketFlow CrossDock direct SOTA output,0.90
+BindingMOAD PocketFlow v100 de novo holdout,0.75
+

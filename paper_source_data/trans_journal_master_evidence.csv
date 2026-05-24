@@ -1,0 +1,15 @@
+Evidence block,Scope,Primary claim,Key number,Reviewer value
+Main official full-atom conditional set,100 targets,RC improves target-level dock_fast over QED/PB-QED selection,"delta=16.9%, CI=[0.1320, 0.2090], FDR q=0.0000, Cliff=0.5652",main statistically tested result
+PocketFlow CrossDock direct SOTA output,100 targets / 400 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 84.2% -> 95.5% (11.2%); risk>0.5=20.8%,positive selection gain
+SGEDiff T50 generator-shift stress,41 targets / 91 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 0.0% -> 0.0% (0.0%); risk>0.5=100.0%,shift/failure stress case
+MolPilot CrossDock T50 direct output,50 targets / 200 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 2.5% -> 2.5% (0.0%); risk>0.5=100.0%,shift/failure stress case
+BindingMOAD PocketFlow v100 de novo holdout,100 targets / 400 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 26.2% -> 36.0% (9.7%); risk>0.5=90.8%,positive selection gain
+BindingMOAD strict Task1 supplement,33 targets / 132 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 22.7% -> 27.3% (4.5%); risk>0.5=94.7%,positive selection gain
+Prospective20 GNINA redocking/local optimization,80 top-4 poses / 20 targets,After-redock reliability gain remains under GNINA optimization,dock_fast 70.0% -> 95.0%; CNNscore=0.7082; CNNaffinity=4.3437,prospective computational case study
+DiffSBDD target-heldout selective guarantee,5 target-level splits,selective risk guarantee under target-exchangeable split,"feasible=100.0%, heldout violation=0.0%, dock_fast=92.2%",formal calibration/theory-matched evidence
+Pocket2Mol target-heldout selective guarantee,5 target-level splits,selective risk guarantee under target-exchangeable split,"feasible=0.0%, heldout violation=40.0%, dock_fast=92.8%",formal calibration/theory-matched evidence
+Fusion baseline/missing-modality: full,Pocket2Mol_within; n=256,strong early/late/stacking/Bayesian fusion baselines are included,"best=hgb_early, AUROC=0.9732, Brier=0.0116, ECE=0.0131",Information Fusion fit and ablation defense
+Fusion baseline/missing-modality: missing_chemistry,Pocket2Mol_within; n=256,strong early/late/stacking/Bayesian fusion baselines are included,"best=hgb_early, AUROC=0.9753, Brier=0.0114, ECE=0.0136",Information Fusion fit and ablation defense
+Fusion baseline/missing-modality: missing_geometry,DiffSBDD_within; n=3000,strong early/late/stacking/Bayesian fusion baselines are included,"best=logistic_stacking, AUROC=0.9783, Brier=0.0552, ECE=0.0209",Information Fusion fit and ablation defense
+Fusion baseline/missing-modality: missing_risk,Pocket2Mol_within; n=256,strong early/late/stacking/Bayesian fusion baselines are included,"best=xgboost_early, AUROC=0.9836, Brier=0.0156, ECE=0.0196",Information Fusion fit and ablation defense
+Fusion baseline/missing-modality: missing_validity,DiffSBDD_to_Pocket2Mol; n=848,strong early/late/stacking/Bayesian fusion baselines are included,"best=xgboost_early, AUROC=0.8739, Brier=0.0724, ECE=0.0544",Information Fusion fit and ablation defense

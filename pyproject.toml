@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rcsbdd"
+version = "0.1.0"
+description = "Lightweight reproducibility code for RC-SBDD reliability-control experiments."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "scipy>=1.10",
+    "tqdm>=4.66",
+    "lmdb>=1.4",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-23T23:08:17",
+  "remote_host": "test@192.168.96.52",
+  "remote_root": "/home/test/wsk/19RC-SBDD",
+  "files": {
+    "master": "results/trans_journal_master_evidence.csv",
+    "sota": "results/final_sota_target_level_statistics.csv",
+    "target_stats": "results/target_level_statistical_tests.csv",
+    "fusion": "results/fusion_strong_baselines_metrics_agg.csv",
+    "calibration": "results/risk_to_dockfast_calibration_summary.csv",
+    "selective": "results/target_heldout_selective_guarantee_summary.csv",
+    "runtime": "results/runtime_memory_throughput.csv"
+  },
+  "note": "CSV files were pulled through ssh and embedded into the generated TeX tables."
+}
