@@ -7,6 +7,16 @@
 
 See `DATASET_CARD.md`, `METRICS.md`, `LICENSE`, `labels/oracle_labels.csv`, `splits/official_target_split.csv`, and `evaluation/score_submission.py`.
 
+## Full Frozen Asset
+
+The full fixed evaluation archive is distributed with release `v1.1.0`:
+
+`https://github.com/wushen1103-collab/RC-SBDD/releases/download/v1.1.0/RC-SBDD-Bench-v1-full-20260525.tar.gz`
+
+Verify the download against `FULL_ASSET_SHA256.txt`. The archive contains the
+candidate structures, pocket files, full oracle labels, official split,
+metric definitions, and checksum inventory; the Git tree remains lightweight.
+
 ## Addenda
 
 - `addenda/SGEDiff-T50`: reproduced SGEDiff T50 generator-shift stress case with candidate SDFs, oracle labels, and hashes.

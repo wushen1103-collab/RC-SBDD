@@ -28,6 +28,10 @@
       "bytes": 691,
       "sha256": "01dde9e5bc269285181d9ae70cc1e6ab02b190602aa13b5c0c73d34a2af03bf2"
     },
+    "equal_capability_selective_baselines_summary.csv": {
+      "bytes": 9430,
+      "sha256": "96f98dc76b64095a47f65886a3614c7cd9fd05569afcb07eaafaff4235d3153f"
+    },
     "final_sota_target_level_statistics.csv": {
       "bytes": 7417,
       "sha256": "d80f4fa903871981ebf5811ba9b7978a15afa99d2c8537c45a53ff76c2b51f4a"
@@ -36,9 +40,21 @@
       "bytes": 16039,
       "sha256": "72b73a818e310f9237232ccab851a0c2e2e96d08281a251588b001ff81d0461e"
     },
+    "gnina_redock_bindingmoad_v100_top1_pose_quality_summary.csv": {
+      "bytes": 422,
+      "sha256": "1894327cb45ab285af73ec7f3b7f7f560cd5ae1dcade2d65fc0a3bfea5f53527"
+    },
+    "gnina_redock_bindingmoad_v100_top4_pose_quality_summary.csv": {
+      "bytes": 430,
+      "sha256": "b21fe975843b98dc16fcdf5665cd374f16c5ab2924933c83a81551369ed38c28"
+    },
     "gnina_score_syncguide_t1000_n16_top1_summary.csv": {
       "bytes": 768,
       "sha256": "05ecccac3ad756043ee0fcf2cbb7f6c1dbfcbbda0c6ec7d3865dc9842114dd98"
+    },
+    "independent_redock_confirmation_statistics.csv": {
+      "bytes": 4418,
+      "sha256": "98a288c179c060fdbec1422f88906fabfe04d9923810227a7354e33f50e6057e"
     },
     "multiobjective_selection_summary.csv": {
       "bytes": 4432,
@@ -79,6 +95,10 @@
     "trans_journal_master_evidence.csv": {
       "bytes": 3336,
       "sha256": "84ea23ebd8c62156ff38baf531a9e543cd085256e3ffe57a49c982a9ee5a0cdf"
+    },
+    "unified_hypothesis_registry.csv": {
+      "bytes": 21882,
+      "sha256": "3d6891b63565359dbc2ce48792d3a1b252d90331dabe4fca4d5f417711957b14"
     },
     "vina_score_syncguide_t1000_n16_top1_summary.csv": {
       "bytes": 352,

@@ -1,16 +1,17 @@
 # RC-SBDD
 
-Lightweight reproducibility release: `v1.0.1`.
+Reproducibility release: `v1.1.0`.
 
 This repository contains the lightweight reproducibility package for **RC-SBDD:
 Calibrated Multi-Oracle Reliability Control for Structure-Based Molecular
 Generation**.
 
-The repository is intentionally small. It tracks code, protocol files,
-leaderboard utilities, and paper source-data snapshots. It does **not** track
-paper figures, compiled tables, PDFs, large CrossDocked/BindingMOAD structures,
-generated SDF files, model checkpoints, GNINA binaries, or AiZynthFinder stock
-files.
+The Git repository is intentionally small. It tracks code, protocol files,
+leaderboard utilities, and paper source-data snapshots. The fixed full
+benchmark asset is distributed as a compressed GitHub Release attachment so
+that candidate structures and labels are reproducible without expanding Git
+history. Paper figures, compiled tables, checkpoints, GNINA binaries, and
+AiZynthFinder stock files are not tracked.
 
 ## What Is Included
 
@@ -19,7 +20,7 @@ files.
 - `paper_source_data`: small CSV snapshots used to reproduce the paper's main
   reported tables and diagnostic summaries.
 - `benchmarks/RC-SBDD-Bench-v1`: benchmark card, metric definitions,
-  lightweight leaderboard script, and release manifest template.
+  lightweight leaderboard script, checksum, and full-asset download pointer.
 - `docs`: reproducibility guide, dataset card, failure taxonomy, and oracle
   reliability notes.
 
@@ -66,22 +67,29 @@ The paper source-data snapshots allow reviewers to verify the reported
 selection, calibration, statistical-test, and runtime summaries without
 downloading large molecular files.
 
-## Repository Size Policy
+## Full Fixed Benchmark Asset
 
-Large artifacts should be stored outside GitHub and referenced by DOI or
-download instructions. The `.gitignore` excludes common molecular structure,
-checkpoint, result, and figure formats.
+The full frozen `RC-SBDD-Bench-v1` asset is available from release `v1.1.0`:
+
+`https://github.com/wushen1103-collab/RC-SBDD/releases/download/v1.1.0/RC-SBDD-Bench-v1-full-20260525.tar.gz`
+
+SHA256:
+
+`7d03f5fc8c8c39a8df7a78ae6ede183459abdea69e3c971e3d3c99fbf93ba9fd`
+
+The archive contains released candidate structures, pockets, label files,
+official target splits, metric definitions, and checksum inventory. Large
+upstream datasets and executable third-party tools remain obtained from their
+original providers.
 
 ## Artifact Review Notes
 
 - The GitHub Actions workflow runs the source-data hash check, paper snapshot
   smoke test, and toy leaderboard checker.
-- The repository is DOI-ready through `.zenodo.json`. After creating a GitHub
-  release from tag `v1.0.1`, connect the repository to Zenodo and mint the DOI;
-  then add the DOI badge and DOI string to this README and the manuscript data
-  availability statement.
-- Figures, compiled tables, PDFs, molecular files, checkpoints, GNINA binaries,
-  and AiZynthFinder stock files are intentionally excluded.
+- The repository is DOI-ready through `.zenodo.json`; Zenodo archival may be
+  added without changing the fixed GitHub Release checksum.
+- Figures, compiled tables, PDFs, checkpoints, GNINA binaries, and
+  AiZynthFinder stock files are intentionally excluded from Git history.
 
 ## Citation
 

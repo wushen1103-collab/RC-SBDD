@@ -19,6 +19,7 @@ external/
 tools/
 logs/
 results/
+release_assets/
 *.lmdb
 *.pt
 *.pth
@@ -41,4 +42,3 @@ tables/
 *.out
 *.fls
 *.fdb_latexmk
-
