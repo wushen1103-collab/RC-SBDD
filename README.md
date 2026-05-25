@@ -1,6 +1,7 @@
 # RC-SBDD
 
-Reproducibility release: `v1.1.0`.
+Reproducibility status: fixed benchmark base `v1.1.0` plus tracked P0
+source-data addenda on the current revision.
 
 This repository contains the lightweight reproducibility package for **RC-SBDD:
 Calibrated Multi-Oracle Reliability Control for Structure-Based Molecular
@@ -8,10 +9,12 @@ Generation**.
 
 The Git repository is intentionally small. It tracks code, protocol files,
 leaderboard utilities, and paper source-data snapshots. The fixed full
-benchmark asset is distributed as a compressed GitHub Release attachment so
+benchmark base is distributed as a compressed GitHub Release attachment so
 that candidate structures and labels are reproducible without expanding Git
-history. Paper figures, compiled tables, checkpoints, GNINA binaries, and
-AiZynthFinder stock files are not tracked.
+history. Later direct-generator and calibration audits are explicit
+source-data addenda; they do not silently redefine the fixed base archive.
+Paper figures, compiled tables, checkpoints, GNINA binaries, and AiZynthFinder
+stock files are not tracked.
 
 ## What Is Included
 
@@ -79,9 +82,9 @@ The paper source-data snapshots allow reviewers to verify the reported
 selection, calibration, statistical-test, and runtime summaries without
 downloading large molecular files.
 
-## Full Fixed Benchmark Asset
+## Fixed Benchmark Base And Source-Data Addenda
 
-The full frozen `RC-SBDD-Bench-v1` asset is available from release `v1.1.0`:
+The fixed `RC-SBDD-Bench-v1` base asset is available from release `v1.1.0`:
 
 `https://github.com/wushen1103-collab/RC-SBDD/releases/download/v1.1.0/RC-SBDD-Bench-v1-full-20260525.tar.gz`
 
@@ -92,7 +95,11 @@ SHA256:
 The archive contains released candidate structures, pockets, label files,
 official target splits, metric definitions, and checksum inventory. Large
 upstream datasets and executable third-party tools remain obtained from their
-original providers.
+original providers. The manuscript's MolCRAFT, MolPilot-framefix,
+Prospective20 route-planning, and generator-shift calibration audits are
+tracked in `paper_source_data` and verified by
+`scripts/verify_source_data_manifest.py` and `scripts/run_snapshot_smoke.py`.
+They are reported as P0 addenda rather than as members of the frozen v1 base.
 
 ## Artifact Review Notes
 
