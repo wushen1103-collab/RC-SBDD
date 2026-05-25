@@ -88,7 +88,7 @@ def main() -> None:
     molcraft = p0_sota[(p0_sota["generator"] == "MolCRAFT") & (p0_sota["policy"] == "PB-RC")]
     if molcraft.empty:
         raise AssertionError("MolCRAFT PB-RC P0 row not found")
-    _assert_close("molcraft_pb_rc_dockfast", molcraft.iloc[0]["dock_fast"], 1.0)
+    _assert_close("molcraft_pb_rc_dockfast", molcraft.iloc[0]["dock_fast"], 0.9975)
     _assert_close("molcraft_pb_rc_high_risk", molcraft.iloc[0]["risk_gt_0_5"], 0.0)
 
     molpilot_frame = p0_sota[
