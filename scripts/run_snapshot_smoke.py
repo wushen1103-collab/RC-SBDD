@@ -39,6 +39,9 @@ def main() -> None:
     sync = _load("syncguide_t1000_n16_dockfast_selection_summary.csv")
     sync_vina = _load("vina_score_syncguide_t1000_n16_top1_summary.csv")
     sync_gnina = _load("gnina_score_syncguide_t1000_n16_top1_summary.csv")
+    ltr = _load("learning_to_rank_selection_summary.csv")
+    bm_molpilot = _load("bindingmoad_molpilot_v50_dockfast_selection_summary.csv")
+    known_ligand = _load("known_ligand_similarity_enrichment_summary.csv")
 
     official = target[target["metric"].astype(str).str.contains("dock", case=False, na=False)].head(1)
     if official.empty:
@@ -85,6 +88,28 @@ def main() -> None:
         raise AssertionError("DiffSBDD target-heldout CRC row not found")
     _assert_close("diffsbdd_crc_violation", diffsbdd_crc.iloc[0]["heldout_violation_rate"], 0.0)
 
+    ltr_row = ltr[
+        (ltr["setting"] == "DiffSBDD_to_Pocket2Mol")
+        & (ltr["policy"] == "constrained_xgbrank")
+        & (ltr["mode"] == "selective_alpha10")
+    ]
+    if ltr_row.empty:
+        raise AssertionError("learning-to-rank constrained XGB transfer row not found")
+    _assert_close("ltr_constrained_xgb_coverage", ltr_row.iloc[0]["coverage_mean"], 0.769811320754717)
+
+    bm_molpilot_pb = bm_molpilot[bm_molpilot["policy"] == "pb_rc_select"]
+    if bm_molpilot_pb.empty:
+        raise AssertionError("BindingMOAD MolPilot PB-RC row not found")
+    _assert_close("bindingmoad_molpilot_pb_rc_dockfast", bm_molpilot_pb.iloc[0]["dock_pose_pass"], 0.035)
+    _assert_close("bindingmoad_molpilot_pb_rc_high_risk", bm_molpilot_pb.iloc[0]["risk_gt_0_5"], 1.0)
+
+    known_row = known_ligand[
+        (known_ligand["pool"] == "DiffSBDD_official") & (known_ligand["policy"] == "pb_rc_select")
+    ]
+    if known_row.empty:
+        raise AssertionError("known-ligand DiffSBDD PB-RC row not found")
+    _assert_close("known_ligand_diffsbdd_pb_rc_max_tanimoto", known_row.iloc[0]["max_tanimoto_mean"], 0.1746822592840945)
+
     best_multi = multi.sort_values("dock_pose_pass", ascending=False).head(5)
     best_fusion = fusion.sort_values("brier").groupby(["direction", "scenario"], as_index=False).first()
     full = best_fusion[best_fusion["scenario"] == "full"][["direction", "brier", "ece"]].rename(
@@ -114,6 +139,9 @@ def main() -> None:
         "calibration_rows": int(len(calibration)),
         "selective_rows": int(len(selective)),
         "runtime_rows": int(len(runtime)),
+        "learning_to_rank_rows": int(len(ltr)),
+        "bindingmoad_molpilot_rows": int(len(bm_molpilot)),
+        "known_ligand_rows": int(len(known_ligand)),
     }
 
     out = ROOT / "logs" / "snapshot_smoke.json"

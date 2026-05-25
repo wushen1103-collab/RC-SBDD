@@ -44,7 +44,9 @@ The first command checks that the source-data snapshots reproduce the headline
 values used in the manuscript, including the official 100-target dock-fast
 gain (`0.169`), PocketFlow direct-output gain (`0.1125`), BindingMOAD v100
 gain (`0.0975`), SYNC-Guide direct-output gain (`0.030`), and DiffSBDD
-target-heldout CRC violation rate (`0.0`). The
+target-heldout CRC violation rate (`0.0`). It also checks the later
+learning-to-rank audit, BindingMOAD-MolPilot failure-boundary audit, and
+known-ligand similarity summary. The
 manifest verifier checks byte counts and SHA256 hashes for every lightweight
 CSV snapshot. Full de novo generation, redocking, and route planning require
 the upstream datasets and external tools listed in `docs/REPRODUCIBILITY.md`.
@@ -61,7 +63,10 @@ the upstream datasets and external tools listed in `docs/REPRODUCIBILITY.md`.
 5. Integrate the SYNC-Guide direct-output snapshot with
    `scripts/add_syncguide_positive_sota.py` when the full `results/` files are
    available.
-6. Recompute paper summaries with `scripts/build_paper_tables.py`.
+6. Run the grouped ranking and known-ligand audits with
+   `scripts/analyze_learning_to_rank_selection.py` and
+   `scripts/analyze_known_ligand_similarity_enrichment.py`.
+7. Recompute paper summaries with `scripts/build_paper_tables.py`.
 
 The paper source-data snapshots allow reviewers to verify the reported
 selection, calibration, statistical-test, and runtime summaries without

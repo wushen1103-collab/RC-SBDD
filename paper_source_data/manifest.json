@@ -28,6 +28,22 @@
       "bytes": 691,
       "sha256": "01dde9e5bc269285181d9ae70cc1e6ab02b190602aa13b5c0c73d34a2af03bf2"
     },
+    "bindingmoad_molpilot_v50_dockfast_selection_summary.csv": {
+      "bytes": 605,
+      "sha256": "51162f7c6690d8c3c12a6c33cb4f6229d0e22383f16e79c1ff3b568d657acf3c"
+    },
+    "bindingmoad_molpilot_v50_molfast.csv": {
+      "bytes": 79158,
+      "sha256": "0f466997763339b9afc95ca7f36dcf3f0f4446d83d24f8a563057553d0072dda"
+    },
+    "bindingmoad_molpilot_v50_risk_scores.csv": {
+      "bytes": 209714,
+      "sha256": "19423d58281d1a63165887ce7927ff572fbe7f47c5caea33534db38216e6bd09"
+    },
+    "bindingmoad_molpilot_v50_run_summary.csv": {
+      "bytes": 12901,
+      "sha256": "4d39b598f3c2d82eff86d53adf54c8ab0ea8f1c7540f880fe371f67664fec202"
+    },
     "equal_capability_selective_baselines_summary.csv": {
       "bytes": 9430,
       "sha256": "96f98dc76b64095a47f65886a3614c7cd9fd05569afcb07eaafaff4235d3153f"
@@ -59,6 +75,18 @@
     "kinase_selectivity_aware_summary.csv": {
       "bytes": 597,
       "sha256": "6d01ab4d69071a8f1c8a6984ba539e8080f6ee0ac9d95404de0d4333530100b7"
+    },
+    "known_ligand_similarity_enrichment_summary.csv": {
+      "bytes": 3494,
+      "sha256": "f2b9121859f7f3d29a55cf30910202c56947bdf454577953db2d1d61ffb5cc05"
+    },
+    "learning_to_rank_selection_raw.csv": {
+      "bytes": 24735,
+      "sha256": "397d7033651c0f5f74f9b3542e654e68487cfa0113f2224ca4df999a55e136cf"
+    },
+    "learning_to_rank_selection_summary.csv": {
+      "bytes": 5731,
+      "sha256": "c1c71ebfffe65bbc21e31757499657968f02ac69ff7c800ecf6889a0d0a255b2"
     },
     "multiobjective_selection_summary.csv": {
       "bytes": 4432,
