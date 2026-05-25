@@ -1,0 +1,3 @@
+source,policy,n,targets,unique_smiles,solved_rate,top_score_mean,route_steps_mean,route_steps_median,precursors_in_stock_mean,precursors_total_mean,search_time_mean,risk_mean,risk_gt_0_5,qed_mean,dock_pose_pass
+MolCRAFT-T100,pb_qed,100,100,100,0.31,0.80683269675,3.95,4.0,2.89,3.58,11.891889922609998,0.13930270730335706,0.11,0.7758873412195372,0.99
+MolCRAFT-T100,pb_rc_select,100,100,100,0.32,0.8004723237010001,3.8686868686868685,4.0,2.81,3.5,12.057174935333999,0.06430706860892704,0.0,0.7594886544544649,1.0

@@ -1,0 +1,8 @@
+source,path,targets
+DiffSBDD-PB,results/posebusters_dockfast_pb_selection.csv,100
+Pocket2Mol,results/pocket2mol_crossgen_n16_ext_dockfast_selection.csv,53
+SYNC-Guide,results/syncguide_t1000_n16_dockfast_selection.csv,50
+PocketFlow,results/pocketflow_crossdock_n16_dockfast_selection.csv,100
+MolCRAFT,results/molcraft_crossdock_t100_n16_dockfast_selection.csv,100
+ExpDiff,results/expdiff_official_t100_nall_dockfast_selection.csv,100
+MolPilot-framefix,results/molpilot_crossdock_t50_n16_framefix_dockfast_selection.csv,50

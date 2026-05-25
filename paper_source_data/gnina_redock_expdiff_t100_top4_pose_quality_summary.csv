@@ -1,0 +1,3 @@
+source,policy,n,targets,before_dock_fast,after_molfast,after_protein_pass,after_dock_fast,redock_rmsd_mean,redock_rmsd_median,cnnscore_mean,cnnaffinity_mean
+ExpDiff-official,pb_qed,52,45,1.0,1.0,1.0,1.0,0.6144163110554904,0.415162880247909,0.7978878456826924,5.826034133244232
+ExpDiff-official,pb_rc_select,56,45,1.0,1.0,1.0,1.0,0.42208249285860894,0.25339105283321556,0.7728076499964286,5.660507129767857

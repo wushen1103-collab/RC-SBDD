@@ -1,0 +1,3 @@
+source,policy,n,targets,unique_smiles,solved_rate,top_score_mean,route_steps_mean,route_steps_median,precursors_in_stock_mean,precursors_total_mean,search_time_mean,risk_mean,risk_gt_0_5,qed_mean,dock_pose_pass
+ExpDiff,pb_qed,100,100,100,0.09,0.688492333014,4.5473684210526315,5.0,2.62,3.59,17.202281112672,0.11047429885007026,0.04,0.8150411934344818,0.99
+ExpDiff,pb_rc_select,100,100,100,0.1,0.6897450173299998,4.389473684210526,5.0,2.53,3.48,16.922270226479004,0.0650504928242294,0.0,0.8113562808510427,1.0
