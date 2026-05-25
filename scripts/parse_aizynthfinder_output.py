@@ -52,7 +52,16 @@ def summarize(df):
 
 
 def write_report(summary, out_md):
-    order_source = {"DiffSBDD_official": 0, "Pocket2Mol_transfer": 1, "PocketFlow": 2, "SGEDiff": 3, "MolPilot": 4}
+    order_source = {
+        "DiffSBDD_official": 0,
+        "Pocket2Mol_transfer": 1,
+        "PocketFlow": 2,
+        "MolCRAFT-CrossDock-T50": 3,
+        "MolPilot-CrossDock-T50-FrameRestored": 4,
+        "Prospective20-Pocket2Mol": 5,
+        "SGEDiff": 6,
+        "MolPilot": 7,
+    }
     order_policy = {"qed": 0, "rc_select": 1, "pb_qed": 2, "pb_rc_select": 3}
     summary = summary.copy()
     summary["order_source"] = summary["source"].map(order_source).fillna(99)

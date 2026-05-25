@@ -1,0 +1,7 @@
+source,policy,attempted,scored,success_rate,cnnscore_mean,cnnaffinity_mean,affinity_mean,dock_pose_pass,risk_gt_0_5,qed_mean
+MolPilot-CrossDock-T50-FrameRestored,pb_qed,50,50,1.0,0.05537299999999999,3.32824,97.45265359999999,0.04,1.0,0.7230060403310812
+MolPilot-CrossDock-T50-FrameRestored,pb_qed_minus_risk,50,50,1.0,0.05537300000000001,3.32824,97.45265360000002,0.04,1.0,0.7230060403310812
+MolPilot-CrossDock-T50-FrameRestored,pb_rc_select,50,50,1.0,0.055373,3.32824,97.45265359999999,0.04,1.0,0.723006040331081
+MolPilot-CrossDock-T50-FrameRestored,qed,50,50,1.0,0.0518216,3.3400187999999997,98.176934,0.04,1.0,0.724355596194287
+MolPilot-CrossDock-T50-FrameRestored,qed_minus_risk,50,50,1.0,0.0518216,3.3400187999999997,98.176934,0.04,1.0,0.724355596194287
+MolPilot-CrossDock-T50-FrameRestored,rc_select,50,50,1.0,0.0518216,3.3400187999999997,98.176934,0.04,1.0,0.724355596194287

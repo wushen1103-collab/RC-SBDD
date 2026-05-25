@@ -1,0 +1,3 @@
+source,policy,n,targets,unique_smiles,solved_rate,top_score_mean,route_steps_mean,route_steps_median,precursors_in_stock_mean,precursors_total_mean,search_time_mean,risk_mean,risk_gt_0_5,qed_mean,dock_pose_pass
+MolCRAFT-CrossDock-T50,pb_qed,50,50,50,0.32,0.808828988952,3.86,4.0,2.84,3.52,15.522857546802,0.06169366558269395,0.0,0.7913915701171718,1.0
+MolCRAFT-CrossDock-T50,pb_rc_select,50,50,50,0.32,0.8072456556180001,3.86,4.0,2.86,3.56,15.40914360046,0.05364013082414881,0.0,0.7850505705556239,1.0

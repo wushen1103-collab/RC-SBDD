@@ -1,0 +1,3 @@
+source,policy,n,targets,unique_smiles,solved_rate,top_score_mean,route_steps_mean,route_steps_median,precursors_in_stock_mean,precursors_total_mean,search_time_mean,risk_mean,risk_gt_0_5,qed_mean,dock_pose_pass
+Prospective20-Pocket2Mol,pb_qed,20,20,20,0.05,0.7180035609,4.25,4.5,2.7,3.65,23.677571606639997,0.7171062480766105,0.7,0.7905258022072391,0.6
+Prospective20-Pocket2Mol,pb_rc_select,20,20,20,0.35,0.80686087172,3.75,5.0,2.35,3.05,16.134627223009996,0.25289382238027913,0.1,0.6958160054341169,0.95

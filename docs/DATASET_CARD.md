@@ -27,7 +27,8 @@ selector reliability can be studied separately.
 - Main release generator families: four.
 - Candidate rows tracked in the manuscript: 13,189.
 - Dock-fast labels tracked in the manuscript: 12,013.
-- Additional stress addenda: MolPilot and SGEDiff direct-output settings.
+- Additional direct-output addenda: MolCRAFT positive check, MolPilot-framefix
+  stress audit, SGEDiff stress audit, and Prospective20 route-planning summary.
 
 ## Key Labels
 
@@ -49,4 +50,3 @@ BindingMOAD external, and target-heldout selective-risk settings.
 Code is MIT licensed. Benchmark metadata and labels are intended for academic
 research use. Original molecular structures, generated molecules, and third-party
 oracle outputs remain governed by their upstream licenses.
-

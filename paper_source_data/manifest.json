@@ -16,6 +16,14 @@
     "syncguide_gnina": "results/gnina_score_syncguide_t1000_n16_top1_summary.csv"
   },
   "source_data_hashes": {
+    "aizynthfinder_molcraft_top1_summary.csv": {
+      "bytes": 505,
+      "sha256": "12d04d06f5f322efd55835a2c6252e87ae23c5c79c4674dae8a06baaeaad9053"
+    },
+    "aizynthfinder_molpilot_framefix_top1_summary.csv": {
+      "bytes": 536,
+      "sha256": "e684a813b64871c721d2f671c2abcf6538fd6d9f1cedb3caa60a7ed9aab60519"
+    },
     "aizynthfinder_molpilot_summary.csv": {
       "bytes": 747,
       "sha256": "10ff70bfd050e19d8851c5c5e5b00112a31538a69359bc51cac9a40a289c8cea"
@@ -23,6 +31,10 @@
     "aizynthfinder_pocketflow_summary.csv": {
       "bytes": 1090,
       "sha256": "c1e43ca08e13cba24f37b22ff3db8873837b673b36524e6d9475431f5d43db63"
+    },
+    "aizynthfinder_prospective20_top1_summary.csv": {
+      "bytes": 508,
+      "sha256": "51d21523c57e056539530a9c1313aa3d8bb0a0ff8deb5a61372a853aa90df0fe"
     },
     "aizynthfinder_sgediff_summary.csv": {
       "bytes": 691,
@@ -56,6 +68,10 @@
       "bytes": 16039,
       "sha256": "72b73a818e310f9237232ccab851a0c2e2e96d08281a251588b001ff81d0461e"
     },
+    "generator_shift_adaptive_calibration_p0_summary.csv": {
+      "bytes": 22140,
+      "sha256": "18980fc72d03557e75b88685638f3ed37ea2b056033b69f7d93b4f7bfd08a415"
+    },
     "gnina_redock_bindingmoad_v100_top1_pose_quality_summary.csv": {
       "bytes": 422,
       "sha256": "1894327cb45ab285af73ec7f3b7f7f560cd5ae1dcade2d65fc0a3bfea5f53527"
@@ -88,9 +104,45 @@
       "bytes": 5731,
       "sha256": "c1c71ebfffe65bbc21e31757499657968f02ac69ff7c800ecf6889a0d0a255b2"
     },
+    "molcraft_crossdock_t50_n16_dockfast_selection_summary.csv": {
+      "bytes": 593,
+      "sha256": "74cedbdb53548978ff72d6b08b3ea762e83f0c4ca6b41bda8d86148920662faf"
+    },
+    "molcraft_crossdock_t50_n16_gnina_score_top1_summary.csv": {
+      "bytes": 837,
+      "sha256": "0b29045cbc2ef8ccbe1186be280fa8901a138056deed23dc32bbf5c2a5ac580a"
+    },
+    "molcraft_crossdock_t50_n16_vina_redock_top1_summary.csv": {
+      "bytes": 810,
+      "sha256": "759821f2dc644acaa2eecc88385b5cacca9bc2325618123dd2a0703fafcf0a38"
+    },
+    "molpilot_crossdock_t50_n16_framefix_dockfast_selection_summary.csv": {
+      "bytes": 615,
+      "sha256": "e63dd707b48b5dfba7b1c4d1dea5be61085b745261b3439bd1be1301b377364c"
+    },
+    "molpilot_crossdock_t50_n16_framefix_gnina_score_top1_summary.csv": {
+      "bytes": 889,
+      "sha256": "828f995f83af72e4e2f8f26ec0d230e0f40deaae078b0f35f4899174a2156789"
+    },
+    "molpilot_crossdock_t50_n16_framefix_vina_redock_top1_summary.csv": {
+      "bytes": 841,
+      "sha256": "a37cbcd62a1bd2a1899fc615dc5ea98f766dadc1a5d7e3f6aa2ceb8a577560a8"
+    },
     "multiobjective_selection_summary.csv": {
       "bytes": 4432,
       "sha256": "21dc07fdc0eb18f755f142fe4318bd08ade4872feb6877099c2ebee4137beb14"
+    },
+    "p0_prospective3_case_targets.csv": {
+      "bytes": 2653,
+      "sha256": "69b453999b0a1e5aa40e5d137d0716750b742818d8ed837ba156581b8090fb1a"
+    },
+    "p0_sota_generator_unified_summary.csv": {
+      "bytes": 1060,
+      "sha256": "65b914b3160198903f4c47ec78c83ab095443cfe6f06f7defad67e6a831cb429"
+    },
+    "pocketflow_crossdock_n16_gnina_score_top1_summary.csv": {
+      "bytes": 871,
+      "sha256": "d69e58dfa02a4e4fd0ed72e2c5dbb59e376500ce4ac0f5de81b7976a185e1fe4"
     },
     "public_sota_output_audit.csv": {
       "bytes": 1142,

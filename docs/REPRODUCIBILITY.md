@@ -21,14 +21,18 @@ This reads the CSV files in `paper_source_data/` and checks:
 - risk-to-dock-fast calibration;
 - target-heldout selective-risk summaries;
 - runtime/throughput summaries.
+- P0 direct-generator addenda for MolCRAFT, MolPilot-framefix, and
+  Prospective20 route-planning checks.
 
 The smoke test asserts the headline values used in the manuscript: official
 100-target dock-fast gain of `0.169`, PocketFlow direct-output dock-fast gain
-of `0.1125`, BindingMOAD v100 dock-fast gain of `0.0975`, SYNC-Guide
-direct-output dock-fast gain of `0.030`, and DiffSBDD target-heldout CRC
-violation rate of `0.0`. The manifest verifier checks the
-byte count and SHA256 hash of each lightweight CSV snapshot before these values
-are recomputed.
+of `0.1125`, MolCRAFT high-risk fraction change from `0.020` to `0.000`,
+MolPilot-framefix dock-fast values from `0.015` to `0.035`, Prospective20
+AiZynthFinder solved-rate gain from `0.050` to `0.350`, BindingMOAD v100
+dock-fast gain of `0.0975`, SYNC-Guide direct-output dock-fast gain of
+`0.030`, and DiffSBDD target-heldout CRC violation rate of `0.0`. The manifest
+verifier checks the byte count and SHA256 hash of each lightweight CSV snapshot
+before these values are recomputed.
 
 ## Full Computational Reproduction
 
@@ -40,7 +44,7 @@ redistributed here.
 - CrossDocked2020 or the IF3/CrossDocked LMDB used by the generator scripts.
 - BindingMOAD/PDB-derived pockets for the external holdout.
 - Public generator checkpoints or outputs for DiffSBDD, Pocket2Mol, PocketFlow,
-  SYNC, MolPilot, and SGEDiff.
+  MolCRAFT, SYNC, MolPilot, and SGEDiff.
 - GNINA and AutoDock Vina binaries.
 - RDKit, Open Babel, PoseBusters, and AiZynthFinder.
 - Optional high-fidelity tools for short MD/MM-GBSA style follow-up.
@@ -62,7 +66,15 @@ redistributed here.
    and GNINA CSVs are available under `results/`, use
    `scripts/add_syncguide_positive_sota.py` to rebuild its target-level rows and
    audit entry.
-7. **Rebuild summaries.** Use `scripts/build_paper_tables.py` and the analysis
+7. **Rebuild P0 direct-generator addenda.** Use
+   `scripts/run_molcraft_crossdock_batch.py` and
+   `scripts/run_molcraft_sample_for_pocket.py` for MolCRAFT generation,
+   `scripts/restore_molpilot_coordinate_frame.py` for the MolPilot-framefix
+   stress audit, and `scripts/summarize_p0_sota_generator_outputs.py`,
+   `scripts/analyze_generator_shift_adaptive_calibration_p0.py`, and
+   `scripts/summarize_p0_prospective_case_targets.py` for the lightweight
+   summaries.
+8. **Rebuild summaries.** Use `scripts/build_paper_tables.py` and the analysis
    scripts for calibration, selective risk, missing modalities, and runtime.
 
 ## Artifact Boundary
@@ -75,7 +87,7 @@ separate Zenodo record or regenerated from upstream tools.
 
 1. Confirm that `python scripts/verify_source_data_manifest.py` passes.
 2. Confirm that `python scripts/run_snapshot_smoke.py` passes.
-3. Push the repository and tag `v1.0.1` to GitHub.
-4. Create a GitHub release from `v1.0.1`.
+3. Push the repository to GitHub.
+4. Create a GitHub release only when the large fixed benchmark asset changes.
 5. Connect the GitHub release to Zenodo and mint a DOI.
 6. Add the DOI to the manuscript data-availability statement and to the README.

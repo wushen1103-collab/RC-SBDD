@@ -42,8 +42,11 @@ python benchmarks/RC-SBDD-Bench-v1/evaluation/score_submission.py \
 
 The first command checks that the source-data snapshots reproduce the headline
 values used in the manuscript, including the official 100-target dock-fast
-gain (`0.169`), PocketFlow direct-output gain (`0.1125`), BindingMOAD v100
-gain (`0.0975`), SYNC-Guide direct-output gain (`0.030`), and DiffSBDD
+gain (`0.169`), PocketFlow direct-output gain (`0.1125`), MolCRAFT P0
+direct-output risk-tail removal (`0.020 -> 0.000`), MolPilot-framefix
+failure-boundary dock-fast values (`0.015 -> 0.035`), Prospective20
+AiZynthFinder solved-rate gain (`0.050 -> 0.350`), BindingMOAD v100 gain
+(`0.0975`), SYNC-Guide direct-output gain (`0.030`), and DiffSBDD
 target-heldout CRC violation rate (`0.0`). It also checks the later
 learning-to-rank audit, BindingMOAD-MolPilot failure-boundary audit, and
 known-ligand similarity summary. The
@@ -55,8 +58,8 @@ the upstream datasets and external tools listed in `docs/REPRODUCIBILITY.md`.
 
 1. Download or prepare upstream structural data following
    `docs/REPRODUCIBILITY.md`.
-2. Run or collect generator outputs for DiffSBDD, Pocket2Mol, PocketFlow, SYNC,
-   MolPilot, and SGEDiff using the documented scripts.
+2. Run or collect generator outputs for DiffSBDD, Pocket2Mol, PocketFlow,
+   MolCRAFT, SYNC, MolPilot, and SGEDiff using the documented scripts.
 3. Compute oracle labels with PoseBusters, GNINA/Vina, RDKit, and AiZynthFinder.
 4. Build RC-SBDD-Bench-v1 manifests with
    `scripts/build_rcsbdd_bench_v1_release.py`.
@@ -66,7 +69,11 @@ the upstream datasets and external tools listed in `docs/REPRODUCIBILITY.md`.
 6. Run the grouped ranking and known-ligand audits with
    `scripts/analyze_learning_to_rank_selection.py` and
    `scripts/analyze_known_ligand_similarity_enrichment.py`.
-7. Recompute paper summaries with `scripts/build_paper_tables.py`.
+7. Rebuild the P0 direct-generator source-data summaries with
+   `scripts/summarize_p0_sota_generator_outputs.py`,
+   `scripts/analyze_generator_shift_adaptive_calibration_p0.py`, and
+   `scripts/summarize_p0_prospective_case_targets.py`.
+8. Recompute paper summaries with `scripts/build_paper_tables.py`.
 
 The paper source-data snapshots allow reviewers to verify the reported
 selection, calibration, statistical-test, and runtime summaries without

@@ -42,6 +42,10 @@ def main() -> None:
     ltr = _load("learning_to_rank_selection_summary.csv")
     bm_molpilot = _load("bindingmoad_molpilot_v50_dockfast_selection_summary.csv")
     known_ligand = _load("known_ligand_similarity_enrichment_summary.csv")
+    p0_sota = _load("p0_sota_generator_unified_summary.csv")
+    p0_calibration = _load("generator_shift_adaptive_calibration_p0_summary.csv")
+    prospective_cases = _load("p0_prospective3_case_targets.csv")
+    prospective_aizynth = _load("aizynthfinder_prospective20_top1_summary.csv")
 
     official = target[target["metric"].astype(str).str.contains("dock", case=False, na=False)].head(1)
     if official.empty:
@@ -80,6 +84,36 @@ def main() -> None:
     if sync_gnina_pb.empty:
         raise AssertionError("SYNC-Guide GNINA PB-RC row not found")
     _assert_close("syncguide_gnina_pb_rc_dockfast", sync_gnina_pb.iloc[0]["dock_pose_pass"], 1.0)
+
+    molcraft = p0_sota[(p0_sota["generator"] == "MolCRAFT") & (p0_sota["policy"] == "PB-RC")]
+    if molcraft.empty:
+        raise AssertionError("MolCRAFT PB-RC P0 row not found")
+    _assert_close("molcraft_pb_rc_dockfast", molcraft.iloc[0]["dock_fast"], 1.0)
+    _assert_close("molcraft_pb_rc_high_risk", molcraft.iloc[0]["risk_gt_0_5"], 0.0)
+
+    molpilot_frame = p0_sota[
+        (p0_sota["generator"] == "MolPilot-framefix") & (p0_sota["policy"] == "PB-RC")
+    ]
+    if molpilot_frame.empty:
+        raise AssertionError("MolPilot-framefix PB-RC P0 row not found")
+    _assert_close("molpilot_framefix_pb_rc_dockfast", molpilot_frame.iloc[0]["dock_fast"], 0.035)
+    _assert_close("molpilot_framefix_pb_rc_high_risk", molpilot_frame.iloc[0]["risk_gt_0_5"], 0.985)
+
+    molpilot_cal = p0_calibration[
+        (p0_calibration["heldout_source"] == "MolPilot-framefix")
+        & (p0_calibration["method"] == "raw_risk")
+        & (p0_calibration["calib_targets"] == 0)
+    ]
+    if molpilot_cal.empty:
+        raise AssertionError("MolPilot-framefix raw calibration row not found")
+    _assert_close("molpilot_framefix_raw_ece", molpilot_cal.iloc[0]["ece_mean"], 0.017802328462855233)
+
+    pros_rc = prospective_aizynth[prospective_aizynth["policy"] == "pb_rc_select"]
+    if pros_rc.empty:
+        raise AssertionError("Prospective20 PB-RC AiZynth row not found")
+    _assert_close("prospective20_pb_rc_aizynth_solved", pros_rc.iloc[0]["solved_rate"], 0.35)
+    if len(prospective_cases) != 6:
+        raise AssertionError(f"expected 6 prospective case rows, found {len(prospective_cases)}")
 
     diffsbdd_crc = selective[
         (selective["generator"] == "DiffSBDD") & (selective["method"] == "tc_crc_stratified")
@@ -142,6 +176,9 @@ def main() -> None:
         "learning_to_rank_rows": int(len(ltr)),
         "bindingmoad_molpilot_rows": int(len(bm_molpilot)),
         "known_ligand_rows": int(len(known_ligand)),
+        "p0_sota_rows": int(len(p0_sota)),
+        "p0_calibration_rows": int(len(p0_calibration)),
+        "p0_prospective_case_rows": int(len(prospective_cases)),
     }
 
     out = ROOT / "logs" / "snapshot_smoke.json"
