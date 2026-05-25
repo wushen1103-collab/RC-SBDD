@@ -21,6 +21,7 @@ SOURCE_CANDIDATES = [
             "results/molcraft_crossdock_t50_n16_dockfast_selection.csv",
         ],
     ),
+    ("ExpDiff", ["results/expdiff_official_t100_nall_dockfast_selection.csv"]),
     ("MolPilot-framefix", ["results/molpilot_crossdock_t50_n16_framefix_dockfast_selection.csv"]),
 ]
 POLICY = "pb_rc_select"

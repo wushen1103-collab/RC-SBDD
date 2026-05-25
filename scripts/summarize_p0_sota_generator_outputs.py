@@ -20,6 +20,14 @@ GENERATORS = {
         "aizynth": "results/aizynthfinder_molcraft_t100_top1_summary.csv",
         "policies": {"pb_qed": "PB-QED", "pb_rc_select": "PB-RC"},
     },
+    "ExpDiff": {
+        "risk": "results/expdiff_official_t100_nall_risk_scores.csv",
+        "dock": "results/expdiff_official_t100_nall_dockfast_selection_summary.csv",
+        "gnina": "results/gnina_redock_expdiff_t100_top4_summary.csv",
+        "vina": "results/expdiff_official_t100_nall_vina_redock_top1_summary.csv",
+        "aizynth": "results/aizynthfinder_expdiff_t100_top1_summary.csv",
+        "policies": {"pb_qed": "PB-QED", "pb_rc_select": "PB-RC"},
+    },
     "MolPilot-framefix": {
         "risk": "results/molpilot_crossdock_t50_n16_framefix_risk_scores.csv",
         "dock": "results/molpilot_crossdock_t50_n16_framefix_dockfast_selection_summary.csv",
@@ -100,7 +108,7 @@ def main():
         "",
         "## Protocol",
         "",
-        "- Generators: PocketFlow, MolCRAFT, and MolPilot with deterministic coordinate-frame restoration.",
+        "- Generators: PocketFlow, MolCRAFT, ExpDiff, and MolPilot with deterministic coordinate-frame restoration where required.",
         "- Common evidence: RC risk, PoseBusters dock_fast, GNINA neural scoring, Vina redocking top-1, and AiZynthFinder top-1 retrosynthesis.",
         "- For MolCRAFT-T100, the GNINA values are from complete top-4 local redocking (400 molecules per policy); older score-only summaries are not used because their missingness is policy dependent.",
         "- Selection policies: PB-QED and PB-RC with the same per-target selection budget.",
@@ -125,8 +133,9 @@ def main():
             "## Findings",
             "",
             "1. MolCRAFT-T100 provides a strong positive SOTA generator: PB-RC removes high-risk selected poses and preserves near-ceiling dock-fast success under complete GNINA redocking.",
-            "2. PocketFlow shows the typical trade-off: PB-RC sharply improves dock_fast and risk tail at a modest QED cost.",
-            "3. MolPilot-framefix is an intentionally retained failure boundary: synthesis can remain feasible while pocket geometry is unusable, motivating explicit reliability control.",
+            "2. ExpDiff is evaluated from the official Zenodo result archive under the same post-generation protocol, adding a fourth recent generator-output audit.",
+            "3. PocketFlow shows the typical trade-off: PB-RC sharply improves dock_fast and risk tail at a modest QED cost.",
+            "4. MolPilot-framefix is an intentionally retained failure boundary: synthesis can remain feasible while pocket geometry is unusable, motivating explicit reliability control.",
         ]
     )
     Path("experiments/P0_SOTA_GENERATOR_UNIFIED_SUMMARY.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

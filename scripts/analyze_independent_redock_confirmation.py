@@ -12,6 +12,7 @@ FILES = [
     "results/gnina_redock_main100_top4_pose_quality.csv",
     "results/gnina_redock_bindingmoad_v100_top4_pose_quality.csv",
     "results/gnina_redock_p0_expansion_pose_quality.csv",
+    "results/gnina_redock_expdiff_t100_top4_pose_quality.csv",
 ]
 METRICS = {
     "after_redock_dock_fast": "higher",

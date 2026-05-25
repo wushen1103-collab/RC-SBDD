@@ -7,6 +7,7 @@ from scipy.stats import wilcoxon
 
 COHORTS = [
     ("molcraft_crossdock_t100", "results/molcraft_crossdock_t100_n16_dockfast_selection.csv"),
+    ("expdiff_official_t100", "results/expdiff_official_t100_nall_dockfast_selection.csv"),
     ("bindingmoad_task1_strict35_sensitivity", "results/bindingmoad_task1_strict35_pocketflow_n16_dockfast_selection.csv"),
 ]
 METRICS = {
