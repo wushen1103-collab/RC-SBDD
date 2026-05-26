@@ -46,6 +46,9 @@ def main() -> None:
     p0_calibration = _load("generator_shift_adaptive_calibration_p0_summary.csv")
     prospective_cases = _load("p0_prospective3_case_targets.csv")
     prospective_aizynth = _load("aizynthfinder_prospective20_top1_summary.csv")
+    joint_shift = _load("joint_shift_generator_protein_scaffold_statistics_p1.csv")
+    contact_p1 = _load("contact_counterfactual_faithfulness_p1_aggregate_summary.csv")
+    kinase_p1 = _load("kinase_selectivity_aware_expanded_summary.csv")
 
     official = target[target["metric"].astype(str).str.contains("dock", case=False, na=False)].head(1)
     if official.empty:
@@ -115,6 +118,42 @@ def main() -> None:
     if len(prospective_cases) != 6:
         raise AssertionError(f"expected 6 prospective case rows, found {len(prospective_cases)}")
 
+    pocketflow_joint = joint_shift[
+        (joint_shift["axis"] == "family_and_generated_scaffold_unseen")
+        & (joint_shift["source"] == "PocketFlow")
+        & (joint_shift["metric"] == "dock_pose_pass")
+    ]
+    if pocketflow_joint.empty:
+        raise AssertionError("PocketFlow joint-shift dock-fast row not found")
+    _assert_close("pocketflow_joint_shift_dockfast_delta", pocketflow_joint.iloc[0]["delta_method_minus_baseline"], 0.099537037037037)
+
+    molcraft_joint = joint_shift[
+        (joint_shift["axis"] == "family_and_generated_scaffold_unseen")
+        & (joint_shift["source"] == "MolCRAFT-100")
+        & (joint_shift["metric"] == "risk_gt_0_5")
+    ]
+    if molcraft_joint.empty:
+        raise AssertionError("MolCRAFT joint-shift risk-tail row not found")
+    _assert_close("molcraft_joint_shift_highrisk_delta", molcraft_joint.iloc[0]["delta_method_minus_baseline"], -0.0722222222222222)
+
+    if len(contact_p1) < 4:
+        raise AssertionError("P1 aggregate contact faithfulness summary is incomplete")
+    diffsbdd_contact = contact_p1[contact_p1["source"] == "DiffSBDD-fullpool"]
+    if diffsbdd_contact.empty:
+        raise AssertionError("DiffSBDD aggregate contact faithfulness row not found")
+    _assert_close(
+        "diffsbdd_contact_mask_delta",
+        diffsbdd_contact.iloc[0]["contact_masked_risk_delta"],
+        -0.0811936604767127,
+        tol=1e-6,
+    )
+
+    selectivity_rc = kinase_p1[kinase_p1["policy"] == "selectivity_rc"]
+    if selectivity_rc.empty:
+        raise AssertionError("expanded kinase selectivity RC row not found")
+    _assert_close("expanded_kinase_targets", selectivity_rc.iloc[0]["n"], 12)
+    _assert_close("expanded_kinase_target_best", selectivity_rc.iloc[0]["target_is_best"], 1 / 3)
+
     diffsbdd_crc = selective[
         (selective["generator"] == "DiffSBDD") & (selective["method"] == "tc_crc_stratified")
     ]
@@ -179,6 +218,9 @@ def main() -> None:
         "p0_sota_rows": int(len(p0_sota)),
         "p0_calibration_rows": int(len(p0_calibration)),
         "p0_prospective_case_rows": int(len(prospective_cases)),
+        "p1_joint_shift_rows": int(len(joint_shift)),
+        "p1_contact_sources": int(len(contact_p1)),
+        "p1_kinase_rows": int(len(kinase_p1)),
     }
 
     out = ROOT / "logs" / "snapshot_smoke.json"

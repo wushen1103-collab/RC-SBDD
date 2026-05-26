@@ -64,6 +64,14 @@
       "bytes": 12901,
       "sha256": "4d39b598f3c2d82eff86d53adf54c8ab0ea8f1c7540f880fe371f67664fec202"
     },
+    "contact_counterfactual_faithfulness_p1_aggregate.csv": {
+      "bytes": 164971,
+      "sha256": "72424da49ea6177bd5c071ef96d27ea32fed86fd7cb80bc4f8dfce013aeec7ef"
+    },
+    "contact_counterfactual_faithfulness_p1_aggregate_summary.csv": {
+      "bytes": 1176,
+      "sha256": "338b9ff33e34d47e6f788175ba124714feb1b14f77e49739b134b49aaad14d26"
+    },
     "equal_capability_selective_baselines_summary.csv": {
       "bytes": 9430,
       "sha256": "96f98dc76b64095a47f65886a3614c7cd9fd05569afcb07eaafaff4235d3153f"
@@ -131,6 +139,34 @@
     "independent_redock_confirmation_statistics.csv": {
       "bytes": 6935,
       "sha256": "32d8e915a9c6baaf71ef978677a0de2673bff2e242268fe2c1f5cace7b3f908b"
+    },
+    "joint_shift_generator_protein_scaffold_selection_p1.csv": {
+      "bytes": 2520500,
+      "sha256": "c459158e97cbfcac5abbe3d296c69b02747ab7fc4a5266cac03f4af41cffbe46"
+    },
+    "joint_shift_generator_protein_scaffold_statistics_p1.csv": {
+      "bytes": 20158,
+      "sha256": "75530ad422894dbec726688baf40afd37b41f49db9909d12808ae4b2751c2d46"
+    },
+    "joint_shift_generator_protein_scaffold_summary_p1.csv": {
+      "bytes": 6396,
+      "sha256": "b8b540abd2c44c89f35778b1ce3f60461170e66f525a26e95c33f9d0018830d8"
+    },
+    "kinase_selectivity_aware_expanded_candidates.csv": {
+      "bytes": 36110,
+      "sha256": "3367d1601e0665d7588d67f43860b63c751358402c4cf2a392db639fe93b3bec"
+    },
+    "kinase_selectivity_aware_expanded_crossdock.csv": {
+      "bytes": 508171,
+      "sha256": "0eacf9527e6831429f4b5fdefa896e5595c10a81d9933a287ec62e1fb6cd7508"
+    },
+    "kinase_selectivity_aware_expanded_selected.csv": {
+      "bytes": 24022,
+      "sha256": "41d4283c23b8ca85b218f481ec7946dfe4d1f54e5b80c6b27a77adf76710a09c"
+    },
+    "kinase_selectivity_aware_expanded_summary.csv": {
+      "bytes": 630,
+      "sha256": "886dae59a54e6ac34dca59f217edefa387d7ec80f0b9cc8da0ce3661ba10d8e7"
     },
     "kinase_selectivity_aware_summary.csv": {
       "bytes": 597,

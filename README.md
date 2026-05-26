@@ -1,6 +1,6 @@
 # RC-SBDD
 
-Reproducibility status: fixed benchmark base `v1.1.0` plus tracked P0
+Reproducibility status: fixed benchmark base `v1.1.0` plus tracked P0/P1
 source-data addenda on the current revision.
 
 This repository contains the lightweight reproducibility package for **RC-SBDD:
@@ -52,7 +52,9 @@ AiZynthFinder solved-rate gain (`0.050 -> 0.350`), BindingMOAD v100 gain
 (`0.0975`), SYNC-Guide direct-output gain (`0.030`), and DiffSBDD
 target-heldout CRC violation rate (`0.0`). It also checks the later
 learning-to-rank audit, BindingMOAD-MolPilot failure-boundary audit, and
-known-ligand similarity summary. The
+known-ligand similarity summary. The current smoke test also checks P1
+joint-shift, aggregate contact-counterfactual, and expanded kinase-selectivity
+source-data addenda. The
 manifest verifier checks byte counts and SHA256 hashes for every lightweight
 CSV snapshot. Full de novo generation, redocking, and route planning require
 the upstream datasets and external tools listed in `docs/REPRODUCIBILITY.md`.
@@ -76,7 +78,11 @@ the upstream datasets and external tools listed in `docs/REPRODUCIBILITY.md`.
    `scripts/summarize_p0_sota_generator_outputs.py`,
    `scripts/analyze_generator_shift_adaptive_calibration_p0.py`, and
    `scripts/summarize_p0_prospective_case_targets.py`.
-8. Recompute paper summaries with `scripts/build_paper_tables.py`.
+8. Rebuild the P1 addenda with
+   `scripts/analyze_joint_shift_selection_p1.py`,
+   `scripts/analyze_contact_counterfactual_faithfulness_p1.py`, and
+   `scripts/analyze_selectivity_aware_kinase_expanded.py`.
+9. Recompute paper summaries with `scripts/build_paper_tables.py`.
 
 The paper source-data snapshots allow reviewers to verify the reported
 selection, calibration, statistical-test, and runtime summaries without
@@ -96,10 +102,11 @@ The archive contains released candidate structures, pockets, label files,
 official target splits, metric definitions, and checksum inventory. Large
 upstream datasets and executable third-party tools remain obtained from their
 original providers. The manuscript's MolCRAFT, MolPilot-framefix,
-Prospective20 route-planning, and generator-shift calibration audits are
+Prospective20 route-planning, generator-shift calibration, joint-shift,
+aggregate contact-counterfactual, and expanded kinase-selectivity audits are
 tracked in `paper_source_data` and verified by
 `scripts/verify_source_data_manifest.py` and `scripts/run_snapshot_smoke.py`.
-They are reported as P0 addenda rather than as members of the frozen v1 base.
+They are reported as versioned addenda rather than as members of the frozen v1 base.
 
 ## Artifact Review Notes
 
