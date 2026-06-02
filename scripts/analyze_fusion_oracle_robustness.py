@@ -328,7 +328,7 @@ def main():
     rows = []
     metric_rows = []
     for i in range(args.seeds):
-        seed = 20260516 + i
+        seed = 42 + i
         for source, df in [("DiffSBDD", diff), ("Pocket2Mol", pocket)]:
             train, test = split_targets(df, seed, args.test_frac)
             part_rows, part_metrics = run_eval(train, test, f"{source}_within", i, seed, args.k, tau)
@@ -338,7 +338,7 @@ def main():
         (diff, pocket, "DiffSBDD_to_Pocket2Mol"),
         (pocket, diff, "Pocket2Mol_to_DiffSBDD"),
     ]:
-        part_rows, part_metrics = run_eval(train, test, direction, 0, 20260516, args.k, tau)
+        part_rows, part_metrics = run_eval(train, test, direction, 0, 42, args.k, tau)
         rows.extend(part_rows)
         metric_rows.extend(part_metrics)
 

@@ -20,7 +20,7 @@ METRICS = {
 }
 BASELINE = "pb_qed"
 METHOD = "pb_rc_select"
-RNG = np.random.default_rng(20260525)
+RNG = np.random.default_rng(42)
 
 
 def as_numeric(group, metric):
@@ -94,7 +94,7 @@ def main():
             )
     result = pd.DataFrame(rows)
     result["fdr_q_p0_family"] = bh_fdr(result["wilcoxon_p"])
-    result.to_csv("results/p0_new_cohort_target_level_statistics.csv", index=False)
+    result.to_csv("results/cohort_target_level_statistics.csv", index=False)
     lines = [
         "# P0 New-Cohort Target-Level Statistics",
         "",

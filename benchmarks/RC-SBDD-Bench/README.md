@@ -1,4 +1,4 @@
-# RC-SBDD-Bench v1
+# RC-SBDD-Bench
 
 - Targets: 100
 - Generators: 4
@@ -9,9 +9,9 @@ See `DATASET_CARD.md`, `METRICS.md`, `LICENSE`, `labels/oracle_labels.csv`, `spl
 
 ## Fixed Base Asset
 
-The fixed evaluation base archive is distributed with release `v1.1.0`:
+The fixed evaluation base archive is distributed with the benchmark release:
 
-`https://github.com/wushen1103-collab/RC-SBDD/releases/download/v1.1.0/RC-SBDD-Bench-v1-full-20260525.tar.gz`
+`https://github.com/wushen1103-collab/RC-SBDD/releases/latest/download/RC-SBDD-Bench-full.tar.gz`
 
 Verify the download against `FULL_ASSET_SHA256.txt`. The archive contains the
 candidate structures, pocket files, full oracle labels, official split,
@@ -23,4 +23,4 @@ metric definitions, and checksum inventory; the Git tree remains lightweight.
 - Lightweight P0 audit snapshots in `../../paper_source_data`: MolCRAFT and
   MolPilot-framefix direct-output evaluations, Prospective20 route planning,
   and generator-shift calibration. These are versioned paper addenda and do
-  not redefine the fixed v1 base counts above.
+  not redefine the fixed benchmark base counts above.

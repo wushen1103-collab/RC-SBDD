@@ -243,7 +243,7 @@ def main():
     pocket = load_pool("results/dockfast_full_pool_pocket2mol_n16_ext.csv", "Pocket2Mol")
     metrics, selections = [], []
     for i in range(3):
-        seed = 20260516 + i
+        seed = 42 + i
         tr, te = split_targets(diff, seed)
         m, s = run_direction(tr, te, "DiffSBDD_within", seed)
         metrics.extend([dict(x, seed=i) for x in m])
@@ -253,7 +253,7 @@ def main():
         metrics.extend([dict(x, seed=i) for x in m])
         selections.extend([dict(x, seed=i) for x in s])
     for train, test, direction in [(diff, pocket, "DiffSBDD_to_Pocket2Mol"), (pocket, diff, "Pocket2Mol_to_DiffSBDD")]:
-        m, s = run_direction(train, test, direction, 20260516)
+        m, s = run_direction(train, test, direction, 42)
         metrics.extend([dict(x, seed=0) for x in m])
         selections.extend([dict(x, seed=0) for x in s])
 

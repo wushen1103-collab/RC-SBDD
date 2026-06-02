@@ -33,7 +33,7 @@ def load_bindingmoad_selection(path: str, policies: list[str], top_k: int, limit
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", default="results/bindingmoad_pocketflow_n16_v100_dockfast_selection.csv")
+    ap.add_argument("--input", default="results/bindingmoad_pocketflow_n16_dockfast_selection.csv")
     ap.add_argument("--gnina-bin", default="tools/gnina")
     ap.add_argument("--policies", nargs="+", default=["pb_qed", "pb_rc_select"])
     ap.add_argument("--top-k-per-target", type=int, default=4)
@@ -41,9 +41,9 @@ def main() -> None:
     ap.add_argument("--max-workers", type=int, default=8)
     ap.add_argument("--exhaustiveness", type=int, default=4)
     ap.add_argument("--timeout", type=int, default=600)
-    ap.add_argument("--work-dir", default="results/gnina_redock_bindingmoad_v100_top4")
-    ap.add_argument("--out-csv", default="results/gnina_redock_bindingmoad_v100_top4_scores.csv")
-    ap.add_argument("--out-summary", default="results/gnina_redock_bindingmoad_v100_top4_summary.csv")
+    ap.add_argument("--work-dir", default="results/gnina_redock_bindingmoad_top4")
+    ap.add_argument("--out-csv", default="results/gnina_redock_bindingmoad_top4_scores.csv")
+    ap.add_argument("--out-summary", default="results/gnina_redock_bindingmoad_top4_summary.csv")
     ap.add_argument("--out-md", default="experiments/GNINA_REDOCK_BINDINGMOAD_V100_TOP4.md")
     args = ap.parse_args()
 

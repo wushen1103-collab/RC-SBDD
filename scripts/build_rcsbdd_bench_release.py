@@ -259,11 +259,11 @@ def write_docs(out, manifest, gen_summary):
     (out / "DATASET_CARD.md").write_text(
         "\n".join(
             [
-                "# RC-SBDD-Bench v1 Dataset Card",
+                "# RC-SBDD-Bench Dataset Card",
                 "",
                 "## Purpose",
                 "",
-                "RC-SBDD-Bench v1 is a compact 100-target reliability benchmark for structure-based de novo molecular generation and candidate selection.",
+                "RC-SBDD-Bench is a compact 100-target reliability benchmark for structure-based de novo molecular generation and candidate selection.",
                 "",
                 "## Contents",
                 "",
@@ -306,7 +306,7 @@ def write_docs(out, manifest, gen_summary):
     (out / "README.md").write_text(
         "\n".join(
             [
-                "# RC-SBDD-Bench v1",
+                "# RC-SBDD-Bench",
                 "",
                 f"- Targets: {manifest['targets']}",
                 f"- Generators: {manifest['generators']}",
@@ -320,7 +320,7 @@ def write_docs(out, manifest, gen_summary):
         encoding="utf-8",
     )
     lines = [
-        "# RC-SBDD-Bench v1 Release",
+        "# RC-SBDD-Bench Release",
         "",
         "| Targets | Generators | Candidate rows | Candidate SDFs | dock_fast labels |",
         "|---:|---:|---:|---:|---:|",
@@ -346,7 +346,7 @@ def write_hashes(out):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default="benchmarks/RC-SBDD-Bench-v1")
+    ap.add_argument("--out", default="benchmarks/RC-SBDD-Bench")
     ap.add_argument("--limit", type=int, default=100)
     args = ap.parse_args()
 
@@ -381,7 +381,7 @@ def main():
     gen_summary["candidate_sdf_files"] = gen_summary["generator"].map(file_counts).fillna(0).astype(int)
     gen_summary.to_csv(out / "generator_manifest.csv", index=False)
     manifest = {
-        "benchmark": "RC-SBDD-Bench-v1",
+        "benchmark": "RC-SBDD-Bench",
         "targets": int(targets["target_key"].nunique()),
         "generators": int(labels["generator"].nunique()) if len(labels) else 0,
         "candidate_rows": int(len(labels)),

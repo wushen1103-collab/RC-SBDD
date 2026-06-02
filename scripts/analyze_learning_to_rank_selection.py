@@ -8,7 +8,7 @@ from lightgbm import LGBMRanker
 from xgboost import XGBRanker
 
 
-SEEDS = [20260525, 20260526, 20260527, 20260528, 20260529]
+SEEDS = [42, 43, 44, 45, 46]
 ALPHA = 0.10
 
 FEATURES = [

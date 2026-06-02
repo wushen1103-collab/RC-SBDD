@@ -30,7 +30,7 @@ def _load(name: str) -> pd.DataFrame:
 
 def main() -> None:
     target = _load("target_level_statistical_tests.csv")
-    sota = _load("final_sota_target_level_statistics.csv")
+    sota = _load("sota_target_level_statistics.csv")
     multi = _load("multiobjective_selection_summary.csv")
     fusion = _load("fusion_strong_baselines_metrics_agg.csv")
     calibration = _load("risk_to_dockfast_calibration_summary.csv")
@@ -40,7 +40,7 @@ def main() -> None:
     sync_vina = _load("vina_score_syncguide_t1000_n16_top1_summary.csv")
     sync_gnina = _load("gnina_score_syncguide_t1000_n16_top1_summary.csv")
     ltr = _load("learning_to_rank_selection_summary.csv")
-    bm_molpilot = _load("bindingmoad_molpilot_v50_dockfast_selection_summary.csv")
+    bm_molpilot = _load("bindingmoad_molpilot_dockfast_selection_summary.csv")
     known_ligand = _load("known_ligand_similarity_enrichment_summary.csv")
     p0_sota = _load("p0_sota_generator_unified_summary.csv")
     p0_calibration = _load("generator_shift_adaptive_calibration_p0_summary.csv")
@@ -63,9 +63,9 @@ def main() -> None:
         raise AssertionError("PocketFlow dock-fast row not found")
     _assert_close("pocketflow_delta", pocketflow.iloc[0]["delta_method_minus_baseline"], 0.1125)
 
-    bindingmoad = sota[(sota["block"] == "bindingmoad_v100_holdout") & (sota["metric"] == "dock_fast")]
+    bindingmoad = sota[(sota["block"] == "bindingmoad_holdout") & (sota["metric"] == "dock_fast")]
     if bindingmoad.empty:
-        raise AssertionError("BindingMOAD v100 dock-fast row not found")
+        raise AssertionError("BindingMOAD dock-fast row not found")
     _assert_close("bindingmoad_delta", bindingmoad.iloc[0]["delta_method_minus_baseline"], 0.0975)
 
     syncguide = sota[(sota["block"] == "syncguide_t1000_n16") & (sota["metric"] == "dock_fast")]

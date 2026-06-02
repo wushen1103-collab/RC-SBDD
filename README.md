@@ -1,6 +1,6 @@
 # RC-SBDD
 
-Reproducibility status: fixed benchmark base `v1.1.0` plus tracked P0/P1
+Reproducibility status: fixed benchmark base plus tracked addenda
 source-data addenda on the current revision.
 
 This repository contains the lightweight reproducibility package for **RC-SBDD:
@@ -22,7 +22,7 @@ stock files are not tracked.
 - `scripts`: experiment, analysis, benchmark-building, and smoke-test scripts.
 - `paper_source_data`: small CSV snapshots used to reproduce the paper's main
   reported tables and diagnostic summaries.
-- `benchmarks/RC-SBDD-Bench-v1`: benchmark card, metric definitions,
+- `benchmarks/RC-SBDD-Bench`: benchmark card, metric definitions,
   lightweight leaderboard script, checksum, and full-asset download pointer.
 - `docs`: reproducibility guide, dataset card, failure taxonomy, and oracle
   reliability notes.
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 python scripts/run_snapshot_smoke.py
 python scripts/verify_source_data_manifest.py
-python benchmarks/RC-SBDD-Bench-v1/evaluation/score_submission.py \
+python benchmarks/RC-SBDD-Bench/evaluation/score_submission.py \
   --labels paper_source_data/trans_journal_master_evidence.csv \
   --submission examples/toy/toy_submission.csv \
   --out logs/toy_leaderboard.json
@@ -48,7 +48,7 @@ values used in the manuscript, including the official 100-target dock-fast
 gain (`0.169`), PocketFlow direct-output gain (`0.1125`), MolCRAFT P0
 direct-output risk-tail removal (`0.020 -> 0.000`), MolPilot-framefix
 failure-boundary dock-fast values (`0.015 -> 0.035`), Prospective20
-AiZynthFinder solved-rate gain (`0.050 -> 0.350`), BindingMOAD v100 gain
+AiZynthFinder solved-rate gain (`0.050 -> 0.350`), BindingMOAD gain
 (`0.0975`), SYNC-Guide direct-output gain (`0.030`), and DiffSBDD
 target-heldout CRC violation rate (`0.0`). It also checks the later
 learning-to-rank audit, BindingMOAD-MolPilot failure-boundary audit, and
@@ -66,8 +66,8 @@ the upstream datasets and external tools listed in `docs/REPRODUCIBILITY.md`.
 2. Run or collect generator outputs for DiffSBDD, Pocket2Mol, PocketFlow,
    MolCRAFT, SYNC, MolPilot, and SGEDiff using the documented scripts.
 3. Compute oracle labels with PoseBusters, GNINA/Vina, RDKit, and AiZynthFinder.
-4. Build RC-SBDD-Bench-v1 manifests with
-   `scripts/build_rcsbdd_bench_v1_release.py`.
+4. Build RC-SBDD-Bench manifests with
+   `scripts/build_rcsbdd_bench_release.py`.
 5. Integrate the SYNC-Guide direct-output snapshot with
    `scripts/add_syncguide_positive_sota.py` when the full `results/` files are
    available.
@@ -90,9 +90,9 @@ downloading large molecular files.
 
 ## Fixed Benchmark Base And Source-Data Addenda
 
-The fixed `RC-SBDD-Bench-v1` base asset is available from release `v1.1.0`:
+The fixed `RC-SBDD-Bench` base asset is available from the benchmark release:
 
-`https://github.com/wushen1103-collab/RC-SBDD/releases/download/v1.1.0/RC-SBDD-Bench-v1-full-20260525.tar.gz`
+`https://github.com/wushen1103-collab/RC-SBDD/releases/latest/download/RC-SBDD-Bench-full.tar.gz`
 
 SHA256:
 
@@ -106,7 +106,7 @@ Prospective20 route-planning, generator-shift calibration, joint-shift,
 aggregate contact-counterfactual, and expanded kinase-selectivity audits are
 tracked in `paper_source_data` and verified by
 `scripts/verify_source_data_manifest.py` and `scripts/run_snapshot_smoke.py`.
-They are reported as versioned addenda rather than as members of the frozen v1 base.
+They are reported as versioned addenda rather than as members of the frozen benchmark base.
 
 ## Artifact Review Notes
 

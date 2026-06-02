@@ -1,4 +1,4 @@
-# RC-SBDD-Bench-v1 Metrics
+# RC-SBDD-Bench Metrics
 
 Submissions are ranked primarily by target-level downstream success and
 calibrated reliability:

@@ -98,7 +98,7 @@ def cliffs_delta(a, b):
     return float((gt - lt) / len(a))
 
 
-def paired_bootstrap_ci(diff, n_boot=2000, seed=20260526):
+def paired_bootstrap_ci(diff, n_boot=2000, seed=43):
     diff = np.asarray(diff, dtype=float)
     diff = diff[np.isfinite(diff)]
     if len(diff) == 0:

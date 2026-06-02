@@ -1585,11 +1585,11 @@ def bindingmoad_pocketflow_table():
     return pd.DataFrame(rows)
 
 
-def rcsbdd_bench_v1_table():
-    path = Path("benchmarks/RC-SBDD-Bench-v1/manifest.csv")
-    gen_path = Path("benchmarks/RC-SBDD-Bench-v1/generator_manifest.csv")
+def rcsbdd_bench_table():
+    path = Path("benchmarks/RC-SBDD-Bench/manifest.csv")
+    gen_path = Path("benchmarks/RC-SBDD-Bench/generator_manifest.csv")
     if not path.exists() or not gen_path.exists():
-        return optional_missing_table("RC-SBDD-Bench v1")
+        return optional_missing_table("RC-SBDD-Bench")
     manifest = pd.read_csv(path).iloc[0]
     gen = pd.read_csv(gen_path)
     rows = [
@@ -1684,7 +1684,7 @@ def main():
         ("Table 56. GNINA Local Redocking T25", gnina_redock_t25_table()),
         ("Table 57. Calibration Stress Tests", calibration_stress_table()),
         ("Table 58. BindingMOAD PocketFlow De Novo", bindingmoad_pocketflow_table()),
-        ("Table 59. RC-SBDD-Bench v1 Release", rcsbdd_bench_v1_table()),
+        ("Table 59. RC-SBDD-Bench Release", rcsbdd_bench_table()),
     ]
     lines = [
         "# Paper Tables Only",

@@ -112,9 +112,9 @@ def read_pocket(path, lig_coords_nm, cutoff_angstrom):
 
 
 def angle_value(a, b, c):
-    v1 = a - b
-    v2 = c - b
-    cosang = np.dot(v1, v2) / max(np.linalg.norm(v1) * np.linalg.norm(v2), 1e-8)
+    vec_ab = a - b
+    vec_cb = c - b
+    cosang = np.dot(vec_ab, vec_cb) / max(np.linalg.norm(vec_ab) * np.linalg.norm(vec_cb), 1e-8)
     return float(np.arccos(np.clip(cosang, -1.0, 1.0)))
 
 

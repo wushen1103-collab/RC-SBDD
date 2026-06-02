@@ -4,7 +4,7 @@ PocketFlow CrossDock direct SOTA output,100 targets / 400 selected rows,PB-RC vs
 SYNC-Guide CrossDock direct SOTA output,50 targets / 193 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 93.3% -> 96.4% (3.1%); risk>0.5 14.5% -> 4.1%,additional positive recent SOTA-output comparator
 SGEDiff T50 generator-shift stress,41 targets / 91 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 0.0% -> 0.0% (0.0%); risk>0.5=100.0%,shift/failure stress case
 MolPilot CrossDock T50 direct output,50 targets / 200 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 2.5% -> 2.5% (0.0%); risk>0.5=100.0%,shift/failure stress case
-BindingMOAD PocketFlow v100 de novo holdout,100 targets / 400 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 26.2% -> 36.0% (9.7%); risk>0.5=90.8%,positive selection gain
+BindingMOAD PocketFlow de novo holdout,100 targets / 400 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 26.2% -> 36.0% (9.7%); risk>0.5=90.8%,positive selection gain
 BindingMOAD strict Task1 supplement,33 targets / 132 selected rows,PB-RC vs PB-QED post-generation selection,dock_fast 22.7% -> 27.3% (4.5%); risk>0.5=94.7%,positive selection gain
 Prospective20 GNINA redocking/local optimization,80 top-4 poses / 20 targets,After-redock reliability gain remains under GNINA optimization,dock_fast 70.0% -> 95.0%; CNNscore=0.7082; CNNaffinity=4.3437,prospective computational case study
 DiffSBDD target-heldout selective guarantee,5 target-level splits,selective risk guarantee under target-exchangeable split,"feasible=100.0%, heldout violation=0.0%, dock_fast=92.2%",formal calibration/theory-matched evidence

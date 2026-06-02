@@ -1,8 +1,8 @@
-# RC-SBDD-Bench-v1 Dataset Card
+# RC-SBDD-Bench Dataset Card
 
 ## Purpose
 
-RC-SBDD-Bench-v1 evaluates post-generation selection reliability for
+RC-SBDD-Bench evaluates post-generation selection reliability for
 structure-based molecular generation. It fixes candidate pools, target metadata,
 oracle labels, official splits, and scoring scripts so that generator quality and
 selector reliability can be studied separately.

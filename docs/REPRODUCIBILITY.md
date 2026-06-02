@@ -28,7 +28,7 @@ The smoke test asserts the headline values used in the manuscript: official
 100-target dock-fast gain of `0.169`, PocketFlow direct-output dock-fast gain
 of `0.1125`, MolCRAFT high-risk fraction change from `0.020` to `0.000`,
 MolPilot-framefix dock-fast values from `0.015` to `0.035`, Prospective20
-AiZynthFinder solved-rate gain from `0.050` to `0.350`, BindingMOAD v100
+AiZynthFinder solved-rate gain from `0.050` to `0.350`, BindingMOAD
 dock-fast gain of `0.0975`, SYNC-Guide direct-output dock-fast gain of
 `0.030`, and DiffSBDD target-heldout CRC violation rate of `0.0`. The manifest
 verifier checks the byte count and SHA256 hash of each lightweight CSV snapshot
@@ -61,7 +61,7 @@ redistributed here.
 4. **Run oracle evaluation.** Use the PoseBusters, GNINA/Vina, and AiZynthFinder
    scripts in `scripts/`.
 5. **Build benchmark release files.** Use
-   `scripts/build_rcsbdd_bench_v1_release.py`.
+   `scripts/build_rcsbdd_bench_release.py`.
 6. **Integrate direct SOTA snapshots.** When the SYNC-Guide selection, Vina,
    and GNINA CSVs are available under `results/`, use
    `scripts/add_syncguide_positive_sota.py` to rebuild its target-level rows and

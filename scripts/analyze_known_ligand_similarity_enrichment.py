@@ -13,8 +13,8 @@ RDLogger.DisableLog("rdApp.*")
 POOLS = [
     ("DiffSBDD_official", "results/multiobjective_selection.csv", None),
     ("PocketFlow_CrossDock", "results/pocketflow_crossdock_n16_dockfast_selection.csv", None),
-    ("BindingMOAD_PocketFlow_v100", "results/bindingmoad_pocketflow_n16_v100_dockfast_selection.csv", "data/processed/bindingmoad_pocketflow_v100/manifest.csv"),
-    ("BindingMOAD_MolPilot_v50", "results/bindingmoad_molpilot_v50_dockfast_selection.csv", "data/processed/bindingmoad_pocketflow_v100/manifest.csv"),
+    ("BindingMOAD_PocketFlow", "results/bindingmoad_pocketflow_n16_dockfast_selection.csv", "data/processed/bindingmoad_pocketflow/manifest.csv"),
+    ("BindingMOAD_MolPilot", "results/bindingmoad_molpilot_dockfast_selection.csv", "data/processed/bindingmoad_pocketflow/manifest.csv"),
 ]
 
 POLICIES = ["qed", "pb_qed", "pb_rc_select", "rc_select", "qed_minus_risk", "pb_qed_minus_risk"]

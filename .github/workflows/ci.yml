@@ -30,7 +30,7 @@ jobs:
 
       - name: Check leaderboard submission interface
         run: |
-          python benchmarks/RC-SBDD-Bench-v1/evaluation/score_submission.py \
+          python benchmarks/RC-SBDD-Bench/evaluation/score_submission.py \
             --labels paper_source_data/trans_journal_master_evidence.csv \
             --submission examples/toy/toy_submission.csv \
             --out logs/toy_leaderboard.json

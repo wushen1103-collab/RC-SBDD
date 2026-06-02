@@ -8,14 +8,14 @@ from scipy.stats import wilcoxon
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RNG = np.random.default_rng(20260525)
+RNG = np.random.default_rng(42)
 
 BLOCK = "syncguide_t1000_n16"
 ROLE = "positive recent SOTA-output comparator"
 BASELINE = "pb_qed"
 METHOD = "pb_rc_select"
 SELECTION_CSV = ROOT / "results/syncguide_t1000_n16_dockfast_selection.csv"
-FINAL_STATS_CSV = ROOT / "results/final_sota_target_level_statistics.csv"
+FINAL_STATS_CSV = ROOT / "results/sota_target_level_statistics.csv"
 MASTER_CSV = ROOT / "results/trans_journal_master_evidence.csv"
 AUDIT_CSV = ROOT / "results/public_sota_output_audit.csv"
 

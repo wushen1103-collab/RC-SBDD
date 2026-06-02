@@ -4,7 +4,7 @@
   "remote_root": "/home/test/wsk/19RC-SBDD",
   "files": {
     "master": "results/trans_journal_master_evidence.csv",
-    "sota": "results/final_sota_target_level_statistics.csv",
+    "sota": "results/sota_target_level_statistics.csv",
     "target_stats": "results/target_level_statistical_tests.csv",
     "fusion": "results/fusion_strong_baselines_metrics_agg.csv",
     "calibration": "results/risk_to_dockfast_calibration_summary.csv",
@@ -48,19 +48,19 @@
       "bytes": 691,
       "sha256": "01dde9e5bc269285181d9ae70cc1e6ab02b190602aa13b5c0c73d34a2af03bf2"
     },
-    "bindingmoad_molpilot_v50_dockfast_selection_summary.csv": {
+    "bindingmoad_molpilot_dockfast_selection_summary.csv": {
       "bytes": 605,
       "sha256": "51162f7c6690d8c3c12a6c33cb4f6229d0e22383f16e79c1ff3b568d657acf3c"
     },
-    "bindingmoad_molpilot_v50_molfast.csv": {
+    "bindingmoad_molpilot_molfast.csv": {
       "bytes": 79158,
       "sha256": "0f466997763339b9afc95ca7f36dcf3f0f4446d83d24f8a563057553d0072dda"
     },
-    "bindingmoad_molpilot_v50_risk_scores.csv": {
+    "bindingmoad_molpilot_risk_scores.csv": {
       "bytes": 209714,
       "sha256": "19423d58281d1a63165887ce7927ff572fbe7f47c5caea33534db38216e6bd09"
     },
-    "bindingmoad_molpilot_v50_run_summary.csv": {
+    "bindingmoad_molpilot_run_summary.csv": {
       "bytes": 12901,
       "sha256": "4d39b598f3c2d82eff86d53adf54c8ab0ea8f1c7540f880fe371f67664fec202"
     },
@@ -84,7 +84,7 @@
       "bytes": 367,
       "sha256": "15f0884547bf5a87d9041e2fd657fd69d3f22f09e6b20148ad7bc8114f85a994"
     },
-    "final_sota_target_level_statistics.csv": {
+    "sota_target_level_statistics.csv": {
       "bytes": 7417,
       "sha256": "d80f4fa903871981ebf5811ba9b7978a15afa99d2c8537c45a53ff76c2b51f4a"
     },
@@ -108,11 +108,11 @@
       "bytes": 41984,
       "sha256": "81cea121039fe9e97e3f1b6fb896d1f6e3733162359592049b41fed54978ad28"
     },
-    "gnina_redock_bindingmoad_v100_top1_pose_quality_summary.csv": {
+    "gnina_redock_bindingmoad_top1_pose_quality_summary.csv": {
       "bytes": 422,
       "sha256": "1894327cb45ab285af73ec7f3b7f7f560cd5ae1dcade2d65fc0a3bfea5f53527"
     },
-    "gnina_redock_bindingmoad_v100_top4_pose_quality_summary.csv": {
+    "gnina_redock_bindingmoad_top4_pose_quality_summary.csv": {
       "bytes": 430,
       "sha256": "b21fe975843b98dc16fcdf5665cd374f16c5ab2924933c83a81551369ed38c28"
     },
@@ -220,7 +220,7 @@
       "bytes": 4432,
       "sha256": "21dc07fdc0eb18f755f142fe4318bd08ade4872feb6877099c2ebee4137beb14"
     },
-    "p0_new_cohort_target_level_statistics.csv": {
+    "cohort_target_level_statistics.csv": {
       "bytes": 3409,
       "sha256": "0b739e4fd01425f4d4e1529caa2ac1942e890dd17dbdd9437a40cbf2bf6f8183"
     },

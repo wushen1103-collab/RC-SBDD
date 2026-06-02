@@ -1,6 +1,6 @@
-# RC-SBDD-Bench-v1
+# RC-SBDD-Bench
 
-RC-SBDD-Bench-v1 is a benchmark protocol for post-generation molecular
+RC-SBDD-Bench is a benchmark protocol for post-generation molecular
 selection reliability. The GitHub repository stores metadata, documentation,
 leaderboard utilities, and lightweight paper source-data snapshots. Large
 candidate SDF files and upstream structures are regenerated or archived
