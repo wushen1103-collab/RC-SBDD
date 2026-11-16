@@ -1,0 +1,8 @@
+{
+  "sampled_training_n": 8192,
+  "protein_tags": 896,
+  "resolved_uniprot_tags": 864,
+  "fully_resolved_cluster_tags": 715,
+  "resolved_fitted_clusters": 697,
+  "full_training_resolved_clusters": 1656
+}

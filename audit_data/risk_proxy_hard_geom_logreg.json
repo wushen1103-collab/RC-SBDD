@@ -1,0 +1,117 @@
+{
+  "seed": 2026,
+  "modes": [
+    "mild_translate",
+    "mild_gaussian",
+    "rotate_pose",
+    "pocket_mismatch_aligned"
+  ],
+  "train_native": 8192,
+  "val_native": 2048,
+  "train_examples": 40960,
+  "val_examples": 10240,
+  "feature_dim": 42,
+  "classifier": "logreg",
+  "geometry_only": true,
+  "model": {
+    "train": {
+      "overall": {
+        "failure_auroc": 0.9892722740769386,
+        "brier": 0.03923711534607873,
+        "ece": 0.04115664852117347,
+        "risk_coverage_auc_failure_rate": 0.48956454843076985
+      },
+      "mild_gaussian": {
+        "failure_auroc": 0.9642816483974457,
+        "brier": 0.08549823302143185,
+        "ece": 0.07894669503288165,
+        "risk_coverage_auc_failure_rate": 0.17678200926278728
+      },
+      "mild_translate": {
+        "failure_auroc": 0.9959780275821686,
+        "brier": 0.01931057907831853,
+        "ece": 0.019080042516234085,
+        "risk_coverage_auc_failure_rate": 0.15657907361703435
+      },
+      "pocket_mismatch_aligned": {
+        "failure_auroc": 0.9991121888160706,
+        "brier": 0.013012552067042106,
+        "ece": 0.03172745921490812,
+        "risk_coverage_auc_failure_rate": 0.1540266958602073
+      },
+      "rotate_pose": {
+        "failure_auroc": 0.9977172315120697,
+        "brier": 0.014722634147226518,
+        "ece": 0.028417725996796633,
+        "risk_coverage_auc_failure_rate": 0.1556227688552955
+      }
+    },
+    "val": {
+      "overall": {
+        "failure_auroc": 0.9896434545516968,
+        "brier": 0.03707370712072049,
+        "ece": 0.037252621744788425,
+        "risk_coverage_auc_failure_rate": 0.4875622988852838
+      },
+      "mild_gaussian": {
+        "failure_auroc": 0.9649624824523926,
+        "brier": 0.0833596966368078,
+        "ece": 0.07381705942165694,
+        "risk_coverage_auc_failure_rate": 0.1741260547688951
+      },
+      "mild_translate": {
+        "failure_auroc": 0.9971330165863037,
+        "brier": 0.018042935104450118,
+        "ece": 0.023841421587604692,
+        "risk_coverage_auc_failure_rate": 0.15490161437820435
+      },
+      "pocket_mismatch_aligned": {
+        "failure_auroc": 0.9992296695709229,
+        "brier": 0.013606250342052303,
+        "ece": 0.03475427186034082,
+        "risk_coverage_auc_failure_rate": 0.15376094184954792
+      },
+      "rotate_pose": {
+        "failure_auroc": 0.997248649597168,
+        "brier": 0.016381772298359687,
+        "ece": 0.03092289447236275,
+        "risk_coverage_auc_failure_rate": 0.1552547874894432
+      }
+    }
+  },
+  "heuristic": {
+    "train_overall_auroc": 0.7856451850384474,
+    "val": {
+      "overall": {
+        "failure_auroc": 0.7894701063632965,
+        "brier": 0.13651012214449604,
+        "ece": 0.05829152544029055,
+        "risk_coverage_auc_failure_rate": 0.6707873942485818
+      },
+      "mild_gaussian": {
+        "failure_auroc": 0.532806396484375,
+        "brier": 0.2840136638260466,
+        "ece": 0.1485995338880457,
+        "risk_coverage_auc_failure_rate": 0.4827713359035601
+      },
+      "mild_translate": {
+        "failure_auroc": 0.7845150232315063,
+        "brier": 0.2453399434557636,
+        "ece": 0.22920139558846134,
+        "risk_coverage_auc_failure_rate": 0.30180876948607044
+      },
+      "pocket_mismatch_aligned": {
+        "failure_auroc": 0.943384051322937,
+        "brier": 0.22094198621835653,
+        "ece": 0.29894714534748346,
+        "risk_coverage_auc_failure_rate": 0.21120811774952467
+      },
+      "rotate_pose": {
+        "failure_auroc": 0.8971749544143677,
+        "brier": 0.22812371248519148,
+        "ece": 0.2817355251609115,
+        "risk_coverage_auc_failure_rate": 0.2472086550307781
+      }
+    }
+  }
+}

@@ -1,0 +1,5245 @@
+{
+  "1433B_HUMAN": [
+    "P31946"
+  ],
+  "1433C_TOBAC": [
+    "P93343"
+  ],
+  "1433S_HUMAN": [
+    "P31947"
+  ],
+  "1433Z_HUMAN": [
+    "P63104"
+  ],
+  "1A1C_MALDO": [
+    "P37821"
+  ],
+  "1A1D_CYBSA": [
+    "Q7M523"
+  ],
+  "1B57_HUMAN": [],
+  "3HAO_CUPMC": [
+    "Q1LCS4"
+  ],
+  "3MG2_ECOLI": [
+    "P04395"
+  ],
+  "4CL2_TOBAC": [
+    "O24146"
+  ],
+  "4OT_BACSU": [
+    "P70994"
+  ],
+  "5NTD_HUMAN": [
+    "P21589"
+  ],
+  "6PGD_LACLM": [
+    "P96789"
+  ],
+  "7OMT8_MEDSA": [
+    "O24529"
+  ],
+  "8ODP_HUMAN": [
+    "P36639"
+  ],
+  "A1AG2_HUMAN": [
+    "P19652"
+  ],
+  "AA1R_HUMAN": [
+    "P30542"
+  ],
+  "AA2AR_HUMAN": [
+    "P29274"
+  ],
+  "AACL1_BRADU": [
+    "Q89VT8"
+  ],
+  "AADAT_HUMAN": [
+    "Q8N5Z0"
+  ],
+  "AAK1_HUMAN": [
+    "Q2M2I8"
+  ],
+  "AAKB1_HUMAN": [
+    "Q9Y478"
+  ],
+  "AAKG1_HUMAN": [
+    "P54619"
+  ],
+  "AATC_HUMAN": [
+    "P17174"
+  ],
+  "AATM_CHICK": [
+    "P00508"
+  ],
+  "AAT_ECOLI": [
+    "P00509"
+  ],
+  "AAUA_ALCFA": [
+    "P84887"
+  ],
+  "AAUB_ALCFA": [
+    "P84888"
+  ],
+  "ABP1_MAIZE": [
+    "P13689"
+  ],
+  "ACACB_HUMAN": [
+    "O00763"
+  ],
+  "ACAC_YEAST": [
+    "Q00955"
+  ],
+  "ACCC_ECOLI": [
+    "P24182"
+  ],
+  "ACCC_HAEIN": [
+    "P43873"
+  ],
+  "ACHP_LYMST": [
+    "P58154"
+  ],
+  "ACK1_HUMAN": [
+    "Q07912"
+  ],
+  "ACM2_HUMAN": [
+    "P08172"
+  ],
+  "ACMSD_HUMAN": [
+    "Q8TDX5"
+  ],
+  "ACON_BOVIN": [
+    "P20004"
+  ],
+  "ACRB_ECOLI": [
+    "P31224"
+  ],
+  "ACS2A_HUMAN": [
+    "Q08AH3"
+  ],
+  "ACTB_HUMAN": [
+    "P60709"
+  ],
+  "ACVR1_HUMAN": [
+    "Q04771"
+  ],
+  "ADA17_HUMAN": [
+    "P78536"
+  ],
+  "ADA2_HUMAN": [
+    "Q9NZK5"
+  ],
+  "ADA33_HUMAN": [
+    "Q9BZ11"
+  ],
+  "ADAS_CAVPO": [
+    "P97275"
+  ],
+  "ADA_HUMAN": [
+    "P00813"
+  ],
+  "ADA_MOUSE": [
+    "P03958"
+  ],
+  "ADCY2_RAT": [
+    "P26769"
+  ],
+  "ADCYA_HUMAN": [
+    "Q96PN6"
+  ],
+  "ADE_PSEAE": [
+    "Q9I6Y4"
+  ],
+  "ADK_HUMAN": [
+    "P55263"
+  ],
+  "ADRB1_MELGA": [
+    "P07700"
+  ],
+  "ADRB2_HUMAN": [
+    "P07550"
+  ],
+  "ADT1_BOVIN": [
+    "P02722"
+  ],
+  "AEQ2_AEQVI": [
+    "P02592"
+  ],
+  "AER_ARATH": [
+    "Q39172"
+  ],
+  "AFLC_ASPPU": [
+    "Q12053"
+  ],
+  "AGAA_GEOSE": [
+    "Q9ALJ4"
+  ],
+  "AGAL_HUMAN": [
+    "P06280"
+  ],
+  "AGAL_THEMA": [
+    "G4FEF4"
+  ],
+  "AGI1_WHEAT": [
+    "P10968"
+  ],
+  "AGM1_CANAX": [
+    "Q9P4V2"
+  ],
+  "AGO2_HUMAN": [
+    "Q9UKV8"
+  ],
+  "AGOG_PYRAE": [
+    "Q8ZVK6"
+  ],
+  "AGTR1_HUMAN": [
+    "P30556"
+  ],
+  "AGTR2_HUMAN": [
+    "P50052"
+  ],
+  "AHK4_ARATH": [
+    "Q9C5U0"
+  ],
+  "AHLLA_BACTK": [
+    "P0CJ63"
+  ],
+  "AL1L1_HUMAN": [
+    "O75891"
+  ],
+  "AL3A1_HUMAN": [
+    "P30838"
+  ],
+  "AL7A1_HUMAN": [
+    "P49419"
+  ],
+  "ALBU_HORSE": [
+    "P35747"
+  ],
+  "ALBU_HUMAN": [
+    "P02768"
+  ],
+  "ALDEC_SYNE7": [
+    "Q54764"
+  ],
+  "ALDH2_HUMAN": [
+    "P05091"
+  ],
+  "ALDOA_HUMAN": [
+    "P04075"
+  ],
+  "ALF_ECOLI": [
+    "P0AB71"
+  ],
+  "ALF_HELPY": [
+    "P56109"
+  ],
+  "ALF_MYCTU": [
+    "P9WQA3"
+  ],
+  "ALKB_ECOLI": [
+    "P05050"
+  ],
+  "ALL2_AEDAE": [],
+  "ALLN1_ALLSA": [
+    "Q01594"
+  ],
+  "ALR1_ECOLI": [
+    "P0A6B4"
+  ],
+  "ALR_GEOSE": [
+    "P10724"
+  ],
+  "ALR_STRCO": [
+    "O86786"
+  ],
+  "ALSE_ECOLI": [
+    "P32719"
+  ],
+  "AMDA_BORBO": [
+    "Q05115"
+  ],
+  "AMD_RAT": [
+    "P14925"
+  ],
+  "AMNB_COMTE": [
+    "Q6J1Z6"
+  ],
+  "AMN_ECOLI": [
+    "P0AE12"
+  ],
+  "AMP1_PLAFQ": [],
+  "AMPA_HELPY": [
+    "O25294"
+  ],
+  "AMPA_PSEPU": [
+    "O86436"
+  ],
+  "AMPC_ECOLI": [
+    "P00811"
+  ],
+  "AMPE_HUMAN": [
+    "Q07075"
+  ],
+  "AMPL_BOVIN": [
+    "P00727"
+  ],
+  "AMPN_ECOLI": [
+    "P04825"
+  ],
+  "AMPN_PIG": [
+    "P15145"
+  ],
+  "AMPP_ECOLI": [
+    "P15034"
+  ],
+  "AMPX_VIBPR": [
+    "Q01693"
+  ],
+  "AMY2_HORVU": [
+    "P04063"
+  ],
+  "AMYG_ASPNG": [
+    "P69328"
+  ],
+  "AMYP_HUMAN": [
+    "P04746"
+  ],
+  "AMYP_PIG": [
+    "P00690"
+  ],
+  "AMYS_NEIPO": [
+    "Q9ZEU2"
+  ],
+  "AMY_PSEHA": [
+    "P29957"
+  ],
+  "ANDR_HUMAN": [
+    "P10275"
+  ],
+  "ANKX_LEGPH": [
+    "Q5ZXN6"
+  ],
+  "ANM3_HUMAN": [
+    "O60678"
+  ],
+  "ANM5_HUMAN": [
+    "O14744"
+  ],
+  "AOC1_HUMAN": [
+    "P19801"
+  ],
+  "AOC2_ARATH": [
+    "Q9LS02"
+  ],
+  "AOC3_HUMAN": [
+    "Q16853"
+  ],
+  "AOFB_HUMAN": [
+    "P27338"
+  ],
+  "AOTC_BACTN": [],
+  "AOTC_XANCP": [
+    "Q8P8J2"
+  ],
+  "AOX_TRYBB": [
+    "Q26710"
+  ],
+  "APAH_MYCRA": [
+    "Q48935"
+  ],
+  "APEH_AERPE": [
+    "Q9YBQ2"
+  ],
+  "APHA_ECOLI": [
+    "P0AE22"
+  ],
+  "APOA_HUMAN": [
+    "P08519"
+  ],
+  "APOD_HUMAN": [
+    "P05090"
+  ],
+  "APT_HUMAN": [
+    "P07741"
+  ],
+  "ARC3_CBDP": [
+    "P15879"
+  ],
+  "ARD1_YEAST": [
+    "P07347"
+  ],
+  "ARF6_HUMAN": [
+    "P62330"
+  ],
+  "ARGB_ECOLI": [
+    "P0A6C8"
+  ],
+  "ARGD_SALTY": [
+    "P40732"
+  ],
+  "ARGI1_HUMAN": [
+    "P05089"
+  ],
+  "ARGI1_RAT": [
+    "P07824"
+  ],
+  "ARGR_MYCTU": [
+    "P9WPY9"
+  ],
+  "ARIS_ASPTE": [
+    "Q9UR08"
+  ],
+  "ARLY2_ANAPL": [
+    "P24058"
+  ],
+  "ARNB_SALTY": [
+    "Q8ZNF3"
+  ],
+  "ARO1_EMENI": [
+    "P07547"
+  ],
+  "AROA_AGRSC": [
+    "Q9R4E4"
+  ],
+  "AROA_COXBU": [
+    "Q83E11"
+  ],
+  "AROA_ECOLI": [
+    "P0A6D3"
+  ],
+  "AROA_MYCTU": [
+    "P9WPY5"
+  ],
+  "AROA_STRPN": [
+    "Q9S400"
+  ],
+  "AROA_VIBCH": [
+    "Q9KRB0"
+  ],
+  "AROB_STAAR": [
+    "Q6GGU4"
+  ],
+  "AROD_SALTI": [
+    "P24670"
+  ],
+  "AROD_SALTY": [
+    "P58687"
+  ],
+  "AROE_HELPY": [
+    "P56119"
+  ],
+  "AROE_STAEQ": [
+    "Q5HNV1"
+  ],
+  "AROE_VIBCH": [
+    "Q9KVT3"
+  ],
+  "AROF_THEMA": [
+    "Q9WYH8"
+  ],
+  "AROG_BACSU": [
+    "P39912"
+  ],
+  "AROG_ECOLI": [
+    "P0AB91"
+  ],
+  "AROG_MYCTU": [
+    "O53512"
+  ],
+  "AROG_YEAST": [
+    "P32449"
+  ],
+  "AROH_BACSU": [
+    "P19080"
+  ],
+  "AROK_HELPY": [
+    "P56073"
+  ],
+  "AROK_MYCTU": [
+    "P9WPY3"
+  ],
+  "AROQ_ACIBT": [
+    "A3M692"
+  ],
+  "AROQ_HELPY": [
+    "Q48255"
+  ],
+  "AROQ_MYCTU": [
+    "P9WPX7"
+  ],
+  "AROQ_STRCO": [
+    "P15474"
+  ],
+  "ARS_PSEAE": [
+    "P51691"
+  ],
+  "ASMT_HUMAN": [
+    "P46597"
+  ],
+  "ASM_MOUSE": [
+    "Q04519"
+  ],
+  "ASPH_HUMAN": [
+    "Q12797"
+  ],
+  "ASQJ_EMENI": [
+    "Q5AR53"
+  ],
+  "ASST_ECOL6": [
+    "Q8FDI4"
+  ],
+  "ASSY_THET8": [
+    "P59846"
+  ],
+  "ASTB_ECOLI": [
+    "P76216"
+  ],
+  "ASTD_MARHV": [],
+  "AT1A1_RAT": [
+    "P06685"
+  ],
+  "AT2A1_BOVIN": [
+    "Q0VCY0"
+  ],
+  "ATAD2_HUMAN": [
+    "Q6PL18"
+  ],
+  "ATDA_VIBCH": [
+    "Q9KL03"
+  ],
+  "ATGT_PYRHO": [
+    "O58843"
+  ],
+  "ATOB_ECOLI": [
+    "P76461"
+  ],
+  "AUD_PHACH": [
+    "P84193"
+  ],
+  "AUKBA_XENLA": [
+    "Q6DE08"
+  ],
+  "AURKA_HUMAN": [
+    "O14965"
+  ],
+  "AVID_CHICK": [
+    "P02701"
+  ],
+  "AVR2A_HUMAN": [
+    "P27037"
+  ],
+  "AVR2B_HUMAN": [
+    "Q13705"
+  ],
+  "AZUR_PSEAE": [
+    "P00282"
+  ],
+  "B2CL1_HUMAN": [
+    "Q07817"
+  ],
+  "B4GT1_HUMAN": [
+    "P15291"
+  ],
+  "BACB_BACSU": [
+    "P39639"
+  ],
+  "BACD_BACSU": [
+    "P39641"
+  ],
+  "BAH_RHOER": [
+    "Q8RSQ2"
+  ],
+  "BAUA_PSEAE": [
+    "Q9I700"
+  ],
+  "BCAT1_HUMAN": [
+    "P54687"
+  ],
+  "BCAT2_HUMAN": [
+    "O15382"
+  ],
+  "BCKD_RAT": [
+    "Q00972"
+  ],
+  "BCL2_HUMAN": [
+    "P10415"
+  ],
+  "BCL6_HUMAN": [
+    "P41182"
+  ],
+  "BEV1A_BETPN": [
+    "P15494"
+  ],
+  "BEV1J_BETPN": [
+    "P43183"
+  ],
+  "BFAT_VARPD": [
+    "H8WR05"
+  ],
+  "BGAL_HUMAN": [
+    "P16278"
+  ],
+  "BGAL_SULSO": [],
+  "BGL1_ASPAC": [
+    "P48825"
+  ],
+  "BGLR_ECOLI": [
+    "P05804"
+  ],
+  "BHMT1_HUMAN": [
+    "Q93088"
+  ],
+  "BIOA_ECOLI": [
+    "P12995"
+  ],
+  "BIOA_MYCTU": [
+    "P9WQ81"
+  ],
+  "BIOD1_ECOLI": [
+    "P13000"
+  ],
+  "BIOD_HELPY": [
+    "O24872"
+  ],
+  "BIOD_MYCTU": [
+    "P9WPQ5"
+  ],
+  "BIOK_BACSU": [
+    "P53555"
+  ],
+  "BIRC2_HUMAN": [
+    "Q13490"
+  ],
+  "BIRC7_HUMAN": [
+    "Q96CA5"
+  ],
+  "BLA1_KLEPN": [
+    "P0AD64"
+  ],
+  "BLA1_STEMA": [
+    "P52700"
+  ],
+  "BLA2_BACCE": [
+    "P04190"
+  ],
+  "BLAB_AERHY": [
+    "P26918"
+  ],
+  "BLAB_BACFG": [
+    "P25910"
+  ],
+  "BLAB_SERMA": [],
+  "BLAC_BACLI": [
+    "P00808"
+  ],
+  "BLAN1_KLEPN": [
+    "C7C422"
+  ],
+  "BLAT_ECOLX": [
+    "P62593"
+  ],
+  "BLKPC_KLEPN": [
+    "Q9F663"
+  ],
+  "BLS_STRCL": [
+    "P0DJQ7"
+  ],
+  "BMP2K_HUMAN": [
+    "Q9NSY1"
+  ],
+  "BMRR_BACSU": [
+    "P39075"
+  ],
+  "BMX_HUMAN": [
+    "P51813"
+  ],
+  "BODG_HUMAN": [
+    "O75936"
+  ],
+  "BPHA1_RHOJR": [
+    "Q53122"
+  ],
+  "BPHA_COMTE": [
+    "Q46372"
+  ],
+  "BPHA_PARXL": [
+    "P37333"
+  ],
+  "BPHB_COMTE": [
+    "Q46381"
+  ],
+  "BPHC_PARXL": [
+    "P47228"
+  ],
+  "BPHC_PSES1": [
+    "P17297"
+  ],
+  "BPHD_PARXL": [
+    "P47229"
+  ],
+  "BPHL_HUMAN": [
+    "Q86WA6"
+  ],
+  "BRAF_HUMAN": [
+    "P15056"
+  ],
+  "BRD1_HUMAN": [
+    "O95696"
+  ],
+  "BRD2_HUMAN": [
+    "P25440"
+  ],
+  "BRD3_HUMAN": [
+    "Q15059"
+  ],
+  "BRD4_HUMAN": [
+    "O60885"
+  ],
+  "BRD9_HUMAN": [
+    "Q9H8M2"
+  ],
+  "BRDT_HUMAN": [
+    "Q58F21"
+  ],
+  "BRI1_ARATH": [
+    "O22476"
+  ],
+  "BRPF1_HUMAN": [
+    "P55201"
+  ],
+  "BSUHB_ARCFU": [
+    "O30298"
+  ],
+  "BSUHB_METJA": [
+    "Q57573"
+  ],
+  "BT3A1_HUMAN": [
+    "O00481"
+  ],
+  "BTK_HUMAN": [
+    "Q06187"
+  ],
+  "BUB1_HUMAN": [
+    "O43683"
+  ],
+  "BXA1_CLOBO": [
+    "P0DPI0"
+  ],
+  "BXA2_CLOBO": [],
+  "BXB_CLOBO": [
+    "P10844"
+  ],
+  "BZNB_PSEFL": [
+    "P51853"
+  ],
+  "C167_SORCE": [
+    "Q9KIZ4"
+  ],
+  "C1S_HUMAN": [
+    "P09871"
+  ],
+  "C43BP_HUMAN": [],
+  "C562_ECOLX": [
+    "P0ABE7"
+  ],
+  "CAH12_HUMAN": [
+    "O43570"
+  ],
+  "CAH13_HUMAN": [
+    "Q8N1Q1"
+  ],
+  "CAH14_HUMAN": [
+    "Q9ULX7"
+  ],
+  "CAH14_MOUSE": [
+    "Q9WVT6"
+  ],
+  "CAH1_HUMAN": [
+    "P00915"
+  ],
+  "CAH2_HUMAN": [
+    "P00918"
+  ],
+  "CAH4_HUMAN": [
+    "P22748"
+  ],
+  "CAH5A_MOUSE": [
+    "P23589"
+  ],
+  "CAH7_HUMAN": [
+    "P43166"
+  ],
+  "CAH9_HUMAN": [
+    "Q16790"
+  ],
+  "CAH_THEMA": [
+    "Q9WXT2"
+  ],
+  "CALRL_HUMAN": [
+    "Q16602"
+  ],
+  "CAMK_RHOSO": [
+    "Q93TU6"
+  ],
+  "CAPSD_HBVD1": [
+    "P03147"
+  ],
+  "CARA_PECCC": [
+    "Q9XB61"
+  ],
+  "CARB_PECCC": [
+    "Q9XB60"
+  ],
+  "CARC_PECCC": [
+    "Q9XB59"
+  ],
+  "CARM1_HUMAN": [
+    "Q86X55"
+  ],
+  "CARP_CRYPA": [
+    "P11838"
+  ],
+  "CAS1_STRC2": [],
+  "CASP1_HUMAN": [
+    "P29466"
+  ],
+  "CASP3_HUMAN": [
+    "P42574"
+  ],
+  "CASR_HUMAN": [
+    "P41180"
+  ],
+  "CAT4_PSEAE": [
+    "P26841"
+  ],
+  "CATA_RHOOP": [
+    "P95607"
+  ],
+  "CATD_HUMAN": [
+    "P07339"
+  ],
+  "CATG_HUMAN": [
+    "P08311"
+  ],
+  "CATL1_HUMAN": [
+    "P07711"
+  ],
+  "CATS_HUMAN": [
+    "P25774"
+  ],
+  "CB22_PEA": [
+    "P07371"
+  ],
+  "CBG_HUMAN": [
+    "P08185"
+  ],
+  "CBH_CLOPE": [
+    "P54965"
+  ],
+  "CBP2_WHEAT": [
+    "P08819"
+  ],
+  "CBPA1_BOVIN": [
+    "P00730"
+  ],
+  "CBPA1_HUMAN": [
+    "P15085"
+  ],
+  "CBPB1_PIG": [
+    "P09955"
+  ],
+  "CBPB2_HUMAN": [
+    "Q96IY4"
+  ],
+  "CBPD_LOPSP": [
+    "P83852"
+  ],
+  "CBPT_THEVU": [
+    "P29068"
+  ],
+  "CBR1_HUMAN": [
+    "P16152"
+  ],
+  "CBX7_HUMAN": [
+    "O95931"
+  ],
+  "CCR2_HUMAN": [
+    "P41597"
+  ],
+  "CCR5_HUMAN": [
+    "P51681"
+  ],
+  "CD1B_HUMAN": [
+    "P29016"
+  ],
+  "CD1D_HUMAN": [
+    "P15813"
+  ],
+  "CD44_MOUSE": [
+    "P15379"
+  ],
+  "CDC20_HUMAN": [
+    "Q12834"
+  ],
+  "CDC42_HUMAN": [
+    "P60953"
+  ],
+  "CDC4_YEAST": [
+    "P07834"
+  ],
+  "CDC7_HUMAN": [
+    "O00311"
+  ],
+  "CDD_ECOLI": [
+    "P0ABF6"
+  ],
+  "CDD_MOUSE": [
+    "P56389"
+  ],
+  "CDGT2_BACCI": [],
+  "CDGT_BACS0": [
+    "P05618"
+  ],
+  "CDK12_HUMAN": [
+    "Q9NYV4"
+  ],
+  "CDK13_HUMAN": [
+    "Q14004"
+  ],
+  "CDK16_HUMAN": [
+    "Q00536"
+  ],
+  "CDK1_HUMAN": [
+    "P06493"
+  ],
+  "CDK2_HUMAN": [
+    "P24941"
+  ],
+  "CDK8_HUMAN": [
+    "P49336"
+  ],
+  "CDK9_HUMAN": [
+    "P50750"
+  ],
+  "CDKL1_HUMAN": [
+    "Q00532"
+  ],
+  "CDKL2_HUMAN": [
+    "Q92772"
+  ],
+  "CDLS_BACLD": [
+    "Q65EX3"
+  ],
+  "CEAS_STRCL": [
+    "Q9LCV9"
+  ],
+  "CEFE_STRC2": [],
+  "CELA1_PIG": [
+    "P00772"
+  ],
+  "CETP_HUMAN": [
+    "P11597"
+  ],
+  "CFAD_HUMAN": [
+    "P00746"
+  ],
+  "CFI1_MEDSA": [
+    "P28012"
+  ],
+  "CGAS_HUMAN": [
+    "Q8N884"
+  ],
+  "CGAS_MOUSE": [
+    "Q8C6L5"
+  ],
+  "CGGR_BACSU": [
+    "O32253"
+  ],
+  "CGL_HUMAN": [
+    "P32929"
+  ],
+  "CH3L1_BOVIN": [
+    "P30922"
+  ],
+  "CHIA1_ASPFM": [
+    "Q873Y0"
+  ],
+  "CHIA_HUMAN": [
+    "Q9BZP6"
+  ],
+  "CHIT1_HUMAN": [
+    "Q13231"
+  ],
+  "CHIT_YEAST": [
+    "P29029"
+  ],
+  "CHK1_HUMAN": [
+    "O14757"
+  ],
+  "CHK2_HUMAN": [
+    "O96017"
+  ],
+  "CHKA_HUMAN": [
+    "P35790"
+  ],
+  "CHMU_MYCTU": [
+    "P9WIC1"
+  ],
+  "CHMU_YEAST": [
+    "P32178"
+  ],
+  "CHOMT_MEDSA": [
+    "P93324"
+  ],
+  "CHS2_MEDSA": [
+    "P30074"
+  ],
+  "CHTB_VIBCH": [
+    "P01556"
+  ],
+  "CHXA_VIBCL": [
+    "Q5EK40"
+  ],
+  "CINA_CITBR": [
+    "Q8VQF6"
+  ],
+  "CKI1_SCHPO": [
+    "P40233"
+  ],
+  "CLC4K_HUMAN": [
+    "Q9UJ71"
+  ],
+  "CLCA_RHOOP": [
+    "O67987"
+  ],
+  "CLH1_HUMAN": [
+    "Q00610"
+  ],
+  "CLK1_HUMAN": [
+    "P49759"
+  ],
+  "CLPP_STAA8": [
+    "Q2G036"
+  ],
+  "CLPS2_AGRFC": [
+    "Q8UD95"
+  ],
+  "CMA1_HUMAN": [
+    "P23946"
+  ],
+  "CNDP2_MOUSE": [
+    "Q9D1A2"
+  ],
+  "CNL_CLINE": [
+    "B2ZRS9"
+  ],
+  "CNO6L_HUMAN": [
+    "Q96LI5"
+  ],
+  "CNR1_HUMAN": [
+    "P21554"
+  ],
+  "COAD_BURP1": [
+    "Q3JW91"
+  ],
+  "COAD_ECOLI": [
+    "P0A6I6"
+  ],
+  "COAD_MYCA9": [
+    "B1MDL6"
+  ],
+  "COAD_MYCTU": [
+    "P9WPA5"
+  ],
+  "COAD_STAAN": [
+    "P63819"
+  ],
+  "COAW_STAA8": [
+    "Q2FWC7"
+  ],
+  "COAX_THEMA": [
+    "Q9WZY5"
+  ],
+  "COBD_SALTY": [
+    "P97084"
+  ],
+  "COBT_SALTY": [
+    "Q05603"
+  ],
+  "COCE_RHOSM": [
+    "Q9L9D7"
+  ],
+  "COLD_ECOCB": [
+    "D3QY10"
+  ],
+  "COMT1_MEDSA": [
+    "P28002"
+  ],
+  "COMT_HUMAN": [
+    "P21964"
+  ],
+  "COMT_MOUSE": [
+    "O88587"
+  ],
+  "COX2_RHOSH": [],
+  "CP119_SULAC": [
+    "Q55080"
+  ],
+  "CP11A_BOVIN": [
+    "P00189"
+  ],
+  "CP11A_HUMAN": [
+    "P05108"
+  ],
+  "CP121_MYCTU": [
+    "P9WPP7"
+  ],
+  "CP125_MYCTU": [
+    "P9WPP1"
+  ],
+  "CP130_MYCTU": [
+    "P9WPN5"
+  ],
+  "CP142_MYCS2": [
+    "A0R4Q6"
+  ],
+  "CP19A_HUMAN": [
+    "P11511"
+  ],
+  "CP3A4_HUMAN": [
+    "P08684"
+  ],
+  "CP46A_HUMAN": [
+    "Q9Y6A2"
+  ],
+  "CP51_MYCTU": [
+    "P9WPP9"
+  ],
+  "CP51_TRYCC": [
+    "Q7Z1V1"
+  ],
+  "CP51_YEAST": [
+    "P10614"
+  ],
+  "CP74A_ARATH": [
+    "Q96242"
+  ],
+  "CPNS1_HUMAN": [
+    "P04632"
+  ],
+  "CPT2_RAT": [
+    "P18886"
+  ],
+  "CPT_STRVP": [
+    "Q56148"
+  ],
+  "CPXA_PSEPU": [
+    "P00183"
+  ],
+  "CPXJ_SACEN": [
+    "Q00441"
+  ],
+  "CPXM_BACME": [],
+  "CQSA_VIBCH": [
+    "Q9KM65"
+  ],
+  "CRAX_BACCE": [
+    "Q4MV79"
+  ],
+  "CRBN_CHICK": [
+    "P0CF65"
+  ],
+  "CRBN_HUMAN": [
+    "Q96SW2"
+  ],
+  "CRFR1_HUMAN": [],
+  "CRP_HUMAN": [
+    "P02741"
+  ],
+  "CRTM_STAAU": [
+    "A9JQL9"
+  ],
+  "CRY2_MOUSE": [
+    "Q9R194"
+  ],
+  "CSID_ECOLI": [],
+  "CSK21_HUMAN": [
+    "P68400"
+  ],
+  "CSK22_HUMAN": [
+    "P19784"
+  ],
+  "CSK2A_MAIZE": [
+    "P28523"
+  ],
+  "CSN5_HUMAN": [
+    "Q92905"
+  ],
+  "CTBP1_HUMAN": [
+    "Q13363"
+  ],
+  "CTRA_BOVIN": [
+    "P00766"
+  ],
+  "CXCR4_HUMAN": [
+    "P61073"
+  ],
+  "CYB2_YEAST": [
+    "P00175"
+  ],
+  "CYC2_STRCO": [
+    "Q9X839"
+  ],
+  "CYCP_ALCXX": [
+    "P00138"
+  ],
+  "CYH2_HUMAN": [
+    "Q99418"
+  ],
+  "CYH3_HUMAN": [
+    "O43739"
+  ],
+  "CYPA2_RHOPA": [
+    "Q6N8N2"
+  ],
+  "CYPC_STRCO": [
+    "P23154"
+  ],
+  "CYPX_BACSU": [
+    "O34926"
+  ],
+  "CYSK_HAEIN": [
+    "P45040"
+  ],
+  "CYSK_MYCTU": [
+    "P9WP55"
+  ],
+  "CYSM_MYCTU": [
+    "P9WP53"
+  ],
+  "CYSP_TRYCR": [
+    "P25779"
+  ],
+  "D14_ORYSJ": [
+    "Q10QA5"
+  ],
+  "DAAA_BACYM": [
+    "P19938"
+  ],
+  "DAB1_MOUSE": [
+    "P97318"
+  ],
+  "DAC_STRSR": [
+    "P15555"
+  ],
+  "DAPAT_ARATH": [
+    "Q93ZN9"
+  ],
+  "DAPB_VIBVU": [
+    "Q8DEM0"
+  ],
+  "DAPDH_CORGL": [
+    "P04964"
+  ],
+  "DAPDH_URETH": [
+    "G1UII1"
+  ],
+  "DAPD_YERPE": [
+    "Q8ZH69"
+  ],
+  "DAPE_NEIMB": [
+    "Q9JYL2"
+  ],
+  "DAPF_ARATH": [
+    "Q9LFG2"
+  ],
+  "DAPP1_HUMAN": [
+    "Q9UN19"
+  ],
+  "DBP5_YEAST": [
+    "P20449"
+  ],
+  "DCAM_HUMAN": [
+    "P17707"
+  ],
+  "DCAS_RHIRD": [],
+  "DCIP_AZOBR": [
+    "P51852"
+  ],
+  "DCK_HUMAN": [
+    "P27707"
+  ],
+  "DCLK1_HUMAN": [
+    "O15075"
+  ],
+  "DCPS_HUMAN": [
+    "Q96C86"
+  ],
+  "DCSD_STRLA": [
+    "D2Z027"
+  ],
+  "DCTP_DESAG": [],
+  "DCUP_HUMAN": [
+    "P06132"
+  ],
+  "DCYD_SALTY": [
+    "Q8ZNT7"
+  ],
+  "DDAH1_HUMAN": [
+    "O94760"
+  ],
+  "DDLB_ECOLI": [
+    "P07862"
+  ],
+  "DDL_STAAC": [
+    "Q5HEB7"
+  ],
+  "DEF1A_ARATH": [
+    "Q9FV53"
+  ],
+  "DEF1B_ARATH": [
+    "Q9FUZ2"
+  ],
+  "DEF1_BACCR": [
+    "Q819U0"
+  ],
+  "DEFM_HUMAN": [
+    "Q9HBH1"
+  ],
+  "DEF_ECOLI": [
+    "P0A6K3"
+  ],
+  "DEF_ENTFA": [
+    "Q82ZJ0"
+  ],
+  "DEF_HAEI8": [
+    "Q4QMV6"
+  ],
+  "DEF_LEPIN": [
+    "Q93LE9"
+  ],
+  "DEF_PSEAE": [
+    "Q9I7A8"
+  ],
+  "DEF_STAAU": [
+    "P68826"
+  ],
+  "DEF_STRA3": [
+    "Q8E378"
+  ],
+  "DEF_STRPN": [
+    "Q9F2F0"
+  ],
+  "DEOC_ECOLI": [
+    "P0A6L0"
+  ],
+  "DEOD1_VIBCH": [
+    "Q9KPM0"
+  ],
+  "DEOD_BACSU": [
+    "O34925"
+  ],
+  "DEOD_ECOLI": [
+    "P0ABP8"
+  ],
+  "DEOR_BACSU": [
+    "P39140"
+  ],
+  "DESV_STRVZ": [
+    "Q9ZGH4"
+  ],
+  "DFRA_VITVI": [
+    "P51110"
+  ],
+  "DGDA_BURCE": [
+    "P16932"
+  ],
+  "DHAR1_ORYSJ": [
+    "Q65XA0"
+  ],
+  "DHAS1_VIBCH": [
+    "Q9KQG2"
+  ],
+  "DHB14_HUMAN": [
+    "Q9BPX1"
+  ],
+  "DHB1_HUMAN": [
+    "P14061"
+  ],
+  "DHBE_BACSU": [
+    "P40871"
+  ],
+  "DHDH_MACFA": [
+    "Q9TQS6"
+  ],
+  "DHE3_HUMAN": [
+    "P00367"
+  ],
+  "DHGB_ACICA": [
+    "P13650"
+  ],
+  "DHI1_HUMAN": [
+    "P28845"
+  ],
+  "DHI1_MOUSE": [
+    "P50172"
+  ],
+  "DHPH_RHOSO": [
+    "Q59771"
+  ],
+  "DHPS_ECOLI": [
+    "P0AC13"
+  ],
+  "DHPS_STAAU": [
+    "O05701"
+  ],
+  "DHPS_STRR6": [
+    "P59655"
+  ],
+  "DHQSD_ARATH": [
+    "Q9SQT8"
+  ],
+  "DHYS_HUMAN": [
+    "P49366"
+  ],
+  "DMAW_ASPFU": [
+    "Q50EL0"
+  ],
+  "DMGD_CHRSD": [],
+  "DMGO_ARTGO": [
+    "Q9AGP8"
+  ],
+  "DNAT_DROME": [
+    "Q94521"
+  ],
+  "DNK_DROME": [
+    "Q9XZT6"
+  ],
+  "DNLJ_ENTFA": [
+    "Q837V6"
+  ],
+  "DNLJ_HAEIN": [
+    "P43813"
+  ],
+  "DNLJ_STAAU": [
+    "Q9AIU7"
+  ],
+  "DNMT1_HUMAN": [
+    "P26358"
+  ],
+  "DNMT1_MOUSE": [
+    "P13864"
+  ],
+  "DNPH1_RAT": [
+    "O35820"
+  ],
+  "DNRD_STRGJ": [
+    "O52646"
+  ],
+  "DNRK_STRPE": [
+    "Q06528"
+  ],
+  "DOIS_BACCI": [],
+  "DOT1L_HUMAN": [
+    "Q8TEK3"
+  ],
+  "DPAL_ECOLI": [
+    "P66899"
+  ],
+  "DPEP1_HUMAN": [
+    "P16444"
+  ],
+  "DPES_AGRFC": [
+    "A9CH28"
+  ],
+  "DPES_CLOCE": [],
+  "DPO1_BACCA": [
+    "Q04957"
+  ],
+  "DPO1_THEAQ": [
+    "P19821"
+  ],
+  "DPO3B_ECOLI": [
+    "P0A988"
+  ],
+  "DPO3B_HELPY": [
+    "O25242"
+  ],
+  "DPOLA_HUMAN": [
+    "P09884"
+  ],
+  "DPOLB_HUMAN": [
+    "P06746"
+  ],
+  "DPOLL_HUMAN": [
+    "Q9UGP5"
+  ],
+  "DPOL_BPT7": [
+    "P00581"
+  ],
+  "DPOL_THEKO": [
+    "P77933"
+  ],
+  "DPP4_HUMAN": [
+    "P27487"
+  ],
+  "DPP4_PIG": [
+    "P22411"
+  ],
+  "DPP4_RAT": [
+    "P14740"
+  ],
+  "DPRE1_MYCTU": [
+    "P9WJF1"
+  ],
+  "DRAA_ECOLX": [
+    "P24093"
+  ],
+  "DRD3_HUMAN": [
+    "P35462"
+  ],
+  "DRD4_HUMAN": [
+    "P21917"
+  ],
+  "DRTS_PLAFK": [
+    "P13922"
+  ],
+  "DRTS_PLAVI": [
+    "O02604"
+  ],
+  "DRTS_TOXGO": [
+    "Q07422"
+  ],
+  "DRTS_TRYBB": [
+    "Q27783"
+  ],
+  "DRTS_TRYCR": [
+    "Q27793"
+  ],
+  "DSBA_ECOLI": [
+    "P0AEG4"
+  ],
+  "DSBA_PSEAE": [
+    "P0C2B2"
+  ],
+  "DT3E_PSECI": [
+    "O50580"
+  ],
+  "DUS22_HUMAN": [
+    "Q9NRW4"
+  ],
+  "DUT_HUMAN": [
+    "P33316"
+  ],
+  "DXO_MOUSE": [
+    "O70348"
+  ],
+  "DXR_ECOLI": [
+    "P45568"
+  ],
+  "DXR_MYCTU": [
+    "P9WNS1"
+  ],
+  "DXR_PLAF7": [
+    "Q8IKG4"
+  ],
+  "DXR_THEMA": [
+    "Q9WZZ1"
+  ],
+  "DYRA_STAAU": [
+    "P13955"
+  ],
+  "DYR_CANAX": [
+    "P22906"
+  ],
+  "DYR_ECOLI": [
+    "P0ABQ4"
+  ],
+  "DYR_HUMAN": [
+    "P00374"
+  ],
+  "DYR_MOUSE": [
+    "P00375"
+  ],
+  "DYR_MYCTU": [
+    "P9WNX1"
+  ],
+  "DYR_PNECA": [
+    "P16184"
+  ],
+  "DYR_STAAU": [
+    "P0A017"
+  ],
+  "EBDG_AMYOR": [
+    "Q56F26"
+  ],
+  "ECHA6_MYCTU": [
+    "P9WNP1"
+  ],
+  "EED_HUMAN": [
+    "O75530"
+  ],
+  "EF2_YEAST": [
+    "P32324"
+  ],
+  "EFEB_ECOLI": [
+    "P31545"
+  ],
+  "EGFR_HUMAN": [
+    "P00533"
+  ],
+  "EGLN1_HUMAN": [
+    "Q9GZT9"
+  ],
+  "EGS1_OCIBA": [
+    "Q15GI4"
+  ],
+  "EGTB_MYCT3": [
+    "G7CFI3"
+  ],
+  "EGTD_MYCS2": [
+    "A0R5M8"
+  ],
+  "EHMT2_HUMAN": [
+    "Q96KQ7"
+  ],
+  "EIS_MYCTU": [
+    "P9WFK7"
+  ],
+  "ELAS_PSEAE": [
+    "P14756"
+  ],
+  "ELBP_ECOLX": [
+    "P32890"
+  ],
+  "ELIB_PHYCI": [
+    "P15569"
+  ],
+  "ELIB_PHYCR": [
+    "P15570"
+  ],
+  "ELIC_DICCH": [
+    "P0C7B7"
+  ],
+  "ELNE_HUMAN": [
+    "P08246"
+  ],
+  "ENAH_HUMAN": [
+    "Q8N8S7"
+  ],
+  "ENO1_YEAST": [
+    "P00924"
+  ],
+  "ENOG_HUMAN": [
+    "P09104"
+  ],
+  "ENO_CHLAA": [
+    "A9WCM4"
+  ],
+  "ENO_STAAU": [
+    "O69174"
+  ],
+  "ENO_SYNP6": [
+    "Q5N3P4"
+  ],
+  "ENPL_HUMAN": [
+    "P14625"
+  ],
+  "ENTC_ECOLI": [
+    "P0AEJ2"
+  ],
+  "EPAS1_HUMAN": [
+    "Q99814"
+  ],
+  "EPHB_MYCTO": [
+    "P95276"
+  ],
+  "EPMA_ECOLI": [
+    "P0A8N7"
+  ],
+  "ERAP1_HUMAN": [
+    "Q9NZ08"
+  ],
+  "ERBB2_HUMAN": [
+    "P04626"
+  ],
+  "ERBB3_HUMAN": [
+    "P21860"
+  ],
+  "ERBB4_HUMAN": [
+    "Q15303"
+  ],
+  "ERG7_HUMAN": [],
+  "ERR1_HUMAN": [
+    "P11474"
+  ],
+  "ERR3_HUMAN": [
+    "P62508"
+  ],
+  "ESR1_HUMAN": [
+    "P03372"
+  ],
+  "ESR2_HUMAN": [
+    "Q92731"
+  ],
+  "ETHR_MYCTU": [
+    "P9WMC1"
+  ],
+  "EZH2_HUMAN": [
+    "Q15910"
+  ],
+  "F17AG_ECOLX": [
+    "Q99003"
+  ],
+  "F263_HUMAN": [
+    "Q16875"
+  ],
+  "FA10_HUMAN": [
+    "P00742"
+  ],
+  "FA11_HUMAN": [
+    "P03951"
+  ],
+  "FA7_HUMAN": [
+    "P08709"
+  ],
+  "FAAA_MOUSE": [
+    "P35505"
+  ],
+  "FAAH1_RAT": [
+    "P97612"
+  ],
+  "FAB1_MYCTU": [],
+  "FABA_PSEAE": [
+    "O33877"
+  ],
+  "FABA_YERPE": [
+    "Q8ZG80"
+  ],
+  "FABB_ECOLI": [
+    "P0A953"
+  ],
+  "FABF_ECOLI": [
+    "P0AAI5"
+  ],
+  "FABH_ECOLI": [
+    "P0A6R0"
+  ],
+  "FABH_ENTFA": [
+    "Q820T1"
+  ],
+  "FABH_MYCTU": [
+    "P9WNG3"
+  ],
+  "FABI_BACCR": [
+    "Q81GI3"
+  ],
+  "FABI_BACSU": [
+    "P54616"
+  ],
+  "FABI_BRANA": [
+    "P80030"
+  ],
+  "FABI_ECOLI": [
+    "P0AEK4"
+  ],
+  "FABI_HELPY": [
+    "O24990"
+  ],
+  "FABI_PSEAE": [
+    "Q9ZFE4"
+  ],
+  "FABI_STAAR": [
+    "Q6GI75"
+  ],
+  "FABL_BACSU": [
+    "P71079"
+  ],
+  "FABP2_AMBME": [
+    "P81400"
+  ],
+  "FABP4_HUMAN": [
+    "P15090"
+  ],
+  "FABP4_MOUSE": [
+    "P04117"
+  ],
+  "FABP5_HUMAN": [
+    "Q01469"
+  ],
+  "FABP6_HUMAN": [
+    "P51161"
+  ],
+  "FABPH_HUMAN": [
+    "P05413"
+  ],
+  "FABPI_RAT": [
+    "P02693"
+  ],
+  "FABPL_CHICK": [
+    "P80226"
+  ],
+  "FABZ_HELPY": [
+    "O25928"
+  ],
+  "FADA5_MYCTU": [
+    "I6XHI4"
+  ],
+  "FAEA_ASPNG": [
+    "O42807"
+  ],
+  "FAS_HUMAN": [
+    "P49327"
+  ],
+  "FBPAP_PYRNV": [
+    "B1YAL1"
+  ],
+  "FBPAP_SULTO": [
+    "F9VMT6"
+  ],
+  "FDC1_ASPNC": [
+    "A2QHE5"
+  ],
+  "FDFT_HUMAN": [
+    "P37268"
+  ],
+  "FEN1_HUMAN": [
+    "P39748"
+  ],
+  "FEUA_BACSU": [
+    "P40409"
+  ],
+  "FFAR1_HUMAN": [
+    "O14842"
+  ],
+  "FGF1_HUMAN": [
+    "P05230"
+  ],
+  "FIMH_ECOLI": [
+    "P08191"
+  ],
+  "FLA_STRCT": [
+    "Q70GK9"
+  ],
+  "FLK_STRCT": [
+    "Q1EMV2"
+  ],
+  "FMS1_YEAST": [
+    "P50264"
+  ],
+  "FNTB_HUMAN": [
+    "P49356"
+  ],
+  "FOLB_MYCTU": [
+    "P9WNC5"
+  ],
+  "FOLB_STAAU": [
+    "P56740"
+  ],
+  "FOLC_ECOLI": [
+    "P08192"
+  ],
+  "FOLR2_HUMAN": [
+    "P14207"
+  ],
+  "FOSB_BACC1": [
+    "Q739M9"
+  ],
+  "FPGS_LACCA": [
+    "P15925"
+  ],
+  "FPPS_CHICK": [
+    "P08836"
+  ],
+  "FPPS_HUMAN": [
+    "P14324"
+  ],
+  "FTHS_MOOTH": [],
+  "FTMB_ASPFU": [
+    "Q4WAW7"
+  ],
+  "FTO_HUMAN": [
+    "Q9C0B1"
+  ],
+  "FTSI_PSEAE": [
+    "G3XD46"
+  ],
+  "FTSZ_STAA8": [
+    "Q2FZ89"
+  ],
+  "FUCA_ECOLI": [
+    "P0AB87"
+  ],
+  "FUCD_XANCP": [
+    "Q8P3K2"
+  ],
+  "FUCI_STRPN": [
+    "Q97N97"
+  ],
+  "FUMC_ECOLI": [
+    "P05042"
+  ],
+  "FUS3_YEAST": [
+    "P16892"
+  ],
+  "FUSS_PHOAM": [],
+  "FUS_HRSVA": [
+    "P03420"
+  ],
+  "G1PDH_METJA": [
+    "Q58122"
+  ],
+  "G3P1_STAAR": [
+    "Q6GIL8"
+  ],
+  "G3PG_LEIME": [
+    "Q27890"
+  ],
+  "G3P_HUMAN": [
+    "P04406"
+  ],
+  "G6PI_FRATT": [
+    "Q5NFC4"
+  ],
+  "G6PI_HUMAN": [
+    "P06744"
+  ],
+  "G6PI_MOUSE": [
+    "P06745"
+  ],
+  "G6PI_PYRFU": [
+    "P83194"
+  ],
+  "G6PI_TRYBB": [
+    "P13377"
+  ],
+  "GABR1_HUMAN": [
+    "Q9UBS5"
+  ],
+  "GABR_BACSU": [
+    "P94426"
+  ],
+  "GABT_ECOLI": [
+    "P22256"
+  ],
+  "GABT_PIG": [
+    "P80147"
+  ],
+  "GAG_HV1B1": [
+    "P03347"
+  ],
+  "GAG_HV1N5": [
+    "P12493"
+  ],
+  "GAK_HUMAN": [
+    "O14976"
+  ],
+  "GALC_MOUSE": [
+    "P54818"
+  ],
+  "GALK2_HUMAN": [
+    "Q01415"
+  ],
+  "GANAB_MOUSE": [
+    "Q8BHN3"
+  ],
+  "GAPN_STRMU": [
+    "Q59931"
+  ],
+  "GAPN_THETE": [
+    "O57693"
+  ],
+  "GARS_HUMAN": [
+    "P41250"
+  ],
+  "GCKR_HUMAN": [
+    "Q14397"
+  ],
+  "GCR_HUMAN": [
+    "P04150"
+  ],
+  "GCST_HUMAN": [
+    "P48728"
+  ],
+  "GCST_THEMA": [
+    "Q9WY54"
+  ],
+  "GDI1_YEAST": [
+    "P39958"
+  ],
+  "GDIR1_HUMAN": [
+    "P52565"
+  ],
+  "GFA1_CANAL": [
+    "P53704"
+  ],
+  "GFPT1_HUMAN": [
+    "Q06210"
+  ],
+  "GGPPS_YEAST": [
+    "Q12051"
+  ],
+  "GH43A_BACO1": [
+    "A7LXT8"
+  ],
+  "GID1A_ARATH": [
+    "Q9MAA7"
+  ],
+  "GID1_ORYSJ": [
+    "Q6L545"
+  ],
+  "GLB1_ANAIN": [
+    "P02213"
+  ],
+  "GLCDH_HALMT": [
+    "Q977U7"
+  ],
+  "GLCM_HUMAN": [],
+  "GLDSA_BACCI": [],
+  "GLF_MYCTU": [
+    "P9WIQ1"
+  ],
+  "GLGA_ECOLI": [
+    "P0A6U8"
+  ],
+  "GLGE1_STRCO": [
+    "Q9L1K2"
+  ],
+  "GLIC_GLOVI": [
+    "Q7NDN8"
+  ],
+  "GLMS_ECOLI": [
+    "P17169"
+  ],
+  "GLN1B_MYCTU": [
+    "P9WN39"
+  ],
+  "GLNA3_MAIZE": [
+    "P38561"
+  ],
+  "GLNA_HUMAN": [
+    "P15104"
+  ],
+  "GLNB_SYNE7": [
+    "P0A3F4"
+  ],
+  "GLP1R_HUMAN": [
+    "P43220"
+  ],
+  "GLPG_ECOLI": [
+    "P09391"
+  ],
+  "GLPK_ECOLI": [
+    "P0A6F3"
+  ],
+  "GLPQ_BACSU": [
+    "P37965"
+  ],
+  "GLRA3_HUMAN": [
+    "O75311"
+  ],
+  "GLR_HUMAN": [
+    "P47871"
+  ],
+  "GLSK_HUMAN": [
+    "O94925"
+  ],
+  "GLTP_HUMAN": [
+    "Q9NZD2"
+  ],
+  "GLYA_STRT1": [
+    "Q5M0B4"
+  ],
+  "GLYG_HUMAN": [
+    "P46976"
+  ],
+  "GMHA_BURPS": [
+    "Q93UJ2"
+  ],
+  "GNA12_MOUSE": [
+    "P27600"
+  ],
+  "GNA13_MOUSE": [
+    "P27601"
+  ],
+  "GNAI1_HUMAN": [
+    "P63096"
+  ],
+  "GNAI3_HUMAN": [
+    "P08754"
+  ],
+  "GNAO_MOUSE": [
+    "P18872"
+  ],
+  "GNAQ_MOUSE": [
+    "P21279"
+  ],
+  "GNAS2_HUMAN": [
+    "P63092"
+  ],
+  "GNAT1_HUMAN": [
+    "P11488"
+  ],
+  "GPA1_ARATH": [
+    "P18064"
+  ],
+  "GPDA_LEIME": [
+    "P90551"
+  ],
+  "GPGS_MYCTU": [
+    "P9WMW9"
+  ],
+  "GPMA_BURP1": [
+    "Q3JWH7"
+  ],
+  "GPMI_GEOSE": [
+    "Q9X519"
+  ],
+  "GPPMT_STRCO": [
+    "Q9F1Y5"
+  ],
+  "GPPMT_STRLS": [
+    "D3KYU3"
+  ],
+  "GRIA2_HUMAN": [
+    "P42262"
+  ],
+  "GRIA3_MOUSE": [
+    "Q9Z2W9"
+  ],
+  "GRIA4_RAT": [
+    "P19493"
+  ],
+  "GRID2_HUMAN": [
+    "O43424"
+  ],
+  "GRIK1_HUMAN": [
+    "P39086"
+  ],
+  "GRIK2_HUMAN": [
+    "Q13002"
+  ],
+  "GRIK3_RAT": [
+    "P42264"
+  ],
+  "GRIK4_RAT": [
+    "Q01812"
+  ],
+  "GRM1_HUMAN": [
+    "Q13255"
+  ],
+  "GRM2_HUMAN": [
+    "Q14416"
+  ],
+  "GRM3_HUMAN": [
+    "Q14832"
+  ],
+  "GRM5_HUMAN": [
+    "P41594"
+  ],
+  "GSA_SYNE7": [
+    "Q31QJ2"
+  ],
+  "GSH1_ECOLI": [
+    "P0A6W9"
+  ],
+  "GSH1_YEAST": [
+    "P32477"
+  ],
+  "GSHR_HUMAN": [
+    "P00390"
+  ],
+  "GSK3B_HUMAN": [
+    "P49841"
+  ],
+  "GST28_SCHMA": [
+    "P09792"
+  ],
+  "GST2_YEAST": [
+    "Q12390"
+  ],
+  "GSTA_ECOLI": [
+    "P0A9D2"
+  ],
+  "GSTF2_ARATH": [
+    "P46422"
+  ],
+  "GSTK1_HUMAN": [
+    "Q9Y2Q3"
+  ],
+  "GSTM1_RAT": [
+    "P04905"
+  ],
+  "GSTM2_HUMAN": [
+    "P28161"
+  ],
+  "GSTT1_HUMAN": [
+    "P30711"
+  ],
+  "GSTT2_HUMAN": [
+    "P0CG30"
+  ],
+  "GST_PLAFA": [],
+  "GTR1_HUMAN": [
+    "P11166"
+  ],
+  "GUAD_HUMAN": [
+    "Q9Y2T3"
+  ],
+  "GUDD_ECOLI": [
+    "P0AES2"
+  ],
+  "GUN5_SALAG": [
+    "O85465"
+  ],
+  "GUNH_CLOTH": [],
+  "GUX_CELFI": [
+    "P07986"
+  ],
+  "GYRB_ECOLI": [
+    "P0AES6"
+  ],
+  "GYRB_ENTFA": [
+    "Q839Z1"
+  ],
+  "GYRB_MYCS2": [
+    "A0QNE0"
+  ],
+  "GYRB_STAAU": [
+    "P0A0K8"
+  ],
+  "GYS2_YEAST": [
+    "P27472"
+  ],
+  "HAOX1_HUMAN": [
+    "Q9UJM8"
+  ],
+  "HASP_HUMAN": [
+    "Q8TF76"
+  ],
+  "HAVR2_MOUSE": [
+    "Q8VIM0"
+  ],
+  "HBB_HORSE": [
+    "P02062"
+  ],
+  "HCHL_PSEFL": [
+    "O69762"
+  ],
+  "HDAC4_HUMAN": [
+    "P56524"
+  ],
+  "HDAC6_HUMAN": [
+    "Q9UBN7"
+  ],
+  "HDAC7_HUMAN": [
+    "Q8WUI4"
+  ],
+  "HDAH_ALCSD": [
+    "Q70I53"
+  ],
+  "HDAH_PSEAE": [
+    "Q9HXM1"
+  ],
+  "HEM2_ECOLI": [
+    "P0ACB2"
+  ],
+  "HEMA_I68A4": [
+    "Q91MA7"
+  ],
+  "HEMA_I75A3": [
+    "P03435"
+  ],
+  "HEMH_BACSU": [],
+  "HEMH_HUMAN": [
+    "P22830"
+  ],
+  "HEPB_PEDHD": [
+    "C6XZB6"
+  ],
+  "HEPS_HUMAN": [
+    "P05981"
+  ],
+  "HEXB_HUMAN": [
+    "P07686"
+  ],
+  "HGF_HUMAN": [
+    "P14210"
+  ],
+  "HGXR_PLAFG": [
+    "P20035"
+  ],
+  "HGXR_TOXGO": [
+    "Q26997"
+  ],
+  "HICDH_THET8": [
+    "Q5SIJ1"
+  ],
+  "HIF1N_HUMAN": [
+    "Q9NWT6"
+  ],
+  "HINT1_HUMAN": [
+    "P49773"
+  ],
+  "HINT2_HUMAN": [
+    "Q9BX68"
+  ],
+  "HIS1_CAMJR": [
+    "Q5HSJ4"
+  ],
+  "HIS4_MYCTU": [
+    "P9WMM5"
+  ],
+  "HIS6_THEMA": [
+    "Q9X0C6"
+  ],
+  "HIS7_PYRFU": [
+    "P58880"
+  ],
+  "HIS8_THEMA": [
+    "Q9X0D0"
+  ],
+  "HISX_BRUSU": [
+    "Q8G2R2"
+  ],
+  "HMDH_HUMAN": [
+    "P04035"
+  ],
+  "HMOX1_RAT": [
+    "P06762"
+  ],
+  "HMP_CUPNH": [
+    "P39662"
+  ],
+  "HMR1_HUMAN": [
+    "Q95460"
+  ],
+  "HMUO_CORDI": [
+    "P71119"
+  ],
+  "HNL_HEVBR": [
+    "P52704"
+  ],
+  "HNMT_HUMAN": [
+    "P50135"
+  ],
+  "HN_PI3H4": [
+    "P08492"
+  ],
+  "HN_PIV5": [
+    "P04850"
+  ],
+  "HOD_PAENT": [
+    "O31266"
+  ],
+  "HPAB_THET8": [
+    "Q5SJP8"
+  ],
+  "HPAH_ACIBA": [
+    "Q6Q272"
+  ],
+  "HPDL_CLOSL": [
+    "Q38HX4"
+  ],
+  "HPGDS_HUMAN": [
+    "O60760"
+  ],
+  "HPPD_ARATH": [
+    "P93836"
+  ],
+  "HPRT_ECOLI": [
+    "P0A9M2"
+  ],
+  "HPRT_HUMAN": [
+    "P00492"
+  ],
+  "HPRT_MYCTU": [],
+  "HPRT_TRYBB": [
+    "Q07010"
+  ],
+  "HRH1_HUMAN": [
+    "P35367"
+  ],
+  "HRR25_YEAST": [
+    "P29295"
+  ],
+  "HS3S1_MOUSE": [
+    "O35310"
+  ],
+  "HS71A_HUMAN": [
+    "P0DMV8"
+  ],
+  "HS90A_HUMAN": [
+    "P07900"
+  ],
+  "HS90B_HUMAN": [
+    "P08238"
+  ],
+  "HSAC_MYCTU": [
+    "P9WNW7"
+  ],
+  "HSAD_MYCTU": [
+    "P9WNH5"
+  ],
+  "HSC90_DICDI": [
+    "P54651"
+  ],
+  "HSD_MYCTU": [
+    "P9WGT1"
+  ],
+  "HSD_STREX": [
+    "P19992"
+  ],
+  "HSP7C_HUMAN": [
+    "P11142"
+  ],
+  "HSP82_YEAST": [
+    "P02829"
+  ],
+  "HSP83_TRYBB": [
+    "P12861"
+  ],
+  "HXK2_HUMAN": [
+    "P52789"
+  ],
+  "HXK4_HUMAN": [
+    "P35557"
+  ],
+  "HYES_HUMAN": [
+    "P34913"
+  ],
+  "HYES_MOUSE": [
+    "P34914"
+  ],
+  "HYG5_STRHY": [
+    "O30478"
+  ],
+  "HYSA_STRPN": [
+    "Q54873"
+  ],
+  "I23O1_HUMAN": [
+    "P14902"
+  ],
+  "I4OMT_MEDTR": [
+    "Q29U70"
+  ],
+  "IABF_GEOSE": [
+    "Q9XBQ3"
+  ],
+  "IABF_STRAW": [
+    "Q82P90"
+  ],
+  "IADA_ECOLI": [
+    "P39377"
+  ],
+  "IDE_HUMAN": [
+    "P14735"
+  ],
+  "IDH_ECOLI": [
+    "P08200"
+  ],
+  "IDI1_HUMAN": [
+    "Q13907"
+  ],
+  "IDI2_SULSH": [],
+  "IDI_ECOLI": [
+    "Q46822"
+  ],
+  "IDUA_HUMAN": [
+    "P35475"
+  ],
+  "IEMT_CLABR": [
+    "O04385"
+  ],
+  "IF4E_HUMAN": [
+    "P06730"
+  ],
+  "IGHE_HUMAN": [
+    "P01854"
+  ],
+  "IKKB_HUMAN": [
+    "O14920"
+  ],
+  "IL17_HUMAN": [
+    "Q16552"
+  ],
+  "IL2_HUMAN": [
+    "P60568"
+  ],
+  "ILE2E_LACBU": [],
+  "ILVB_ARATH": [
+    "P17597"
+  ],
+  "ILVB_KLEPN": [
+    "P27696"
+  ],
+  "ILVB_YEAST": [
+    "P07342"
+  ],
+  "ILVE_ECOLI": [
+    "P0AB80"
+  ],
+  "ILVE_MYCTU": [
+    "P9WQ75"
+  ],
+  "IMDH_CRYPV": [
+    "Q8T6T2"
+  ],
+  "IMDH_MYCTU": [
+    "P9WKI7"
+  ],
+  "IMDH_TRIFO": [
+    "P50097"
+  ],
+  "IMPA1_HUMAN": [
+    "P29218"
+  ],
+  "INHA_MYCTU": [
+    "P9WGR1"
+  ],
+  "INS_HUMAN": [
+    "P01308"
+  ],
+  "IOLG_BACSU": [
+    "P26935"
+  ],
+  "IPIPR_MENPI": [
+    "Q6WAU1"
+  ],
+  "IPK_THEAC": [
+    "Q9HLX1"
+  ],
+  "IPNS_EMENI": [],
+  "IPPK_ARATH": [
+    "Q93YN9"
+  ],
+  "IPPK_MOUSE": [
+    "Q6P1C1"
+  ],
+  "IPTZ_AGRFC": [
+    "P58758"
+  ],
+  "IRAK4_HUMAN": [
+    "Q9NWZ3"
+  ],
+  "IRIS_CATRO": [
+    "K7WDL7"
+  ],
+  "ISPD_ARATH": [
+    "P69834"
+  ],
+  "ISPE_AQUAE": [
+    "O67060"
+  ],
+  "ISPF_BURP1": [
+    "Q3JRA0"
+  ],
+  "ISPG_THET8": [
+    "Q5SLI8"
+  ],
+  "ISPH_ECOLI": [
+    "P62623"
+  ],
+  "ITA2B_HUMAN": [
+    "P08514"
+  ],
+  "ITAL_HUMAN": [
+    "P20701"
+  ],
+  "ITB3_HUMAN": [
+    "P05106"
+  ],
+  "ITPK1_ENTHI": [],
+  "ITPR1_MOUSE": [
+    "P11881"
+  ],
+  "IUNH_CRIFA": [
+    "Q27546"
+  ],
+  "JAK1_HUMAN": [
+    "P23458"
+  ],
+  "JAK2_HUMAN": [
+    "O60674"
+  ],
+  "JAK3_HUMAN": [
+    "P52333"
+  ],
+  "JAR1_ARATH": [
+    "Q9SKE2"
+  ],
+  "KAE1B_METJA": [
+    "Q58530"
+  ],
+  "KAI2_ARATH": [
+    "Q9SZU7"
+  ],
+  "KARG_LIMPO": [
+    "P51541"
+  ],
+  "KAT1_HUMAN": [
+    "Q16773"
+  ],
+  "KAT2B_HUMAN": [
+    "Q92831"
+  ],
+  "KATG2_HALMA": [
+    "O59651"
+  ],
+  "KC1D_HUMAN": [
+    "P48730"
+  ],
+  "KC1E_HUMAN": [
+    "P49674"
+  ],
+  "KC1G3_HUMAN": [
+    "Q9Y6M4"
+  ],
+  "KCNK2_HUMAN": [
+    "O95069"
+  ],
+  "KCNN2_RAT": [
+    "P70604"
+  ],
+  "KDGK_SULSO": [],
+  "KDGK_THET8": [
+    "Q53W83"
+  ],
+  "KDM1A_HUMAN": [
+    "O60341"
+  ],
+  "KDM4A_HUMAN": [
+    "O75164"
+  ],
+  "KDM4C_HUMAN": [
+    "Q9H3R0"
+  ],
+  "KDM4D_HUMAN": [
+    "Q6B0I6"
+  ],
+  "KDM5A_HUMAN": [
+    "P29375"
+  ],
+  "KDM5B_HUMAN": [
+    "Q9UGL1"
+  ],
+  "KDM6B_HUMAN": [
+    "O15054"
+  ],
+  "KDSA_AQUAE": [
+    "O66496"
+  ],
+  "KDSA_NEIMB": [
+    "Q9JZ55"
+  ],
+  "KEAP1_HUMAN": [
+    "Q14145"
+  ],
+  "KES1_YEAST": [
+    "P35844"
+  ],
+  "KGD_MYCS2": [
+    "A0R2B1"
+  ],
+  "KGP1_HUMAN": [
+    "Q13976"
+  ],
+  "KGP2_HUMAN": [
+    "Q13237"
+  ],
+  "KHK_HUMAN": [
+    "P50053"
+  ],
+  "KIF11_HUMAN": [
+    "P52732"
+  ],
+  "KITH_HHV11": [
+    "P0DTH5"
+  ],
+  "KKA3_ENTFL": [
+    "P0A3Y5"
+  ],
+  "KKCC2_HUMAN": [
+    "Q96RR4"
+  ],
+  "KLK6_HUMAN": [
+    "Q92876"
+  ],
+  "KLK7_HUMAN": [
+    "P49862"
+  ],
+  "KLKB1_HUMAN": [
+    "P03952"
+  ],
+  "KMO_PSEFL": [
+    "Q84HF5"
+  ],
+  "KMT5A_HUMAN": [
+    "Q9NQR1"
+  ],
+  "KMT5B_HUMAN": [
+    "Q4FZB7"
+  ],
+  "KPCD_HUMAN": [
+    "Q05655"
+  ],
+  "KPRS_METJA": [
+    "Q58761"
+  ],
+  "KPYK1_TRYBB": [
+    "P30615"
+  ],
+  "KPYK_LEIME": [
+    "Q27686"
+  ],
+  "KPYM_HUMAN": [
+    "P14618"
+  ],
+  "KSHA5_RHORH": [
+    "F1CMY8"
+  ],
+  "KSHA_MYCTU": [
+    "P71875"
+  ],
+  "KTHY_HUMAN": [
+    "P23919"
+  ],
+  "KTHY_MYCTU": [
+    "P9WKE1"
+  ],
+  "KTHY_PSEAE": [
+    "Q9HZN8"
+  ],
+  "KTHY_STAAM": [
+    "P65248"
+  ],
+  "KTRC_SCHMA": [
+    "P16641"
+  ],
+  "L18A_LUPLU": [
+    "P52778"
+  ],
+  "LACB_BOVIN": [
+    "P02754"
+  ],
+  "LACD2_STRP1": [
+    "P63705"
+  ],
+  "LACI_ECOLI": [
+    "P03023"
+  ],
+  "LACY_ECOLI": [
+    "P02920"
+  ],
+  "LCAP_HUMAN": [
+    "Q9UIQ6"
+  ],
+  "LDHA_HUMAN": [
+    "P00338"
+  ],
+  "LDH_PLAFD": [
+    "Q27743"
+  ],
+  "LDI_CASDE": [],
+  "LDOX_ARATH": [
+    "Q96323"
+  ],
+  "LEC1_ULEEU": [
+    "P22972"
+  ],
+  "LECA_ARTIN": [
+    "P18670"
+  ],
+  "LECA_MACPO": [
+    "P18674"
+  ],
+  "LEC_ERYCO": [
+    "P16404"
+  ],
+  "LEC_PARPC": [
+    "P83304"
+  ],
+  "LEC_PEA": [
+    "P02867"
+  ],
+  "LEF_BACAN": [
+    "P15917"
+  ],
+  "LEG1_HUMAN": [
+    "P09382"
+  ],
+  "LEG3_HUMAN": [
+    "P17931"
+  ],
+  "LEG4_HUMAN": [
+    "P56470"
+  ],
+  "LEG7_HUMAN": [
+    "P47929"
+  ],
+  "LEG9_HUMAN": [
+    "O00182"
+  ],
+  "LEU3_THET8": [
+    "Q5SIY4"
+  ],
+  "LFTR_ECOLI": [
+    "P0A8P1"
+  ],
+  "LGUL_HUMAN": [
+    "Q04760"
+  ],
+  "LGUL_MOUSE": [
+    "Q9CPU0"
+  ],
+  "LINA_STAHA": [
+    "P06107"
+  ],
+  "LKHA4_HUMAN": [
+    "P09960"
+  ],
+  "LKHA4_YEAST": [
+    "Q10740"
+  ],
+  "LOVD_ASPTE": [
+    "Q9Y7D1"
+  ],
+  "LOX3_SOYBN": [
+    "P09186"
+  ],
+  "LPAR1_HUMAN": [
+    "Q92633"
+  ],
+  "LPLAN_THEAC": [
+    "Q9HKT1"
+  ],
+  "LPLA_ECOLI": [
+    "P32099"
+  ],
+  "LPXC_AQUAE": [
+    "O67648"
+  ],
+  "LPXC_ECOLI": [
+    "P0A725"
+  ],
+  "LPXC_PSEAE": [
+    "P47205"
+  ],
+  "LPXD_ECOLI": [
+    "P21645"
+  ],
+  "LTC4S_HUMAN": [
+    "Q16873"
+  ],
+  "LTC4S_MOUSE": [
+    "Q60860"
+  ],
+  "LT_POVJC": [
+    "P03072"
+  ],
+  "LUCI_LUCCR": [],
+  "LUCI_PHOPY": [
+    "P08659"
+  ],
+  "LUCI_RENRE": [
+    "P27652"
+  ],
+  "LUXS_BACSU": [
+    "O34667"
+  ],
+  "LV1A_MOUSE": [
+    "P01723"
+  ],
+  "LYAG_HUMAN": [
+    "P10253"
+  ],
+  "LYPA1_HUMAN": [
+    "O75608"
+  ],
+  "LYSC2_ONCMY": [
+    "P11941"
+  ],
+  "LYSC_CHICK": [
+    "P00698"
+  ],
+  "LYSJ_THET8": [
+    "Q5SHH5"
+  ],
+  "LYSN_THET2": [
+    "Q72LL6"
+  ],
+  "L_LYCVA": [
+    "P14240"
+  ],
+  "M3K7_HUMAN": [
+    "O43318"
+  ],
+  "M3K8_HUMAN": [
+    "P41279"
+  ],
+  "MA1B1_HUMAN": [
+    "Q9UKM7"
+  ],
+  "MALE_ECOLI": [
+    "P0AEX9"
+  ],
+  "MAN12_PENCI": [
+    "P31723"
+  ],
+  "MAN2_DROME": [
+    "Q24451"
+  ],
+  "MANA_CELJU": [
+    "P49424"
+  ],
+  "MAND_NOVAD": [
+    "A4XF23"
+  ],
+  "MANR_PSEPU": [
+    "P11444"
+  ],
+  "MAP11_HUMAN": [
+    "P53582"
+  ],
+  "MAP12_MYCTU": [
+    "P9WK19"
+  ],
+  "MAP1_ECOLI": [
+    "P0AE18"
+  ],
+  "MAP1_STAAM": [
+    "P0A078"
+  ],
+  "MAP2_HUMAN": [
+    "P50579"
+  ],
+  "MARK4_HUMAN": [
+    "Q96L34"
+  ],
+  "MASZ_MYCTU": [
+    "P9WK17"
+  ],
+  "MAT2B_HUMAN": [
+    "Q9NZL9"
+  ],
+  "MBL1_RAT": [
+    "P19999"
+  ],
+  "MBTI_MYCTU": [
+    "P9WFX1"
+  ],
+  "MCE_VACCW": [
+    "P07617"
+  ],
+  "MCL1_HUMAN": [
+    "Q07820"
+  ],
+  "MCP2_SALTY": [
+    "P02941"
+  ],
+  "MCR_HUMAN": [
+    "P08235"
+  ],
+  "MDAR3_ORYSJ": [
+    "Q652L6"
+  ],
+  "MDLB_PSEPU": [
+    "P20932"
+  ],
+  "MDLC_PSEPU": [
+    "P20906"
+  ],
+  "MDM2_HUMAN": [
+    "Q00987"
+  ],
+  "MDM2_XENLA": [
+    "P56273"
+  ],
+  "MDM4_HUMAN": [
+    "O15151"
+  ],
+  "MEF2A_HUMAN": [
+    "Q02078"
+  ],
+  "MEGL_PSEPU": [
+    "P13254"
+  ],
+  "MEN1_HUMAN": [
+    "O00255"
+  ],
+  "MENC_ECOLI": [
+    "P29208"
+  ],
+  "MEND_ECOLI": [
+    "P17109"
+  ],
+  "MEND_MYCTU": [
+    "P9WK11"
+  ],
+  "MENH_ECOLI": [
+    "P37355"
+  ],
+  "METC_ECOLI": [
+    "P06721"
+  ],
+  "METE1_ARATH": [
+    "O50008"
+  ],
+  "METF_ECOLI": [
+    "P0AEZ1"
+  ],
+  "METK2_HUMAN": [
+    "P31153"
+  ],
+  "METK_ECOLI": [
+    "P0A817"
+  ],
+  "MGA_HUMAN": [
+    "O43451"
+  ],
+  "MGLL_HUMAN": [
+    "Q99685"
+  ],
+  "MGSA_ECOLI": [
+    "P0A731"
+  ],
+  "MHCKA_DICDI": [
+    "P42527"
+  ],
+  "MIOX_MOUSE": [
+    "Q9QXN5"
+  ],
+  "MK01_HUMAN": [
+    "P28482"
+  ],
+  "MK07_HUMAN": [
+    "Q13164"
+  ],
+  "MKNK2_HUMAN": [
+    "Q9HBH9"
+  ],
+  "MLKL_HUMAN": [
+    "Q8NB16"
+  ],
+  "MLTB_ECOLI": [
+    "P41052"
+  ],
+  "MMCR_STRLA": [
+    "Q9X5T6"
+  ],
+  "MMP12_HUMAN": [
+    "P39900"
+  ],
+  "MMP13_HUMAN": [
+    "P45452"
+  ],
+  "MMP1_HUMAN": [
+    "P03956"
+  ],
+  "MMP3_HUMAN": [
+    "P08254"
+  ],
+  "MMP7_HUMAN": [
+    "P09237"
+  ],
+  "MMP8_HUMAN": [
+    "P22894"
+  ],
+  "MMP9_HUMAN": [
+    "P14780"
+  ],
+  "MNME_CHLTE": [
+    "Q8KAS1"
+  ],
+  "MNS1_YEAST": [
+    "P32906"
+  ],
+  "MOAC_ECOLI": [
+    "P0A738"
+  ],
+  "MOD5_YEAST": [
+    "P07884"
+  ],
+  "MP2K1_HUMAN": [
+    "Q02750"
+  ],
+  "MPIP2_HUMAN": [
+    "P30305"
+  ],
+  "MPPA_ECOLI": [
+    "P77348"
+  ],
+  "MPPJ_STRHY": [
+    "Q643C8"
+  ],
+  "MQMTN_HELPY": [
+    "O24915"
+  ],
+  "MRC1_MOUSE": [
+    "Q61830"
+  ],
+  "MRCKA_RAT": [
+    "O54874"
+  ],
+  "MRCKB_HUMAN": [
+    "Q9Y5S2"
+  ],
+  "MTAP_HUMAN": [
+    "Q13126"
+  ],
+  "MTH1_HAEPH": [
+    "P05102"
+  ],
+  "MTN1_ARATH": [
+    "Q9T0I8"
+  ],
+  "MTNA_BACSU": [
+    "O31662"
+  ],
+  "MTNK_BACSU": [
+    "O31663"
+  ],
+  "MTNN_ECOLI": [
+    "P0AF12"
+  ],
+  "MTNN_STAAM": [
+    "Q99TQ0"
+  ],
+  "MTNN_VIBCH": [
+    "Q9KPI8"
+  ],
+  "MTNW_GEOKA": [
+    "Q5L1E2"
+  ],
+  "MTOR_HUMAN": [
+    "P42345"
+  ],
+  "MTTA_THEAQ": [
+    "P14385"
+  ],
+  "MUP11_MOUSE": [
+    "P04938"
+  ],
+  "MURB_ECOLI": [
+    "P08373"
+  ],
+  "MURD_ECOLI": [
+    "P14900"
+  ],
+  "MURI_HELPJ": [
+    "Q9ZLT0"
+  ],
+  "MURU_PSEPK": [
+    "Q88QT2"
+  ],
+  "MV3K_THEAC": [
+    "Q9HIN1"
+  ],
+  "MXIM_SHIFL": [],
+  "MYG_PHYCD": [],
+  "MYH7_HUMAN": [
+    "P12883"
+  ],
+  "MYO10_HUMAN": [
+    "Q9HD67"
+  ],
+  "MYS2_DICDI": [
+    "P08799"
+  ],
+  "MYS_ARGIR": [
+    "P24733"
+  ],
+  "NAAA_BRASZ": [
+    "D3WZ85"
+  ],
+  "NADA_PYRHO": [
+    "O57767"
+  ],
+  "NADA_THEMA": [
+    "Q9X1X7"
+  ],
+  "NADC_HELPY": [
+    "O25909"
+  ],
+  "NADC_HUMAN": [
+    "Q15274"
+  ],
+  "NADC_MYCTU": [
+    "P9WJJ7"
+  ],
+  "NADC_YEAST": [
+    "P43619"
+  ],
+  "NADD_BACAC": [
+    "C3L5T6"
+  ],
+  "NADK1_LISMO": [
+    "Q8Y8D7"
+  ],
+  "NADM_METTH": [
+    "O26253"
+  ],
+  "NAGAB_HUMAN": [
+    "P17050"
+  ],
+  "NAGA_ECOLI": [
+    "P0AF18"
+  ],
+  "NAGB_BACSU": [
+    "O35000"
+  ],
+  "NAGB_ECOLI": [
+    "P0A759"
+  ],
+  "NAGL_RALSP": [
+    "O86043"
+  ],
+  "NAGZ_BACSU": [
+    "P40406"
+  ],
+  "NAHC_PSEU8": [
+    "P0A108"
+  ],
+  "NAHK_BIFL2": [
+    "E8MF12"
+  ],
+  "NAMPT_HUMAN": [
+    "P43490"
+  ],
+  "NANA_ECOLI": [
+    "P0A6L4"
+  ],
+  "NANA_HAEIN": [
+    "P44539"
+  ],
+  "NANA_PASMU": [
+    "Q9CKB0"
+  ],
+  "NANA_STAA8": [
+    "Q2G160"
+  ],
+  "NANA_STRR6": [
+    "P62576"
+  ],
+  "NANB_STRPN": [
+    "Q54727"
+  ],
+  "NANE_CLOPE": [
+    "Q8XNZ3"
+  ],
+  "NANH_MICVI": [
+    "Q02834"
+  ],
+  "NANH_SALTY": [
+    "P29768"
+  ],
+  "NANH_VIBCH": [
+    "P0C6E9"
+  ],
+  "NANL_MACDE": [
+    "Q27701"
+  ],
+  "NAO_FUSOX": [
+    "Q8X1D8"
+  ],
+  "NARG_ECOLI": [
+    "P09152"
+  ],
+  "NAT1_YEAST": [
+    "P12945"
+  ],
+  "NCAP_CVHOC": [
+    "P33469"
+  ],
+  "NCAP_HRSVA": [
+    "P03418"
+  ],
+  "NCAP_I34A1": [
+    "P03466"
+  ],
+  "NCSB1_STRCZ": [
+    "Q84HC8"
+  ],
+  "NCS_THLFG": [
+    "Q67A25"
+  ],
+  "NDI1_YEAST": [
+    "P32340"
+  ],
+  "NDKC_DICDI": [
+    "P22887"
+  ],
+  "NDOB_PSEPU": [
+    "P0A110"
+  ],
+  "NEK2_HUMAN": [
+    "P51955"
+  ],
+  "NEUL_RAT": [
+    "P42676"
+  ],
+  "NEUR2_HUMAN": [
+    "Q9Y3R4"
+  ],
+  "NGAL_HUMAN": [
+    "P80188"
+  ],
+  "NIKA_ECOLI": [
+    "P33590"
+  ],
+  "NMDE1_HUMAN": [
+    "Q12879"
+  ],
+  "NMDE2_HUMAN": [
+    "Q13224"
+  ],
+  "NMDE4_RAT": [
+    "Q62645"
+  ],
+  "NMDZ1_HUMAN": [
+    "Q05586"
+  ],
+  "NMDZ1_XENLA": [
+    "A0A1L8F5J9"
+  ],
+  "NMNA1_HUMAN": [
+    "Q9HAN9"
+  ],
+  "NMNA3_HUMAN": [
+    "Q96T66"
+  ],
+  "NMRL1_HUMAN": [
+    "Q9HBL8"
+  ],
+  "NMT1_HUMAN": [
+    "P30419"
+  ],
+  "NMT_ASPFU": [
+    "Q9UVX3"
+  ],
+  "NMT_YEAST": [
+    "P14743"
+  ],
+  "NNRE_MOUSE": [
+    "Q8K4Z3"
+  ],
+  "NOCT_AGRFC": [
+    "P35120"
+  ],
+  "NOD13_MEDTR": [
+    "P93330"
+  ],
+  "NPC1_HUMAN": [
+    "O15118"
+  ],
+  "NPC2_BOVIN": [
+    "P79345"
+  ],
+  "NPD2_ARCFU": [
+    "O30124"
+  ],
+  "NR1H2_HUMAN": [
+    "P55055"
+  ],
+  "NR1H3_HUMAN": [
+    "Q13133"
+  ],
+  "NR1I2_HUMAN": [
+    "O75469"
+  ],
+  "NR1I3_HUMAN": [
+    "Q14994"
+  ],
+  "NR1I3_MOUSE": [
+    "O35627"
+  ],
+  "NR5A2_HUMAN": [
+    "O00482"
+  ],
+  "NRAM_I18A0": [
+    "Q9IGQ6"
+  ],
+  "NRAM_I56A2": [
+    "Q6XV27"
+  ],
+  "NRAM_I63A3": [
+    "Q07599"
+  ],
+  "NRAM_I67A0": [
+    "P06820"
+  ],
+  "NRAM_I75A5": [
+    "P03472"
+  ],
+  "NRAM_I96A0": [
+    "Q9Q0U7"
+  ],
+  "NRAM_INBBE": [
+    "P27907"
+  ],
+  "NRAM_INBLE": [
+    "P03474"
+  ],
+  "NRK1_HUMAN": [
+    "Q9NWW6"
+  ],
+  "NRP1_HUMAN": [
+    "O14786"
+  ],
+  "NSAR_BACCR": [
+    "Q81IL5"
+  ],
+  "NT5C_HUMAN": [
+    "Q8TCD5"
+  ],
+  "NT5M_HUMAN": [
+    "Q9NPB1"
+  ],
+  "NTDA_BACSU": [
+    "O07566"
+  ],
+  "O16G1_BACSU": [
+    "O06994"
+  ],
+  "OAME_ACESD": [
+    "E3PY95"
+  ],
+  "OB76A_DROME": [],
+  "OBL_OBELO": [
+    "Q27709"
+  ],
+  "OBP2_BOMMO": [
+    "P34170"
+  ],
+  "OBP_BOVIN": [
+    "P07435"
+  ],
+  "OBP_PIG": [
+    "P81245"
+  ],
+  "OCP_SYNY3": [
+    "P74102"
+  ],
+  "ODBA_HUMAN": [
+    "P12694"
+  ],
+  "ODBA_PSEPU": [
+    "P09060"
+  ],
+  "ODP1_ECOLI": [
+    "P0AFG8"
+  ],
+  "ODPA_HUMAN": [
+    "P08559"
+  ],
+  "ODPB_HUMAN": [
+    "P11177"
+  ],
+  "OGA_BACTN": [
+    "Q89ZI2"
+  ],
+  "OGA_CLOP1": [
+    "Q0TR53"
+  ],
+  "OGA_HUMAN": [
+    "O60502"
+  ],
+  "OGFD1_HUMAN": [
+    "Q8N543"
+  ],
+  "OGG1_HUMAN": [
+    "O15527"
+  ],
+  "OL4AG_CELJU": [
+    "B3PEE6"
+  ],
+  "OLED_STRAT": [
+    "Q53685"
+  ],
+  "OPRD_HUMAN": [
+    "P41143"
+  ],
+  "OPRK_HUMAN": [
+    "P41145"
+  ],
+  "OPRM_MOUSE": [
+    "P42866"
+  ],
+  "OPRX_HUMAN": [
+    "P41146"
+  ],
+  "OPSD_HUMAN": [
+    "P08100"
+  ],
+  "OPUCC_BACSU": [
+    "O32243"
+  ],
+  "OTC1_ECOLI": [
+    "P04391"
+  ],
+  "OTC_HUMAN": [
+    "P00480"
+  ],
+  "OX1R_HUMAN": [
+    "O43613"
+  ],
+  "OXC_OXAFO": [
+    "P40149"
+  ],
+  "OXDA_HUMAN": [
+    "P14920"
+  ],
+  "OXDA_PIG": [
+    "P00371"
+  ],
+  "OYE1_SACPS": [
+    "Q02899"
+  ],
+  "P2RX3_HUMAN": [
+    "P56373"
+  ],
+  "P2RY1_HUMAN": [
+    "P47900"
+  ],
+  "P53_HUMAN": [
+    "P04637"
+  ],
+  "P85A_HUMAN": [
+    "P27986"
+  ],
+  "PA1L_PSEAE": [
+    "Q05097"
+  ],
+  "PA2GX_HUMAN": [
+    "O15496"
+  ],
+  "PABC_ECOLI": [
+    "P28305"
+  ],
+  "PADI4_HUMAN": [
+    "Q9UM07"
+  ],
+  "PAFA_HUMAN": [
+    "Q13093"
+  ],
+  "PAL_ANAVT": [],
+  "PAM_TAXWC": [],
+  "PANC_MYCTU": [
+    "P9WIL5"
+  ],
+  "PANK3_HUMAN": [
+    "Q9H999"
+  ],
+  "PAO_MAIZE": [],
+  "PAO_PSESP": [
+    "Q5W9R9"
+  ],
+  "PAR10_HUMAN": [
+    "Q53GL7"
+  ],
+  "PAR14_HUMAN": [
+    "Q460N5"
+  ],
+  "PAR15_HUMAN": [
+    "Q460N3"
+  ],
+  "PAR1_HUMAN": [
+    "P25116"
+  ],
+  "PARE_ECOLI": [
+    "P20083"
+  ],
+  "PARE_STRPN": [
+    "Q59961"
+  ],
+  "PARG_HUMAN": [
+    "Q86W56"
+  ],
+  "PARP1_CHICK": [
+    "P26446"
+  ],
+  "PARP1_HUMAN": [
+    "P09874"
+  ],
+  "PARP2_HUMAN": [
+    "Q9UGN5"
+  ],
+  "PARP3_HUMAN": [
+    "Q9Y6F1"
+  ],
+  "PAT_STRHY": [
+    "P16426"
+  ],
+  "PA_I34A1": [
+    "P03433"
+  ],
+  "PB1_HUMAN": [
+    "Q86U86"
+  ],
+  "PB2_I34A1": [
+    "P03428"
+  ],
+  "PB2_INBLE": [
+    "Q9QLL6"
+  ],
+  "PBP_BOMMO": [
+    "P34174"
+  ],
+  "PCC6_MYCTU": [],
+  "PCKGC_HUMAN": [
+    "P35558"
+  ],
+  "PCKG_MYCTU": [
+    "P9WIH3"
+  ],
+  "PCP1_AMPCA": [
+    "P80484"
+  ],
+  "PCPR_SPHCR": [
+    "P52679"
+  ],
+  "PCRB_BACSU": [
+    "O34790"
+  ],
+  "PCXA_ACIAD": [
+    "P20371"
+  ],
+  "PCXA_PSEPU": [
+    "P00436"
+  ],
+  "PCXB_ACIAD": [
+    "P20372"
+  ],
+  "PCXB_PSEPU": [
+    "P00437"
+  ],
+  "PD1L1_HUMAN": [
+    "Q9NZQ7"
+  ],
+  "PDC1_YEAST": [
+    "P06169"
+  ],
+  "PDCH_SPHPI": [],
+  "PDC_ZYMMO": [
+    "P06672"
+  ],
+  "PDE10_HUMAN": [
+    "Q9Y233"
+  ],
+  "PDE12_HUMAN": [
+    "Q6L8Q7"
+  ],
+  "PDE1B_HUMAN": [
+    "Q01064"
+  ],
+  "PDE2A_HUMAN": [
+    "O00408"
+  ],
+  "PDE4A_HUMAN": [
+    "P27815"
+  ],
+  "PDE4B_HUMAN": [
+    "Q07343"
+  ],
+  "PDE4D_HUMAN": [
+    "Q08499"
+  ],
+  "PDE5A_HUMAN": [
+    "O76074"
+  ],
+  "PDE6D_HUMAN": [
+    "O43924"
+  ],
+  "PDE7A_HUMAN": [
+    "Q13946"
+  ],
+  "PDE8A_HUMAN": [
+    "O60658"
+  ],
+  "PDE9A_HUMAN": [
+    "O76083"
+  ],
+  "PDK3_HUMAN": [
+    "Q15120"
+  ],
+  "PDK4_HUMAN": [
+    "Q16654"
+  ],
+  "PDLA_RHILO": [
+    "Q988B9"
+  ],
+  "PDXJ_ECOLI": [
+    "P0A794"
+  ],
+  "PDXK_ECOLI": [
+    "P40191"
+  ],
+  "PDXK_HUMAN": [
+    "O00764"
+  ],
+  "PDXK_SHEEP": [
+    "P82197"
+  ],
+  "PEPA1_PENJA": [
+    "P00798"
+  ],
+  "PEPM_MYTED": [
+    "P56839"
+  ],
+  "PEPQ_ALTSX": [
+    "Q44238"
+  ],
+  "PER1A_ARMRU": [
+    "P00433"
+  ],
+  "PERL_BOVIN": [
+    "P80025"
+  ],
+  "PER_COPCI": [
+    "P28314"
+  ],
+  "PFKA_GEOSE": [
+    "P00512"
+  ],
+  "PGES2_MACFA": [
+    "Q9N0A4"
+  ],
+  "PGH1_SHEEP": [
+    "P05979"
+  ],
+  "PGH2_HUMAN": [
+    "P35354"
+  ],
+  "PGH2_MOUSE": [
+    "Q05769"
+  ],
+  "PGK1_HUMAN": [
+    "P00558"
+  ],
+  "PGMB_LACLA": [
+    "P71447"
+  ],
+  "PGMI_PYRAE": [
+    "Q8ZWV0"
+  ],
+  "PGTB1_RAT": [
+    "P53610"
+  ],
+  "PGTB2_MOUSE": [
+    "P53612"
+  ],
+  "PH4H_HUMAN": [
+    "P00439"
+  ],
+  "PHEA_ECOLI": [],
+  "PHF8_HUMAN": [
+    "Q9UPP1"
+  ],
+  "PHHY_PSEAE": [
+    "P20586"
+  ],
+  "PHIP_HUMAN": [
+    "Q8WWQ0"
+  ],
+  "PHOQ_SALTY": [
+    "P0DM80"
+  ],
+  "PHYA_ASPNG": [
+    "P34752"
+  ],
+  "PHYC_BACIU": [
+    "O31097"
+  ],
+  "PHZD2_PSEAE": [
+    "P0DPC1"
+  ],
+  "PHZF_PSEFL": [
+    "Q51792"
+  ],
+  "PHZG_PSEFL": [
+    "Q51793"
+  ],
+  "PI4KB_HUMAN": [
+    "Q9UBF8"
+  ],
+  "PICAL_RAT": [
+    "O55012"
+  ],
+  "PIKA4_STRVZ": [
+    "Q9ZGI2"
+  ],
+  "PIN1_HUMAN": [
+    "Q13526"
+  ],
+  "PIP_SERMA": [
+    "O32449"
+  ],
+  "PIR_HUMAN": [
+    "O00625"
+  ],
+  "PK3C3_HUMAN": [
+    "Q8NEB9"
+  ],
+  "PK3CA_HUMAN": [
+    "P42336"
+  ],
+  "PK3CB_MOUSE": [
+    "Q8BTI9"
+  ],
+  "PK3CD_HUMAN": [
+    "O00329"
+  ],
+  "PK3CG_HUMAN": [
+    "P48736"
+  ],
+  "PKNB_MYCTU": [
+    "P9WI81"
+  ],
+  "PKNG_MYCTU": [
+    "P9WI73"
+  ],
+  "PKNI_MYCTU": [
+    "P9WI69"
+  ],
+  "PKS11_MYCTU": [
+    "P9WPF3"
+  ],
+  "PLC_BACCE": [
+    "P14262"
+  ],
+  "PLC_LISMO": [
+    "P34024"
+  ],
+  "PLEK_HUMAN": [
+    "P08567"
+  ],
+  "PLK1_HUMAN": [
+    "P53350"
+  ],
+  "PLM2_PLAFA": [],
+  "PLMN_HUMAN": [
+    "P00747"
+  ],
+  "PLPP_HUMAN": [
+    "Q96GD0"
+  ],
+  "PMG1_YEAST": [
+    "P00950"
+  ],
+  "PMGE_HUMAN": [
+    "P07738"
+  ],
+  "PMGT1_HUMAN": [
+    "Q8WZA1"
+  ],
+  "PMYT1_HUMAN": [
+    "Q99640"
+  ],
+  "PNAE_RAUSE": [
+    "Q9SE93"
+  ],
+  "PNCB_THEAC": [
+    "Q9HJ28"
+  ],
+  "PNMT_HUMAN": [
+    "P11086"
+  ],
+  "PNPH_BOVIN": [
+    "P55859"
+  ],
+  "PNPH_HUMAN": [
+    "P00491"
+  ],
+  "PNPH_SULSO": [],
+  "POLG_DEN2P": [
+    "P12823"
+  ],
+  "POLG_DEN3I": [
+    "Q5UB51"
+  ],
+  "POLG_DEN3S": [
+    "Q6YMS4"
+  ],
+  "POLG_HCV1": [
+    "P26664"
+  ],
+  "POLG_HCVBK": [
+    "P26663"
+  ],
+  "POLG_HCVCO": [
+    "Q9WMX2"
+  ],
+  "POLG_HCVH": [],
+  "POLG_HCVJ4": [
+    "O92972"
+  ],
+  "POLG_HCVJ6": [
+    "P26660"
+  ],
+  "POLG_HCVJA": [
+    "P26662"
+  ],
+  "POLG_HCVJF": [
+    "Q99IB8"
+  ],
+  "POLG_HE71M": [
+    "Q66479"
+  ],
+  "POLG_HRV2": [
+    "P04936"
+  ],
+  "POLG_ZIKV": [
+    "Q32ZE1"
+  ],
+  "POLH_HUMAN": [
+    "Q9Y253"
+  ],
+  "POLH_YEAST": [
+    "Q04049"
+  ],
+  "POLI_HUMAN": [
+    "Q9UNA4"
+  ],
+  "POL_FIVPE": [
+    "P16088"
+  ],
+  "POL_HTL1A": [
+    "P03362"
+  ],
+  "POL_HV192": [
+    "O12158"
+  ],
+  "POL_HV1B1": [
+    "P03366"
+  ],
+  "POL_HV1H2": [
+    "P04585"
+  ],
+  "POL_HV1Z2": [
+    "P12499"
+  ],
+  "POL_HV2RO": [
+    "P04584"
+  ],
+  "POL_MLVMS": [
+    "P03355"
+  ],
+  "POL_SIVMK": [],
+  "POR_DESAF": [],
+  "POXB_LACPL": [
+    "P37063"
+  ],
+  "PP1G_HUMAN": [
+    "P36873"
+  ],
+  "PPAC_HUMAN": [
+    "P24666"
+  ],
+  "PPAF_PHAVU": [
+    "P80366"
+  ],
+  "PPAL_YEAST": [
+    "P40347"
+  ],
+  "PPARA_HUMAN": [
+    "Q07869"
+  ],
+  "PPARD_HUMAN": [
+    "Q03181"
+  ],
+  "PPARG_HUMAN": [
+    "P37231"
+  ],
+  "PPAT_RHILO": [
+    "Q988B8"
+  ],
+  "PPB1_HUMAN": [
+    "P05187"
+  ],
+  "PPBI1_RAT": [
+    "P15693"
+  ],
+  "PPCE_HUMAN": [
+    "P48147"
+  ],
+  "PPDK1_MAIZE": [
+    "P11155"
+  ],
+  "PPDK_CLOSY": [
+    "P22983"
+  ],
+  "PPDK_FLATR": [
+    "P22221"
+  ],
+  "PPGB_HUMAN": [
+    "P10619"
+  ],
+  "PPHA_VARSP": [
+    "Q84G06"
+  ],
+  "PPOX_MYXXA": [],
+  "PPP5_HUMAN": [
+    "P53041"
+  ],
+  "PPTA_ECOLI": [
+    "P31992"
+  ],
+  "PQQC_KLEPN": [
+    "P27505"
+  ],
+  "PQSE_PSEAE": [
+    "P20581"
+  ],
+  "PRDX5_HUMAN": [
+    "P30044"
+  ],
+  "PRFA_LISMO": [
+    "P22262"
+  ],
+  "PRGR_HUMAN": [
+    "P06401"
+  ],
+  "PRIO_MOUSE": [
+    "P04925"
+  ],
+  "PRMA_THET8": [
+    "Q84BQ9"
+  ],
+  "PRNB_PSEFL": [
+    "P95481"
+  ],
+  "PROB_ECOLI": [
+    "P0A7B5"
+  ],
+  "PRPF_SHEON": [
+    "Q8EJW4"
+  ],
+  "PRSS8_HUMAN": [
+    "Q16651"
+  ],
+  "PRTK_PARAQ": [
+    "P06873"
+  ],
+  "PRX2_PENRO": [
+    "Q03471"
+  ],
+  "PTC_ENTFA": [
+    "Q837U7"
+  ],
+  "PTGDS_HUMAN": [
+    "P41222"
+  ],
+  "PTGES_HUMAN": [
+    "O14684"
+  ],
+  "PTGR1_CAVPO": [
+    "Q9EQZ5"
+  ],
+  "PTGR2_HUMAN": [
+    "Q8N8N7"
+  ],
+  "PTGR3_HUMAN": [
+    "Q8N4Q0"
+  ],
+  "PTH_PSEAE": [
+    "Q9HVC3"
+  ],
+  "PTK6_HUMAN": [
+    "Q13882"
+  ],
+  "PTLH_STRAW": [
+    "Q82IZ1"
+  ],
+  "PTN11_HUMAN": [
+    "Q06124"
+  ],
+  "PTN1_HUMAN": [
+    "P18031"
+  ],
+  "PTN22_HUMAN": [
+    "Q9Y2R2"
+  ],
+  "PTN5_HUMAN": [
+    "P54829"
+  ],
+  "PTPRB_HUMAN": [
+    "P23467"
+  ],
+  "PTPRG_HUMAN": [
+    "P23470"
+  ],
+  "PTP_PORGI": [
+    "Q7MUW6"
+  ],
+  "PTR1_LEIMA": [
+    "Q01782"
+  ],
+  "PUNA_MYCTU": [
+    "P9WP01"
+  ],
+  "PUR1_ECOLI": [
+    "P0AG16"
+  ],
+  "PUR2_HUMAN": [
+    "P22102"
+  ],
+  "PUR3_ECOLI": [
+    "P08179"
+  ],
+  "PUR7_YEAST": [
+    "P27616"
+  ],
+  "PUR9_CHICK": [
+    "P31335"
+  ],
+  "PUR9_HUMAN": [
+    "P31939"
+  ],
+  "PURA_ECOLI": [
+    "P0A7D4"
+  ],
+  "PVDQ_PSEAE": [
+    "Q9I194"
+  ],
+  "PYGL_HUMAN": [
+    "P06737"
+  ],
+  "PYGM_HUMAN": [
+    "P11217"
+  ],
+  "PYL10_ARATH": [
+    "Q8H1R0"
+  ],
+  "PYL1_ARATH": [
+    "Q8VZS8"
+  ],
+  "PYL2_ARATH": [
+    "O80992"
+  ],
+  "PYL3_ARATH": [
+    "Q9SSM7"
+  ],
+  "PYL9_ARATH": [
+    "Q84MC7"
+  ],
+  "PYR1_ARATH": [
+    "O49686"
+  ],
+  "PYR1_HUMAN": [
+    "P27708"
+  ],
+  "PYRB_BACSU": [
+    "P05654"
+  ],
+  "PYRB_ECOLI": [
+    "P0A786"
+  ],
+  "PYRC_BACAN": [
+    "Q81WF0"
+  ],
+  "PYRC_ECOLI": [
+    "P05020"
+  ],
+  "PYRD_HUMAN": [
+    "Q02127"
+  ],
+  "PYRD_PLAF7": [
+    "Q08210"
+  ],
+  "PYRD_RAT": [
+    "Q63707"
+  ],
+  "PYRE_YEAST": [
+    "P13298"
+  ],
+  "PYRF_METTH": [
+    "O26232"
+  ],
+  "PYRF_YEAST": [
+    "P03962"
+  ],
+  "PYRI_ECOLI": [
+    "P0A7F3"
+  ],
+  "QACR_STAAU": [
+    "P0A0N4"
+  ],
+  "QDOI_ASPJA": [
+    "Q7SIC2"
+  ],
+  "QUED_ECOLI": [
+    "P65870"
+  ],
+  "QUEE_BURM1": [
+    "A0A0H3KB22"
+  ],
+  "QUEF_BACSU": [
+    "O31678"
+  ],
+  "QUEF_VIBCH": [
+    "Q9KTK0"
+  ],
+  "R15PI_THEKO": [
+    "Q5JFM9"
+  ],
+  "R1AB_BCHK4": [
+    "P0C6W3"
+  ],
+  "R1AB_CVHSA": [],
+  "RAB7A_HUMAN": [
+    "P51149"
+  ],
+  "RABP1_MOUSE": [
+    "P62965"
+  ],
+  "RABP2_HUMAN": [
+    "P29373"
+  ],
+  "RAC1_HUMAN": [
+    "P63000"
+  ],
+  "RADA_PYRFU": [
+    "O74036"
+  ],
+  "RAMP1_HUMAN": [
+    "O60894"
+  ],
+  "RAN_HUMAN": [
+    "P62826"
+  ],
+  "RAP1B_HUMAN": [
+    "P61224"
+  ],
+  "RARA_HUMAN": [
+    "P10276"
+  ],
+  "RARB_HUMAN": [
+    "P10826"
+  ],
+  "RARG_HUMAN": [
+    "P13631"
+  ],
+  "RASH_HUMAN": [
+    "P01112"
+  ],
+  "RASK_HUMAN": [
+    "P01116"
+  ],
+  "RB11A_HUMAN": [
+    "P62491"
+  ],
+  "RBL2_RHOPA": [
+    "Q6N0W9"
+  ],
+  "RBL_ARATH": [
+    "O03042"
+  ],
+  "RBL_SYNP6": [
+    "P00880"
+  ],
+  "RBL_THEEB": [],
+  "RBL_THEKO": [
+    "O93627"
+  ],
+  "RDM1_ARATH": [
+    "Q9LUJ3"
+  ],
+  "RDMB_STREF": [
+    "Q54527"
+  ],
+  "RDMC_STREF": [
+    "Q54528"
+  ],
+  "RECQ5_HUMAN": [
+    "O94762"
+  ],
+  "RENI_HUMAN": [
+    "P00797"
+  ],
+  "RET1_HUMAN": [
+    "P09455"
+  ],
+  "RET2_HUMAN": [
+    "P50120"
+  ],
+  "RET4_HUMAN": [
+    "P02753"
+  ],
+  "RETO_ESCCA": [
+    "P30986"
+  ],
+  "REV1_YEAST": [
+    "P12689"
+  ],
+  "RFA1_HUMAN": [
+    "P27694"
+  ],
+  "RGN_MOUSE": [
+    "Q64374"
+  ],
+  "RHAA_ECOLI": [
+    "P32170"
+  ],
+  "RHAD_ECOLI": [
+    "P32169"
+  ],
+  "RHEB_HUMAN": [
+    "Q15382"
+  ],
+  "RHG09_HUMAN": [
+    "Q9BRR9"
+  ],
+  "RHMD_ECOLI": [
+    "P77215"
+  ],
+  "RHOA_HUMAN": [
+    "P61586"
+  ],
+  "RICI_RICCO": [
+    "P02879"
+  ],
+  "RIFK_AMYMS": [
+    "O52552"
+  ],
+  "RIHA_ECOLI": [
+    "P41409"
+  ],
+  "RIHB_ECOLI": [
+    "P33022"
+  ],
+  "RIO1_ARCFU": [
+    "O28471"
+  ],
+  "RIO2_ARCFU": [
+    "O30245"
+  ],
+  "RIOK1_HUMAN": [
+    "Q9BRS2"
+  ],
+  "RIOX1_HUMAN": [
+    "Q9H6W3"
+  ],
+  "RIP1_MOMCH": [
+    "P16094"
+  ],
+  "RIP1_PHYAM": [
+    "P10297"
+  ],
+  "RIPS_PHYAM": [
+    "P23339"
+  ],
+  "RIPT_TRIKI": [
+    "P09989"
+  ],
+  "RIR1_HUMAN": [
+    "P23921"
+  ],
+  "RN5A_HUMAN": [
+    "Q05823"
+  ],
+  "RNAS1_BOVIN": [
+    "P61823"
+  ],
+  "RNAS2_HUMAN": [
+    "P10153"
+  ],
+  "ROCK1_HUMAN": [
+    "Q13464"
+  ],
+  "ROCK2_HUMAN": [
+    "O75116"
+  ],
+  "RORA_HUMAN": [
+    "P35398"
+  ],
+  "RORG_HUMAN": [
+    "P51449"
+  ],
+  "RPE65_BOVIN": [
+    "Q28175"
+  ],
+  "RPGF4_MOUSE": [
+    "Q9EQZ6"
+  ],
+  "RPIA_FRATT": [
+    "Q5NFM5"
+  ],
+  "RPIA_THET2": [
+    "Q72J47"
+  ],
+  "RPIA_VIBVY": [
+    "Q7MHL9"
+  ],
+  "RPIB_MYCTU": [
+    "P9WKD7"
+  ],
+  "RPOB_THET8": [
+    "Q8RQE9"
+  ],
+  "RT106_YEAST": [
+    "P40161"
+  ],
+  "RXRA_HUMAN": [
+    "P19793"
+  ],
+  "RXRB_HUMAN": [
+    "P28702"
+  ],
+  "S100B_HUMAN": [
+    "P04271"
+  ],
+  "S10A7_HUMAN": [
+    "P31151"
+  ],
+  "S10A9_HUMAN": [
+    "P06702"
+  ],
+  "S14L2_HUMAN": [
+    "O76054"
+  ],
+  "SABP2_TOBAC": [
+    "Q6RYA0"
+  ],
+  "SAE2_HUMAN": [
+    "Q9UBT2"
+  ],
+  "SAHH_HUMAN": [
+    "P23526"
+  ],
+  "SAHH_MYCTU": [
+    "P9WGV3"
+  ],
+  "SAMP_HUMAN": [
+    "P02743"
+  ],
+  "SAV_STRAV": [
+    "P22629"
+  ],
+  "SBNA_STAAE": [
+    "A6QDA0"
+  ],
+  "SCAF_HHV8P": [
+    "Q2HRB6"
+  ],
+  "SCMU_MYCTU": [
+    "P9WIB9"
+  ],
+  "SCYD_MAGO7": [],
+  "SDHL_RAT": [
+    "P09367"
+  ],
+  "SDIS_COMTE": [
+    "P00947"
+  ],
+  "SDIS_PSEPU": [
+    "P07445"
+  ],
+  "SERA_HUMAN": [
+    "O43175"
+  ],
+  "SETB1_HUMAN": [
+    "Q15047"
+  ],
+  "SETD7_HUMAN": [
+    "Q8WTS6"
+  ],
+  "SFTPA_RAT": [
+    "P08427"
+  ],
+  "SFTPD_HUMAN": [
+    "P35247"
+  ],
+  "SG196_DANRE": [
+    "Q5U3W1"
+  ],
+  "SGMR1_HUMAN": [
+    "Q99720"
+  ],
+  "SHBG_HUMAN": [
+    "P04278"
+  ],
+  "SIA8C_HUMAN": [
+    "O43173"
+  ],
+  "SIAP_HAEIN": [
+    "P44542"
+  ],
+  "SIA_ASPFU": [
+    "Q4WQS0"
+  ],
+  "SIR5_DANRE": [
+    "Q6DHI5"
+  ],
+  "SMCA2_HUMAN": [
+    "P51531"
+  ],
+  "SMCA4_HUMAN": [
+    "P51532"
+  ],
+  "SMN_HUMAN": [
+    "Q16637"
+  ],
+  "SMO_HUMAN": [
+    "Q99835"
+  ],
+  "SMYD2_HUMAN": [
+    "Q9NRG4"
+  ],
+  "SMYD3_HUMAN": [
+    "Q9H7B4"
+  ],
+  "SN_MOUSE": [
+    "Q62230"
+  ],
+  "SODC_HUMAN": [
+    "P00441"
+  ],
+  "SORT_HUMAN": [
+    "Q99523"
+  ],
+  "SOT18_ARATH": [
+    "Q9C9C9"
+  ],
+  "SOXB_RHOSG": [],
+  "SPAP_STRMU": [
+    "P23504"
+  ],
+  "SPEB_STRP1": [
+    "P0C0J1"
+  ],
+  "SPHK1_HUMAN": [
+    "Q9NYA1"
+  ],
+  "SPIN1_HUMAN": [
+    "Q9Y657"
+  ],
+  "SPRE_HUMAN": [
+    "P35270"
+  ],
+  "SPS3_ARATH": [
+    "Q5HZ00"
+  ],
+  "SQASE_ECOLI": [
+    "P32138"
+  ],
+  "SQRD_AQUAE": [
+    "O67931"
+  ],
+  "ST14_HUMAN": [
+    "Q9Y5Y6"
+  ],
+  "ST1A1_HUMAN": [
+    "P50225"
+  ],
+  "ST1A3_HUMAN": [
+    "P0DMM9"
+  ],
+  "ST1B1_HUMAN": [
+    "O43704"
+  ],
+  "ST1C4_HUMAN": [
+    "O75897"
+  ],
+  "ST1D1_MOUSE": [
+    "Q3UZZ6"
+  ],
+  "ST1E1_HUMAN": [
+    "P49888"
+  ],
+  "ST1E1_MOUSE": [
+    "P49891"
+  ],
+  "ST2A1_HUMAN": [
+    "Q06520"
+  ],
+  "ST2B1_HUMAN": [
+    "O00204"
+  ],
+  "STING_HUMAN": [
+    "Q86WV6"
+  ],
+  "STING_MOUSE": [
+    "Q3TBT3"
+  ],
+  "STK16_HUMAN": [
+    "O75716"
+  ],
+  "STRAA_HUMAN": [
+    "Q7RTN6"
+  ],
+  "STRH_STRPN": [
+    "P49610"
+  ],
+  "STSY_RAUSE": [
+    "P68175"
+  ],
+  "STXB_BP933": [
+    "P09386"
+  ],
+  "SUCP_BIFAA": [
+    "A0ZZH6"
+  ],
+  "SUFS_BACSU": [
+    "O32164"
+  ],
+  "SUGFT_MYCTU": [
+    "P9WKZ3"
+  ],
+  "SUIS_HUMAN": [
+    "P14410"
+  ],
+  "SYA_ECOLI": [
+    "P00957"
+  ],
+  "SYA_PYRHO": [
+    "O58035"
+  ],
+  "SYEP_HUMAN": [
+    "P07814"
+  ],
+  "SYFA_PSEAE": [
+    "Q9I0A3"
+  ],
+  "SYFA_THET8": [
+    "Q5SGX2"
+  ],
+  "SYH_ECOLI": [
+    "P60906"
+  ],
+  "SYH_THET8": [
+    "P56194"
+  ],
+  "SYI_THET8": [
+    "P56690"
+  ],
+  "SYK_GEOSE": [
+    "Q9RHV9"
+  ],
+  "SYK_HUMAN": [
+    "Q15046"
+  ],
+  "SYL_ECOLI": [
+    "P07813"
+  ],
+  "SYM_BRUSU": [
+    "P59078"
+  ],
+  "SYP_ENTFA": [
+    "Q831W7"
+  ],
+  "SYP_METTH": [
+    "O26708"
+  ],
+  "SYP_PLAF7": [
+    "Q8I5R7"
+  ],
+  "SYP_RHOPA": [
+    "Q6N5P6"
+  ],
+  "SYP_THET8": [
+    "Q5SM28"
+  ],
+  "SYQ_ECOLI": [
+    "P00962"
+  ],
+  "SYRC_HUMAN": [
+    "P54136"
+  ],
+  "SYS2_METBF": [
+    "Q46AN5"
+  ],
+  "SYSC_CANAL": [
+    "Q9HGT6"
+  ],
+  "SYS_PYRHO": [
+    "O58441"
+  ],
+  "SYS_THET8": [
+    "Q5SJX7"
+  ],
+  "SYTC_HUMAN": [
+    "P26639"
+  ],
+  "SYTM_YEAST": [
+    "P07236"
+  ],
+  "SYT_ECOLI": [
+    "P0A8M3"
+  ],
+  "SYT_PYRAB": [
+    "Q9UZ14"
+  ],
+  "SYT_STAAW": [
+    "Q8NW68"
+  ],
+  "SYV_THETH": [
+    "P96142"
+  ],
+  "SYWC_HUMAN": [
+    "P23381"
+  ],
+  "SYWC_YEAST": [
+    "Q12109"
+  ],
+  "SYW_GEOSE": [
+    "P00953"
+  ],
+  "SYYC_HUMAN": [
+    "P54577"
+  ],
+  "SYY_ECOLI": [
+    "P0AGJ9"
+  ],
+  "SYY_METJA": [
+    "Q57834"
+  ],
+  "SYY_STAAE": [
+    "A6QHR2"
+  ],
+  "TAF1L_HUMAN": [
+    "Q8IZX4"
+  ],
+  "TAF1_HUMAN": [
+    "P21675"
+  ],
+  "TAGAD_SALTY": [
+    "Q8ZL58"
+  ],
+  "TALY_RHOS4": [],
+  "TAL_THEAC": [
+    "Q9HKI3"
+  ],
+  "TBB5_HUMAN": [
+    "P07437"
+  ],
+  "TCMN_STRGA": [
+    "P16559"
+  ],
+  "TCPN_VIBC3": [
+    "A5F384"
+  ],
+  "TDG_HUMAN": [
+    "Q13569"
+  ],
+  "TDT_MOUSE": [
+    "P09838"
+  ],
+  "TEAA_HALED": [
+    "E1VBK1"
+  ],
+  "TEAD2_HUMAN": [
+    "Q15562"
+  ],
+  "TENA_BACSU": [
+    "P25052"
+  ],
+  "TENI_BACSU": [
+    "P25053"
+  ],
+  "TERA_HUMAN": [
+    "P55072"
+  ],
+  "TETR2_ECOLX": [
+    "P04483"
+  ],
+  "TETR4_ECOLX": [
+    "P0ACT4"
+  ],
+  "TGFR1_HUMAN": [
+    "P36897"
+  ],
+  "TGFR2_HUMAN": [
+    "P37173"
+  ],
+  "TGT_ZYMMO": [
+    "P28720"
+  ],
+  "THA_HUMAN": [
+    "P10827"
+  ],
+  "THBG_HUMAN": [
+    "P05543"
+  ],
+  "THB_HUMAN": [
+    "P10828"
+  ],
+  "THER_GEOSE": [
+    "P43133"
+  ],
+  "THGA_ECOLI": [
+    "P07464"
+  ],
+  "THIC_CAUCR": [],
+  "THIE_BACSU": [
+    "P39594"
+  ],
+  "THIL_AQUAE": [
+    "O67883"
+  ],
+  "THIM_BACSU": [
+    "P39593"
+  ],
+  "THIM_STAAR": [
+    "Q6GEY3"
+  ],
+  "THIT_LACLM": [
+    "A2RI47"
+  ],
+  "THM1_THADA": [
+    "P02883"
+  ],
+  "THRB_BOVIN": [
+    "P00735"
+  ],
+  "THRB_HUMAN": [
+    "P00734"
+  ],
+  "THYX_THEMA": [
+    "Q9WYT0"
+  ],
+  "TIAS_ARCFU": [
+    "O28025"
+  ],
+  "TIF1A_HUMAN": [
+    "O15164"
+  ],
+  "TIR1_ARATH": [
+    "Q570C0"
+  ],
+  "TKT1_ECOLI": [
+    "P27302"
+  ],
+  "TKT1_YEAST": [
+    "P23254"
+  ],
+  "TKT_HUMAN": [
+    "P29401"
+  ],
+  "TKT_PICST": [
+    "P34736"
+  ],
+  "TLDD_ECOLI": [
+    "P0AGG8"
+  ],
+  "TLE1_HUMAN": [
+    "Q04724"
+  ],
+  "TLR8_HUMAN": [
+    "Q9NR97"
+  ],
+  "TNFA_HUMAN": [
+    "P01375"
+  ],
+  "TOP1_HUMAN": [
+    "P11387"
+  ],
+  "TOP2_YEAST": [
+    "P06786"
+  ],
+  "TOP6B_SULSH": [],
+  "TOXA_PSEAE": [
+    "P11439"
+  ],
+  "TOXB_CLODI": [],
+  "TP4A1_HUMAN": [
+    "Q93096"
+  ],
+  "TP53B_HUMAN": [
+    "Q12888"
+  ],
+  "TPA1_YEAST": [
+    "P40032"
+  ],
+  "TPA_HUMAN": [
+    "P00750"
+  ],
+  "TPH1_HUMAN": [
+    "P17752"
+  ],
+  "TPIS_CHICK": [
+    "P00940"
+  ],
+  "TPIS_HUMAN": [
+    "P60174"
+  ],
+  "TPIS_LEIME": [
+    "P48499"
+  ],
+  "TPIS_LEPIN": [
+    "Q8F5I5"
+  ],
+  "TPIS_MYCTU": [
+    "P9WG43"
+  ],
+  "TPIS_PLAFA": [
+    "Q07412"
+  ],
+  "TPIS_STAAR": [
+    "Q6GIL6"
+  ],
+  "TPIS_YEAST": [
+    "P00942"
+  ],
+  "TPK1_MOUSE": [
+    "Q9R0M5"
+  ],
+  "TPL_CITFR": [
+    "P31013"
+  ],
+  "TPMT_MOUSE": [
+    "O55060"
+  ],
+  "TPS1_CANAL": [
+    "Q92410"
+  ],
+  "TRAP1_HUMAN": [
+    "Q12931"
+  ],
+  "TREA_ECOLI": [
+    "P13482"
+  ],
+  "TRFE_ANAPL": [
+    "P56410"
+  ],
+  "TRFE_CHICK": [
+    "P02789"
+  ],
+  "TRFL_BOVIN": [
+    "P24627"
+  ],
+  "TRI3_FUSSP": [
+    "Q9C1B7"
+  ],
+  "TRI5_FUSSP": [
+    "P13513"
+  ],
+  "TRMD_HAEIN": [
+    "P43912"
+  ],
+  "TRMFO_THET8": [
+    "Q5SID2"
+  ],
+  "TRPA_SALTY": [
+    "P00929"
+  ],
+  "TRPB1_PYRFU": [
+    "Q8U093"
+  ],
+  "TRPB_ECOLI": [
+    "P0A879"
+  ],
+  "TRPC_ECOLI": [
+    "P00909"
+  ],
+  "TRPC_MYCTU": [
+    "P9WFX7"
+  ],
+  "TRPC_SULSO": [],
+  "TRPD_MYCTU": [
+    "P9WFX5"
+  ],
+  "TRPF_THEMA": [
+    "Q56320"
+  ],
+  "TRT14_ASPTN": [
+    "Q0C8A2"
+  ],
+  "TRY1_BOVIN": [
+    "P00760"
+  ],
+  "TRY2_RAT": [
+    "P00763"
+  ],
+  "TRY3_HUMAN": [
+    "P35030"
+  ],
+  "TRYB1_HUMAN": [
+    "Q15661"
+  ],
+  "TRYP_PIG": [
+    "P00761"
+  ],
+  "TSAR_COMTE": [
+    "P94678"
+  ],
+  "TSPO_BACCR": [
+    "Q81BL7"
+  ],
+  "TSPO_RHOSH": [],
+  "TTBK1_HUMAN": [
+    "Q5TCY1"
+  ],
+  "TTGR_PSEPT": [
+    "Q9AIU0"
+  ],
+  "TTHY_HUMAN": [
+    "P02766"
+  ],
+  "TTK_HUMAN": [
+    "P33981"
+  ],
+  "TTPA_HUMAN": [
+    "P49638"
+  ],
+  "TTPA_MOUSE": [
+    "Q8BWP5"
+  ],
+  "TYDP2_MOUSE": [
+    "Q9JJX7"
+  ],
+  "TYK2_HUMAN": [
+    "P29597"
+  ],
+  "TYK2_MOUSE": [
+    "Q9R117"
+  ],
+  "TYRB_PARDE": [
+    "P95468"
+  ],
+  "TYRP1_HUMAN": [
+    "P17643"
+  ],
+  "TYSY_ECOLI": [
+    "P0A884"
+  ],
+  "TYSY_HUMAN": [
+    "P04818"
+  ],
+  "TYSY_LACCA": [
+    "P00469"
+  ],
+  "TYSY_MOUSE": [
+    "P07607"
+  ],
+  "TYSY_MYCTU": [
+    "P9WFR9"
+  ],
+  "TYSY_PNECA": [
+    "P13100"
+  ],
+  "TYTR_TRYBB": [
+    "P39051"
+  ],
+  "U520_HUMAN": [
+    "O75643"
+  ],
+  "U72B1_ARATH": [
+    "Q9M156"
+  ],
+  "U74F2_ARATH": [
+    "O22822"
+  ],
+  "UAP1_CANAX": [
+    "O74933"
+  ],
+  "UBC9_HUMAN": [
+    "P63279"
+  ],
+  "UBIC_ECOLI": [
+    "P26602"
+  ],
+  "UBIX_PSEAE": [
+    "Q9HX08"
+  ],
+  "UBP7_HUMAN": [
+    "Q93009"
+  ],
+  "UDP_ECOLI": [
+    "P12758"
+  ],
+  "UFOG_VITVI": [
+    "P51094"
+  ],
+  "UGL_BACGL": [
+    "Q9RC92"
+  ],
+  "UGT79_ORYSJ": [
+    "Q7XT97"
+  ],
+  "UHRF1_HUMAN": [
+    "Q96T88"
+  ],
+  "ULAA_ECOLI": [
+    "P39301"
+  ],
+  "ULAD_ECOLI": [
+    "P39304"
+  ],
+  "ULIL_METAC": [
+    "Q8TL28"
+  ],
+  "UMPS_HUMAN": [
+    "P11172"
+  ],
+  "UPP1_HUMAN": [
+    "Q16831"
+  ],
+  "UPP2_HUMAN": [
+    "O95045"
+  ],
+  "UPP_SULSO": [],
+  "UPP_TOXGO": [
+    "Q26998"
+  ],
+  "URAD_DANRE": [
+    "A1L259"
+  ],
+  "URE2_YEAST": [
+    "P23202"
+  ],
+  "URIC_ASPFL": [
+    "Q00511"
+  ],
+  "UROK_HUMAN": [
+    "P00749"
+  ],
+  "UTY_HUMAN": [
+    "O14607"
+  ],
+  "UVRB_BACSU": [
+    "P37954"
+  ],
+  "VATA_STAAU": [
+    "P26839"
+  ],
+  "VDAC1_HUMAN": [
+    "P21796"
+  ],
+  "VDRA_DANRE": [
+    "Q9PTN2"
+  ],
+  "VDR_HUMAN": [
+    "P11473"
+  ],
+  "VDR_RAT": [
+    "P13053"
+  ],
+  "VE2_HPV11": [
+    "P04015"
+  ],
+  "VGP_EBOZM": [
+    "Q05320"
+  ],
+  "VIBB_VIBCH": [
+    "P0C6D3"
+  ],
+  "VIOA_CHRVO": [
+    "Q9S3V1"
+  ],
+  "VIP2_HUMAN": [
+    "O43314"
+  ],
+  "VIS_VIBS1": [
+    "A3UNN4"
+  ],
+  "VM1B1_BOTAS": [
+    "P83512"
+  ],
+  "VM3VB_CROAT": [
+    "Q90282"
+  ],
+  "VNN1_HUMAN": [
+    "O95497"
+  ],
+  "VP35_EBOZM": [
+    "Q05127"
+  ],
+  "VTDB_HUMAN": [
+    "P02774"
+  ],
+  "WBDD_ECOLX": [
+    "J7I4B7"
+  ],
+  "WDR5_HUMAN": [
+    "P61964"
+  ],
+  "WEE1_HUMAN": [
+    "P30291"
+  ],
+  "WNK1_HUMAN": [
+    "Q9H4A3"
+  ],
+  "WNK3_HUMAN": [
+    "Q9BYP7"
+  ],
+  "XAPA_ECOLI": [
+    "P45563"
+  ],
+  "XDH_BOVIN": [
+    "P80457"
+  ],
+  "XDH_HUMAN": [
+    "P47989"
+  ],
+  "XECC_XANP2": [
+    "Q56839"
+  ],
+  "XGPT_ECOLI": [
+    "P0A9M5"
+  ],
+  "XIAP_HUMAN": [
+    "P98170"
+  ],
+  "XYLA_ACTM4": [
+    "P12851"
+  ],
+  "XYLA_ARTS7": [
+    "P12070"
+  ],
+  "XYLA_STRAL": [
+    "P24299"
+  ],
+  "XYLB_HUMAN": [
+    "O75191"
+  ],
+  "XYNA_BACSU": [
+    "P18429"
+  ],
+  "XYNA_THEAU": [
+    "P23360"
+  ],
+  "XYNB_PAEBA": [
+    "O69231"
+  ],
+  "XYNY_CLOTM": [],
+  "XYNZ_CLOTH": [],
+  "XYOA_STRCO": [
+    "Q9ZBU1"
+  ],
+  "XYPA_MYCS2": [
+    "A0QYB3"
+  ],
+  "Y091_METJA": [
+    "Q57556"
+  ],
+  "Y2887_MYCTU": [],
+  "Y488_METJA": [],
+  "YAGE_ECOLI": [
+    "P75682"
+  ],
+  "YC53L_SYNY3": [
+    "P72583"
+  ],
+  "YKOF_BACSU": [
+    "O34911"
+  ],
+  "YMX7_YEAST": [
+    "Q04299"
+  ],
+  "YOPH_YERPS": [
+    "P08538"
+  ],
+  "YPT1_YEAST": [
+    "P01123"
+  ],
+  "YQJG_ECOLI": [
+    "P42620"
+  ],
+  "YUIC_BACSU": [
+    "O32108"
+  ],
+  "ZIPA_ECOLI": [
+    "P77173"
+  ]
+}

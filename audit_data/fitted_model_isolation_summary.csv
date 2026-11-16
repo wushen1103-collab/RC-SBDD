@@ -1,0 +1,3 @@
+generator,targets,fitted_n,receptor_pdb_overlap,ligand_pdb_overlap,directory_overlap,protein_tag_overlap,gene_group_overlap,uniprot_resolved,uniprot_overlap,uniref_resolved,uniref_overlap,full_train_cluster_overlap,resolved_uniref_disjoint
+DiffSBDD,100,8192,0,0,0,0,5,94,0,94,0,0,94
+Pocket2Mol,53,8192,0,0,0,0,3,48,0,48,0,0,48

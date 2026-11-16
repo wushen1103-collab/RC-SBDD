@@ -1,0 +1,12 @@
+{
+  "algorithm": "RDKit rdFreeSASA Shrake-Rupley",
+  "probe_radius_A": 1.4,
+  "atom_radii": "RDKit element van der Waals radii; identical isolated/complex settings",
+  "hydrogens": "excluded",
+  "context": "provided CrossDocked pocket PDB; no pose optimization",
+  "definition": "(SASA_ligand_isolated - SASA_ligand_in_pocket)/SASA_ligand_isolated",
+  "candidates": 5732,
+  "successes": 5732,
+  "workers": 8,
+  "wall_sec": 2.411511180922389
+}

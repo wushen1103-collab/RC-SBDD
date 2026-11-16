@@ -1,0 +1,263 @@
+{
+  "BAZ2A_HUMAN": [
+    "Q9UIF9"
+  ],
+  "CD38_HUMAN": [
+    "P28907"
+  ],
+  "ATS5_HUMAN": [
+    "Q9UNA0"
+  ],
+  "AK1BA_HUMAN": [
+    "O60218"
+  ],
+  "BGAT_HUMAN": [
+    "P16442"
+  ],
+  "CDK6_HUMAN": [
+    "Q00534"
+  ],
+  "BACE2_HUMAN": [
+    "Q9Y5Z0"
+  ],
+  "ACE_HUMAN": [
+    "P12821"
+  ],
+  "AKT1_HUMAN": [
+    "P31749"
+  ],
+  "ABL2_HUMAN": [
+    "P42684"
+  ],
+  "CCPR_YEAST": [
+    "P00431"
+  ],
+  "BGL07_ORYSJ": [
+    "Q75I93"
+  ],
+  "CHIB1_ASPFM": [
+    "Q873X9"
+  ],
+  "BSD_ASPTE": [
+    "P78986"
+  ],
+  "BAPA_SPHXN": [
+    "Q52VH2"
+  ],
+  "AROE_THET8": [
+    "Q5SJF8"
+  ],
+  "CHIB_SERMA": [
+    "P11797"
+  ],
+  "CHIA_SERMA": [
+    "P07254"
+  ],
+  "CAT_ECOLX": [
+    "P62577"
+  ],
+  "F16P1_HUMAN": [
+    "P09467"
+  ],
+  "FKB1A_HUMAN": [
+    "P62942"
+  ],
+  "DPP2_HUMAN": [
+    "Q9UHL4"
+  ],
+  "GSTP1_HUMAN": [
+    "P09211"
+  ],
+  "HDAC8_HUMAN": [
+    "Q9BY41"
+  ],
+  "GRK4_HUMAN": [
+    "P32298"
+  ],
+  "DYRK2_HUMAN": [
+    "Q92630"
+  ],
+  "COTA_BACSU": [
+    "P07788"
+  ],
+  "EFTU1_ECOLI": [
+    "P0CE47"
+  ],
+  "DIDH_RAT": [
+    "P23457"
+  ],
+  "DHAK_ECOLI": [
+    "P76015"
+  ],
+  "EXG1_CANAL": [
+    "P29717"
+  ],
+  "DFPA_LOLVU": [
+    "Q7SIG4"
+  ],
+  "GLMU_STRPN": [
+    "Q97R46"
+  ],
+  "CHOD_BREST": [
+    "P22637"
+  ],
+  "CONA_CANCT": [
+    "P81461"
+  ],
+  "COAA_MYCTU": [
+    "P63810"
+  ],
+  "IDHP_HUMAN": [
+    "P48735"
+  ],
+  "IPMK_HUMAN": [
+    "Q8NFU5"
+  ],
+  "NEP_HUMAN": [
+    "P08473"
+  ],
+  "NOS3_HUMAN": [
+    "P29474"
+  ],
+  "KS6A3_HUMAN": [
+    "P51812"
+  ],
+  "NR1H4_HUMAN": [
+    "Q96RI1"
+  ],
+  "IMA1_HUMAN": [
+    "P52292"
+  ],
+  "LMBL1_HUMAN": [
+    "Q9Y468"
+  ],
+  "NQO1_HUMAN": [
+    "P15559"
+  ],
+  "NOS2_HUMAN": [
+    "P35228"
+  ],
+  "M3K14_HUMAN": [
+    "Q99558"
+  ],
+  "NOS1_HUMAN": [
+    "P29475"
+  ],
+  "MURA_ECOLI": [
+    "P28909"
+  ],
+  "MENE_BACSU": [
+    "P23971"
+  ],
+  "HDHA_ECOLI": [
+    "P25529"
+  ],
+  "NPD_THEMA": [
+    "Q9WYW0"
+  ],
+  "LAT_MYCTU": [
+    "P96895"
+  ],
+  "NAGZ_VIBCH": [
+    "Q9KU37"
+  ],
+  "HMD_METJA": [
+    "Q58194"
+  ],
+  "MCCF_ECOLX": [
+    "Q47511"
+  ],
+  "P2Y12_HUMAN": [
+    "Q9H244"
+  ],
+  "PTGIS_HUMAN": [
+    "Q16647"
+  ],
+  "PPIA_HUMAN": [
+    "P05092"
+  ],
+  "QPCT_HUMAN": [
+    "Q16769"
+  ],
+  "PAK4_HUMAN": [
+    "O96013"
+  ],
+  "PLCD1_RAT": [
+    "P10688"
+  ],
+  "ROCO4_DICDI": [
+    "Q6XHB2"
+  ],
+  "OLIAC_CANSA": [
+    "I6WU39"
+  ],
+  "PHKG1_RABIT": [
+    "P00518"
+  ],
+  "PA21B_PIG": [
+    "P00592"
+  ],
+  "PA2B8_DABRR": [
+    "P59071"
+  ],
+  "POL_FOAMV": [
+    "P14350"
+  ],
+  "PYRD_TRYCC": [
+    "Q4D3W2"
+  ],
+  "RG1_RAUSE": [
+    "Q9SPP9"
+  ],
+  "PAC_ECOLX": [
+    "P06875"
+  ],
+  "PNTM_STRAE": [
+    "E3VWI3"
+  ],
+  "ODBB_THET8": [
+    "Q5SLR3"
+  ],
+  "RIBB_VIBCH": [
+    "Q9KKP2"
+  ],
+  "PYRE_BACAN": [
+    "Q81WF6"
+  ],
+  "TIAM1_HUMAN": [
+    "Q13009"
+  ],
+  "TNKS1_HUMAN": [
+    "O95271"
+  ],
+  "UBE2T_HUMAN": [
+    "Q9NPD8"
+  ],
+  "TBK1_HUMAN": [
+    "Q9UHD2"
+  ],
+  "SIR3_HUMAN": [
+    "Q9NTG7"
+  ],
+  "TNKS2_HUMAN": [
+    "Q9H2K2"
+  ],
+  "SDIA_ECOLI": [
+    "P07026"
+  ],
+  "UPPS_ECOLI": [
+    "Q47675"
+  ],
+  "XANLY_BACGL": [
+    "Q9AQS0"
+  ],
+  "SQHC_ALIAD": [
+    "P33247"
+  ],
+  "VAOX_PENSI": [
+    "P56216"
+  ],
+  "Y635_MYCTU": [
+    "P96926"
+  ]
+}
